@@ -1,0 +1,128 @@
+.pedidoBody {
+    height: 100%;
+    background: var(--purple);
+    padding: 20vh 20px 20vh 20px;
+}
+
+.pedidoBody video {
+    max-width: 100%;
+    border-radius: 24px;
+}
+
+.containerOrder {
+    padding: 18px;
+    background-image: linear-gradient(135deg, #fff6, #ffffff1a 45%, #ffffff12 72%);
+    border-radius: 20px;
+    margin-bottom: 40vh;
+    box-shadow: 0 0 13px var(--shadow);
+}
+
+.containerOrder:hover {
+    box-shadow: 0 0 25px var(--shadow);
+}
+
+.textOrder,
+.textTwoOrder {
+    padding: 5vh 40px 35px 40px;
+}
+
+.textOrder h2,
+.textTwoOrder h2 {
+    font-family: "Abcgintonord", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--white);
+    line-height: 1.25rem;
+    margin-bottom: 8px;
+}
+
+.textOrder p,
+.textTwoOrder p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.15rem;
+    font-weight: 400;
+    color: var(--white);
+    line-height: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.imageOrder,
+.imageTwoOrder {
+    width: 60vw;
+    height: 40vh;
+    max-width: max-content;
+    max-height: max-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imageOrder img,
+.imageTwoOrder img {
+    border-radius: 24px;
+    width: 100%;
+    height: 100%;
+}
+
+.imageOrder video,
+.imageTwoOrder video {
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+}
+.buttonDate {
+    padding: 5px 20px;
+    border-radius: 5px;
+    background: var(--bgTwo);
+    color: var(--white);
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: "Abcgintonord", sans-serif;
+    box-shadow: 0 0 10px var(--bgHeader);
+}
+
+@media screen and (min-width: 768px) {
+    .containerOrder,
+    .containerTwoOrder {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .textOrder,
+    .textTwoOrder {
+        max-width: 50vw;
+    }
+
+    .textOrder h2,
+    .textTwoOrder h2 {
+        font-size: 2rem;
+        line-height: 1.75rem;
+    }
+
+    .textOrder p,
+    .textTwoOrderOrder p {
+        font-size: 1.5rem;
+        line-height: 1.75rem;
+    }
+}
+
+@media screen and (max-height: 430px) {
+    .imageOrder,
+    .imageTwoOrder {
+        height: 90vh;
+    }
+}
+
+@media screen and (min-width: 1050px) {
+    .textOrder,
+    .textTwoOrder {
+        max-width: 35vw;
+    }
+    
+    .containerOrder,
+    .containerTwoOrder {
+        max-width: 1050px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

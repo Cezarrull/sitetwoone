@@ -1,0 +1,18 @@
+:root {
+    --black: #000000;
+    --white: #ffffff;
+    --gray: #dcdcdc;
+
+    --purple: #662fff;
+
+    --bgOne: #662fff96;
+    --bgHeader: #4400ff;
+
+    --shadow: #ae7eed;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
