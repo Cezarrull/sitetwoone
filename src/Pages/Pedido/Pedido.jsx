@@ -1,5 +1,6 @@
 import { Header } from '../../Components/Header/Header'
 import './Pedido.css'
+import { Play } from '@phosphor-icons/react'
 
 import Image1 from '../../Assets/Pedido/quartoTeAmo.jpg'
 
@@ -9,18 +10,32 @@ export function Pedido() {
         <Header />
             <div className="pedidoBody">
                 <div className="containerOrder">
-                    <div className="textOrder">
-                        <h2>DIA DO PEDIDO 01/09/2024</h2>
-                        <p>
-                            E foi no dia 01 de novembro de 2024, que convidei a mulher dos meus sonhos, para ser o amor da minha vida!
-                        </p>
-                        <p>
-                            Estamos juntos a <span className='buttonDate' id='days' /*data-val={message}*/>{message}</span> dias!
-                            Que venha muitos outros.
-                        </p>
+                    <div className="containerDiv">
+                        <div className="textOrder">
+                            <h2>DIA DO PEDIDO 01/09/2024</h2>
+                            <p>
+                                E foi no dia 01 de novembro de 2024, que convidei a mulher dos meus sonhos, para ser o amor da minha vida!
+                            </p>
+                            <p>
+                                Estamos juntos a <span className='buttonDate' id='days' >{message}</span> dias!
+                                Que venha muitos outros.
+                            </p>
+                        </div>
+                        <div className="imageOrder">
+                            <img src={Image1}></img>
+                        </div>
                     </div>
-                    <div className="imageOrder">
-                        <img src={Image1}></img>
+                    <div className="divVideoLink">
+                        <div className="buttonVideo">
+                            <div className="textTwoOrder">
+                                <h2>ASSISTA TAMBÉM UM VÍDEO CHEIO DE EMOÇÕES.</h2>
+                            </div>
+                        </div>
+                        <div className="buttonDiv">
+                            <a href="https://www.instagram.com/reel/C_Zek4OMqiUuhxMz8ivk2K__eUvTDa4cvzwucs0/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target='_blanck'>
+                                <Play size={18} weight="fill" className="playButton"/>ASSISTA AGORA
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -41,18 +56,3 @@ export function Pedido() {
     const diffInDaysValue = diffInDays.toFixed(0) 
 
     const message = Number(diffInDaysValue);
-
-//function AnimationNumbers 
-/*
-const valueDisplay = document.querySelector(".buttonDate");
-let startValue = 0;
-
-
-let counterUpDate = setInterval(function() {
-    startValue ++;
-
-
-    if (startValue >= 75) {
-        clearInterval(counter);
-    }
-}, 1)*/

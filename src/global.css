@@ -5,10 +5,13 @@
 
     --purple: #662fff;
 
+    --green: #1aaaaf;
+
     --bgOne: #662fff96;
     --bgHeader: #4400ff;
 
     --shadow: #ae7eed;
+    --shadowTwo: #67c9cc;
 }
 
 * {
