@@ -28,7 +28,7 @@ export function Pedido() {
                     <div className="divVideoLink">
                         <div className="buttonVideo">
                             <div className="textTwoOrder">
-                                <h2>ASSISTA TAMBÉM UM VÍDEO CHEIO DE EMOÇÕES.</h2>
+                                <h2>ASSISTA UM VÍDEO CHEIO DE EMOÇÕES.</h2>
                             </div>
                         </div>
                         <div className="buttonDiv">

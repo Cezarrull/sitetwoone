@@ -52,8 +52,8 @@
 }
 
 .buttonDiv a {
-    background: var(--green);
-    box-shadow: 0 0 13px var(--shadowTwo);
+    background: var(--bgHeader);
+    box-shadow: 0 0 13px var(--shadowThree);
     padding: 15px 8vh;
     display: flex;
     justify-content: center;
@@ -65,7 +65,7 @@
 
 .buttonDiv a:hover {
     text-decoration: none;
-    box-shadow: 0 0 20px var(--shadowTwo);
+    box-shadow: 0 0 20px var(--shadowThree);
     transform: scale(1.05);
 }
 
@@ -76,6 +76,10 @@
 .textOrder,
 .textTwoOrder {
     padding: 5vh 40px 35px 40px;
+}
+
+.buttonVideo .textTwoOrder {
+    padding-top: 0;
 }
 
 .textOrder h2,

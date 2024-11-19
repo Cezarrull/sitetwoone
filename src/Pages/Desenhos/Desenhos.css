@@ -3,3 +3,60 @@
     background: var(--purple);
     padding: 20vh 20px 20vh 20px;
 }
+
+.content {
+    padding: 18px;
+    background-image: linear-gradient(135deg, #fff6, #ffffff1a 45%, #ffffff12 72%);
+    border-radius: 20px;
+    margin-bottom: 10vh;
+    padding-bottom: 5vh;
+    box-shadow: 0 0 13px var(--shadow);
+}
+
+.titleContent {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titleContent h2 {
+    font-family: "Abcgintonord", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--white);
+    line-height: 1.25rem;
+    margin-bottom: 8px;
+}
+
+.contentImages {
+    width: 60vw;
+    height: 40vh;
+    max-width: max-content;
+    max-height: max-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contentImages img {
+    border-radius: 18px;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+/*/////////////////// @medias screen ///////////////////*/
+
+@media screen and (min-width: 768px) {
+
+}
+
+@media screen and (min-width: 1050px) {
+
+}
