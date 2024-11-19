@@ -25,7 +25,7 @@ export function Home() {
                         </div>
                     </div>
                 </a>
-                <a href="#" className="buttonHref">
+                <a href="/Desenhos" className="buttonHref">
                     <div className="containerTwo">
                         <div className="imageTwo">
                             <img src={Image2} alt="Two" />

@@ -54,8 +54,7 @@
 .buttonDiv a {
     background: var(--green);
     box-shadow: 0 0 13px var(--shadowTwo);
-    width: 40vh;
-    height: 100%;
+    padding: 15px 8vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -172,12 +171,16 @@
     .imageTwoOrder {
         height: 90vh;
     }
+
+    .buttonDiv a {
+        font-size: 0.875rem;
+    }
 }
 
 @media screen and (min-width: 1050px) {
     .textOrder,
     .textTwoOrder {
-        max-width: 35vw;
+        max-width: 30vw;
     }
     
     .containerOrder,
