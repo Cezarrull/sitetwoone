@@ -48,11 +48,6 @@
     margin: 2.5vh;
 }
 
-.line {
-    border: 1px solid var(--gray);
-    height: 40vh;
-}
-
 /*/////////////////// @medias screen ///////////////////*/
 
 @media screen and (min-width: 768px) {

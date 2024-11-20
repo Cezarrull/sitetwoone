@@ -98,11 +98,6 @@ export function Desenhos() {
                             <img src={Image1} alt="" />
                         </div>
                     </div>
-                        <div className="line">
-                            <div className="lineAparence">
-
-                            </div>
-                        </div>
                     <div className="contentTwo">
                         <div className="titleContent">
                             <h2>Lala</h2>
