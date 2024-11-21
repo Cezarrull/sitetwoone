@@ -1,4 +1,5 @@
 import { Header } from '../../Components/Header/Header';
+import { Link } from 'react-router-dom';
 import './Home.css'
 
 import Image1 from '../../Assets/Home/brava.jpg'
@@ -12,7 +13,7 @@ export function Home() {
         <>
         <Header/>
             <div className="homeBody">
-                <a href="/Pedido" className="buttonHref">
+                <Link to="/Pedido" className="buttonHref">
                     <div className="container">
                         <div className="text">
                             <h2>ONDE TUDO COMEÇOU</h2>
@@ -24,8 +25,8 @@ export function Home() {
                             <img src={Image1} alt="One" />
                         </div>
                     </div>
-                </a>
-                <a href="/Desenhos" className="buttonHref">
+                </Link>
+                <Link to="/Desenhos" className="buttonHref">
                     <div className="containerTwo">
                         <div className="imageTwo">
                             <img src={Image2} alt="Two" />
@@ -37,8 +38,8 @@ export function Home() {
                             </p>
                         </div>
                     </div>
-                </a>
-                <a href="#" className="buttonHref">
+                </Link>
+                <Link to="#" className="buttonHref">
                     <div className="container">
                         <div className="text">
                             <h2>TESTE SOBRE ALINHAMENTO DE TEXTO PARA DIV</h2>
@@ -50,8 +51,8 @@ export function Home() {
                             <img src={Image3} alt="Three" />
                         </div>
                     </div>
-                </a>
-                <a href="#" className="buttonHref">
+                </Link>
+                <Link to="#" className="buttonHref">
                     <div className="containerTwo">
                         <div className="imageTwo">
                             <img src={Image4} alt="Four" />
@@ -63,7 +64,7 @@ export function Home() {
                             </p>
                         </div>
                     </div>
-                </a>
+                </Link>
             </div>
         </>
     )
