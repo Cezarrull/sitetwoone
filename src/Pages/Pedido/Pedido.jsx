@@ -55,6 +55,6 @@ export function Pedido() {
 
     const diffInDaysValue = diffInDays.toFixed(0) 
 
-    const message = String(diffInDaysValue);
+    const message = Number(diffInDaysValue);
 
     const result = message;
