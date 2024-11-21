@@ -1,4 +1,5 @@
 import { Header } from "../../Components/Header/Header";
+import { Link } from "react-router-dom";
 import './Desenhos.css'
 
 /*/////////////// Import Images ////////////////*/
@@ -54,17 +55,17 @@ export function Desenhos() {
                         <div className="titleContent">
                             <h2>Cezar</h2>
                         </div>
-                        <div className="contentImages">
+                        <Link to={Image1} className="contentImages">
                             <img src={Image1} alt="" />
-                        </div>
+                        </Link>
                     </div>
                     <div className="contentTwo">
                         <div className="titleContent">
                             <h2>Lala</h2>
                         </div>
-                        <div className="contentImages">
+                        <Link to={Image1m} className="contentImages">
                             <img src={Image1m} alt="" />
-                        </div>
+                        </Link>
                     </div>
                 </div>
                 <div className="content">
@@ -72,17 +73,17 @@ export function Desenhos() {
                         <div className="titleContent">
                             <h2>Cezar</h2>
                         </div>
-                        <div className="contentImages">
+                        <Link to={Image2} className="contentImages">
                             <img src={Image2} alt="" />
-                        </div>
+                        </Link>
                     </div>
                     <div className="contentTwo">
                         <div className="titleContent">
                             <h2>Lala</h2>
                         </div>
-                        <div className="contentImages">
+                        <Link to={Image2m} className="contentImages">
                             <img src={Image2m} alt="" />
-                        </div>
+                        </Link>
                     </div>
                 </div>
                 <div className="content">
@@ -90,17 +91,17 @@ export function Desenhos() {
                         <div className="titleContent">
                             <h2>Cezar</h2>
                         </div>
-                        <div className="contentImages">
+                        <Link to={Image3} className="contentImages">
                             <img src={Image3} alt="" />
-                        </div>
+                        </Link>
                     </div>
                     <div className="contentTwo">
                         <div className="titleContent">
                             <h2>Lala</h2>
                         </div>
-                        <div className="contentImages">
+                        <Link to={Image3m} className="contentImages">
                             <img src={Image3m} alt="" />
-                        </div>
+                        </Link>
                     </div>
                 </div>
                 <div className="content">
@@ -108,17 +109,17 @@ export function Desenhos() {
                         <div className="titleContent">
                             <h2>Cezar</h2>
                         </div>
-                        <div className="contentImages">
+                        <Link to={Image4} className="contentImages">
                             <img src={Image4} alt="" />
-                        </div>
+                        </Link>
                     </div>
                     <div className="contentTwo">
                         <div className="titleContent">
                             <h2>Lala</h2>
                         </div>
-                        <div className="contentImages">
+                        <Link to={Image4m} className="contentImages">
                             <img src={Image4m} alt="" />
-                        </div>
+                        </Link>
                     </div>
                 </div>
                 <div className="content">
@@ -126,17 +127,17 @@ export function Desenhos() {
                         <div className="titleContent">
                             <h2>Cezar</h2>
                         </div>
-                        <div className="contentImages">
+                        <Link className="contentImages">
                             <img src={Image5} alt="" />
-                        </div>
+                        </Link>
                     </div>
                     <div className="contentTwo">
                         <div className="titleContent">
                             <h2>Lala</h2>
                         </div>
-                        <div className="contentImages">
+                        <Link className="contentImages">
                             <img src={Image5m} alt="" />
-                        </div>
+                        </Link>
                     </div>
                 </div>
                 <div className="content">
@@ -144,17 +145,17 @@ export function Desenhos() {
                         <div className="titleContent">
                             <h2>Cezar</h2>
                         </div>
-                        <div className="contentImages">
+                        <Link className="contentImages">
                             <img src={Image6} alt="" />
-                        </div>
+                        </Link>
                     </div>
                     <div className="contentTwo">
                         <div className="titleContent">
                             <h2>Lala</h2>
                         </div>
-                        <div className="contentImages">
+                        <Link className="contentImages">
                             <img src={Image6m} alt="" />
-                        </div>
+                        </Link>
                     </div>
                 </div>
                 <div className="content">
@@ -162,17 +163,17 @@ export function Desenhos() {
                         <div className="titleContent">
                             <h2>Cezar</h2>
                         </div>
-                        <div className="contentImages">
+                        <Link className="contentImages">
                             <img src={Image7} alt="" />
-                        </div>
+                        </Link>
                     </div>
                     <div className="contentTwo">
                         <div className="titleContent">
                             <h2>Lala</h2>
                         </div>
-                        <div className="contentImages">
+                        <Link className="contentImages">
                             <img src={Image7m} alt="" />
-                        </div>
+                        </Link>
                     </div>
                 </div>
                 <div className="content">
@@ -180,17 +181,17 @@ export function Desenhos() {
                         <div className="titleContent">
                             <h2>Cezar</h2>
                         </div>
-                        <div className="contentImages">
+                        <Link className="contentImages">
                             <img src={Image8} alt="" />
-                        </div>
+                        </Link>
                     </div>
                     <div className="contentTwo">
                         <div className="titleContent">
                             <h2>Lala</h2>
                         </div>
-                        <div className="contentImages">
+                        <Link className="contentImages">
                             <img src={Image8m} alt="" />
-                        </div>
+                        </Link>
                     </div>
                 </div>
                 <div className="content">
@@ -198,17 +199,17 @@ export function Desenhos() {
                         <div className="titleContent">
                             <h2>Cezar</h2>
                         </div>
-                        <div className="contentImages">
+                        <Link className="contentImages">
                             <img src={Image9} alt="" />
-                        </div>
+                        </Link>
                     </div>
                     <div className="contentTwo">
                         <div className="titleContent">
                             <h2>Lala</h2>
                         </div>
-                        <div className="contentImages">
+                        <Link className="contentImages">
                             <img src={Image9m} alt="" />
-                        </div>
+                        </Link>
                     </div>
                 </div>
                 <div className="content">
@@ -216,17 +217,17 @@ export function Desenhos() {
                         <div className="titleContent">
                             <h2>Cezar</h2>
                         </div>
-                        <div className="contentImages">
+                        <Link className="contentImages">
                             <img src={Image10} alt="" />
-                        </div>
+                        </Link>
                     </div>
                     <div className="contentTwo">
                         <div className="titleContent">
                             <h2>Lala</h2>
                         </div>
-                        <div className="contentImages">
+                        <Link className="contentImages">
                             <img src={Image10m} alt="" />
-                        </div>
+                        </Link>
                     </div>
                 </div>
                 <div className="content">
@@ -234,17 +235,17 @@ export function Desenhos() {
                         <div className="titleContent">
                             <h2>Cezar</h2>
                         </div>
-                        <div className="contentImages">
+                        <Link className="contentImages">
                             <img src={Image11} alt="" />
-                        </div>
+                        </Link>
                     </div>
                     <div className="contentTwo">
                         <div className="titleContent">
                             <h2>Lala</h2>
                         </div>
-                        <div className="contentImages">
+                        <Link className="contentImages">
                             <img src={Image11m} alt="" />
-                        </div>
+                        </Link>
                     </div>
                 </div>
                 <div className="content">
@@ -252,17 +253,17 @@ export function Desenhos() {
                         <div className="titleContent">
                             <h2>Cezar</h2>
                         </div>
-                        <div className="contentImages">
+                        <Link className="contentImages">
                             <img src={Image12} alt="" />
-                        </div>
+                        </Link>
                     </div>
                     <div className="contentTwo">
                         <div className="titleContent">
                             <h2>Lala</h2>
                         </div>
-                        <div className="contentImages">
+                        <Link className="contentImages">
                             <img src={Image12m} alt="" />
-                        </div>
+                        </Link>
                     </div>
                 </div>
                 <div className="content">
@@ -270,17 +271,17 @@ export function Desenhos() {
                         <div className="titleContent">
                             <h2>Cezar</h2>
                         </div>
-                        <div className="contentImages">
+                        <Link className="contentImages">
                             <img src={Image13} alt="" />
-                        </div>
+                        </Link>
                     </div>
                     <div className="contentTwo">
                         <div className="titleContent">
                             <h2>Lala</h2>
                         </div>
-                        <div className="contentImages">
+                        <Link className="contentImages">
                             <img src={Image13m} alt="" />
-                        </div>
+                        </Link>
                     </div>
                 </div>
                 <div className="content">
@@ -288,17 +289,17 @@ export function Desenhos() {
                         <div className="titleContent">
                             <h2>Cezar</h2>
                         </div>
-                        <div className="contentImages">
+                        <Link className="contentImages">
                             <img src={Image14} alt="" />
-                        </div>
+                        </Link>
                     </div>
                     <div className="contentTwo">
                         <div className="titleContent">
                             <h2>Lala</h2>
                         </div>
-                        <div className="contentImages">
+                        <Link className="contentImages">
                             <img src={Image14m} alt="" />
-                        </div>
+                        </Link>
                     </div>
                 </div>
                 <div className="content">
@@ -306,17 +307,17 @@ export function Desenhos() {
                         <div className="titleContent">
                             <h2>Cezar</h2>
                         </div>
-                        <div className="contentImages">
+                        <Link className="contentImages">
                             <img src={Image15} alt="" />
-                        </div>
+                        </Link>
                     </div>
                     <div className="contentTwo">
                         <div className="titleContent">
                             <h2>Lala</h2>
                         </div>
-                        <div className="contentImages">
+                        <Link className="contentImages">
                             <img src={Image15m} alt="" />
-                        </div>
+                        </Link>
                     </div>
                 </div>
                 <div className="content">
@@ -324,17 +325,17 @@ export function Desenhos() {
                         <div className="titleContent">
                             <h2>Cezar</h2>
                         </div>
-                        <div className="contentImages">
+                        <Link className="contentImages">
                             <img src={Image16} alt="" />
-                        </div>
+                        </Link>
                     </div>
                     <div className="contentTwo">
                         <div className="titleContent">
                             <h2>Lala</h2>
                         </div>
-                        <div className="contentImages">
+                        <Link className="contentImages">
                             <img src={Image16m} alt="" />
-                        </div>
+                        </Link>
                     </div>
                 </div>
                 <div className="content">
@@ -342,17 +343,17 @@ export function Desenhos() {
                         <div className="titleContent">
                             <h2>Cezar</h2>
                         </div>
-                        <div className="contentImages">
+                        <Link className="contentImages">
                             <img src={Image17} alt="" />
-                        </div>
+                        </Link>
                     </div>
                     <div className="contentTwo">
                         <div className="titleContent">
                             <h2>Lala</h2>
                         </div>
-                        <div className="contentImages">
+                        <Link className="contentImages">
                             <img src={Image17m} alt="" />
-                        </div>
+                        </Link>
                     </div>
                 </div>
                 <div className="content">
@@ -360,17 +361,17 @@ export function Desenhos() {
                         <div className="titleContent">
                             <h2>Cezar</h2>
                         </div>
-                        <div className="contentImages">
+                        <Link className="contentImages">
                             <img src={Image18} alt="" />
-                        </div>
+                        </Link>
                     </div>
                     <div className="contentTwo">
                         <div className="titleContent">
                             <h2>Lala</h2>
                         </div>
-                        <div className="contentImages">
+                        <Link className="contentImages">
                             <img src={Image18m} alt="" />
-                        </div>
+                        </Link>
                     </div>
                 </div>
                 <div className="content">
@@ -378,17 +379,17 @@ export function Desenhos() {
                         <div className="titleContent">
                             <h2>Cezar</h2>
                         </div>
-                        <div className="contentImages">
+                        <Link className="contentImages">
                             <img src={Image19} alt="" />
-                        </div>
+                        </Link>
                     </div>
                     <div className="contentTwo">
                         <div className="titleContent">
                             <h2>Lala</h2>
                         </div>
-                        <div className="contentImages">
+                        <Link className="contentImages">
                             <img src={Image19m} alt="" />
-                        </div>
+                        </Link>
                     </div>
                 </div>
                 <div className="content">
@@ -396,17 +397,17 @@ export function Desenhos() {
                         <div className="titleContent">
                             <h2>Cezar</h2>
                         </div>
-                        <div className="contentImages">
+                        <Link className="contentImages">
                             <img src={Image20} alt="" />
-                        </div>
+                        </Link>
                     </div>
                     <div className="contentTwo">
                         <div className="titleContent">
                             <h2>Lala</h2>
                         </div>
-                        <div className="contentImages">
+                        <Link className="contentImages">
                             <img src={Image20m} alt="" />
-                        </div>
+                        </Link>
                     </div>
                 </div>
             </div>
