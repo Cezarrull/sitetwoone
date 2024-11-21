@@ -42,46 +42,6 @@ import Image19 from "../../Assets/Design/img19.jpg"
 import Image19m from "../../Assets/Design/img19m.jpg"
 import Image20 from "../../Assets/Design/img20.jpg"
 import Image20m from "../../Assets/Design/img20m.jpg"
-import Image21 from "../../Assets/Design/img21.jpg"
-import Image21m from "../../Assets/Design/img21m.jpg"
-import Image22 from "../../Assets/Design/img22.jpg"
-import Image22m from "../../Assets/Design/img22m.jpg"
-import Image23 from "../../Assets/Design/img23.jpg"
-import Image23m from "../../Assets/Design/img23m.jpg"
-import Image24 from "../../Assets/Design/img24.jpg"
-import Image24m from "../../Assets/Design/img24m.jpg"
-import Image25 from "../../Assets/Design/img25.jpg"
-import Image25m from "../../Assets/Design/img25m.jpg"
-import Image26 from "../../Assets/Design/img26.jpg"
-import Image26m from "../../Assets/Design/img26m.jpg"
-import Image27 from "../../Assets/Design/img27.jpg"
-import Image27m from "../../Assets/Design/img27m.jpg"
-import Image28 from "../../Assets/Design/img28.jpg"
-import Image28m from "../../Assets/Design/img28m.jpg"
-import Image29 from "../../Assets/Design/img29.jpg"
-import Image29m from "../../Assets/Design/img29m.jpg"
-import Image30 from "../../Assets/Design/img30.jpg"
-import Image30m from "../../Assets/Design/img30m.jpg"
-import Image31 from "../../Assets/Design/img31.jpg"
-import Image31m from "../../Assets/Design/img31m.jpg"
-import Image32 from "../../Assets/Design/img32.jpg"
-import Image32m from "../../Assets/Design/img32m.jpg"
-import Image33 from "../../Assets/Design/img33.jpg"
-import Image33m from "../../Assets/Design/img33m.jpg"
-import Image34 from "../../Assets/Design/img34.jpg"
-import Image34m from "../../Assets/Design/img34m.jpg"
-import Image35 from "../../Assets/Design/img35.jpg"
-import Image35m from "../../Assets/Design/img35m.jpg"
-import Image36 from "../../Assets/Design/img36.jpg"
-import Image36m from "../../Assets/Design/img36m.jpg"
-import Image37 from "../../Assets/Design/img37.jpg"
-import Image37m from "../../Assets/Design/img37m.jpg"
-import Image38 from "../../Assets/Design/img38.jpg"
-import Image38m from "../../Assets/Design/img38m.jpg"
-import Image39 from "../../Assets/Design/img39.jpg"
-import Image39m from "../../Assets/Design/img39m.jpg"
-import Image40 from "../../Assets/Design/img40.jpg"
-import Image40m from "../../Assets/Design/img40m.jpg"
 /*/////////////////////////////////////////////////*/
 
 export function Desenhos() {
@@ -92,7 +52,7 @@ export function Desenhos() {
                 <div className="content">
                     <div className="contentOne">
                         <div className="titleContent">
-                            <h2>Be</h2>
+                            <h2>Cezar</h2>
                         </div>
                         <div className="contentImages">
                             <img src={Image1} alt="" />
@@ -110,7 +70,7 @@ export function Desenhos() {
                 <div className="content">
                     <div className="contentOne">
                         <div className="titleContent">
-                            <h2>Be</h2>
+                            <h2>Cezar</h2>
                         </div>
                         <div className="contentImages">
                             <img src={Image2} alt="" />
@@ -128,7 +88,7 @@ export function Desenhos() {
                 <div className="content">
                     <div className="contentOne">
                         <div className="titleContent">
-                            <h2>Be</h2>
+                            <h2>Cezar</h2>
                         </div>
                         <div className="contentImages">
                             <img src={Image3} alt="" />
@@ -146,7 +106,7 @@ export function Desenhos() {
                 <div className="content">
                     <div className="contentOne">
                         <div className="titleContent">
-                            <h2>Be</h2>
+                            <h2>Cezar</h2>
                         </div>
                         <div className="contentImages">
                             <img src={Image4} alt="" />
@@ -164,7 +124,7 @@ export function Desenhos() {
                 <div className="content">
                     <div className="contentOne">
                         <div className="titleContent">
-                            <h2>Be</h2>
+                            <h2>Cezar</h2>
                         </div>
                         <div className="contentImages">
                             <img src={Image5} alt="" />
@@ -182,7 +142,7 @@ export function Desenhos() {
                 <div className="content">
                     <div className="contentOne">
                         <div className="titleContent">
-                            <h2>Be</h2>
+                            <h2>Cezar</h2>
                         </div>
                         <div className="contentImages">
                             <img src={Image6} alt="" />
@@ -200,7 +160,7 @@ export function Desenhos() {
                 <div className="content">
                     <div className="contentOne">
                         <div className="titleContent">
-                            <h2>Be</h2>
+                            <h2>Cezar</h2>
                         </div>
                         <div className="contentImages">
                             <img src={Image7} alt="" />
@@ -218,7 +178,7 @@ export function Desenhos() {
                 <div className="content">
                     <div className="contentOne">
                         <div className="titleContent">
-                            <h2>Be</h2>
+                            <h2>Cezar</h2>
                         </div>
                         <div className="contentImages">
                             <img src={Image8} alt="" />
@@ -236,7 +196,7 @@ export function Desenhos() {
                 <div className="content">
                     <div className="contentOne">
                         <div className="titleContent">
-                            <h2>Be</h2>
+                            <h2>Cezar</h2>
                         </div>
                         <div className="contentImages">
                             <img src={Image9} alt="" />
@@ -254,7 +214,7 @@ export function Desenhos() {
                 <div className="content">
                     <div className="contentOne">
                         <div className="titleContent">
-                            <h2>Be</h2>
+                            <h2>Cezar</h2>
                         </div>
                         <div className="contentImages">
                             <img src={Image10} alt="" />
@@ -272,7 +232,7 @@ export function Desenhos() {
                 <div className="content">
                     <div className="contentOne">
                         <div className="titleContent">
-                            <h2>Be</h2>
+                            <h2>Cezar</h2>
                         </div>
                         <div className="contentImages">
                             <img src={Image11} alt="" />
@@ -290,7 +250,7 @@ export function Desenhos() {
                 <div className="content">
                     <div className="contentOne">
                         <div className="titleContent">
-                            <h2>Be</h2>
+                            <h2>Cezar</h2>
                         </div>
                         <div className="contentImages">
                             <img src={Image12} alt="" />
@@ -308,7 +268,7 @@ export function Desenhos() {
                 <div className="content">
                     <div className="contentOne">
                         <div className="titleContent">
-                            <h2>Be</h2>
+                            <h2>Cezar</h2>
                         </div>
                         <div className="contentImages">
                             <img src={Image13} alt="" />
@@ -326,7 +286,7 @@ export function Desenhos() {
                 <div className="content">
                     <div className="contentOne">
                         <div className="titleContent">
-                            <h2>Be</h2>
+                            <h2>Cezar</h2>
                         </div>
                         <div className="contentImages">
                             <img src={Image14} alt="" />
@@ -344,7 +304,7 @@ export function Desenhos() {
                 <div className="content">
                     <div className="contentOne">
                         <div className="titleContent">
-                            <h2>Be</h2>
+                            <h2>Cezar</h2>
                         </div>
                         <div className="contentImages">
                             <img src={Image15} alt="" />
@@ -362,7 +322,7 @@ export function Desenhos() {
                 <div className="content">
                     <div className="contentOne">
                         <div className="titleContent">
-                            <h2>Be</h2>
+                            <h2>Cezar</h2>
                         </div>
                         <div className="contentImages">
                             <img src={Image16} alt="" />
@@ -380,7 +340,7 @@ export function Desenhos() {
                 <div className="content">
                     <div className="contentOne">
                         <div className="titleContent">
-                            <h2>Be</h2>
+                            <h2>Cezar</h2>
                         </div>
                         <div className="contentImages">
                             <img src={Image17} alt="" />
@@ -398,7 +358,7 @@ export function Desenhos() {
                 <div className="content">
                     <div className="contentOne">
                         <div className="titleContent">
-                            <h2>Be</h2>
+                            <h2>Cezar</h2>
                         </div>
                         <div className="contentImages">
                             <img src={Image18} alt="" />
@@ -416,7 +376,7 @@ export function Desenhos() {
                 <div className="content">
                     <div className="contentOne">
                         <div className="titleContent">
-                            <h2>Be</h2>
+                            <h2>Cezar</h2>
                         </div>
                         <div className="contentImages">
                             <img src={Image19} alt="" />
@@ -434,7 +394,7 @@ export function Desenhos() {
                 <div className="content">
                     <div className="contentOne">
                         <div className="titleContent">
-                            <h2>Be</h2>
+                            <h2>Cezar</h2>
                         </div>
                         <div className="contentImages">
                             <img src={Image20} alt="" />
@@ -446,366 +406,6 @@ export function Desenhos() {
                         </div>
                         <div className="contentImages">
                             <img src={Image20m} alt="" />
-                        </div>
-                    </div>
-                </div>
-                <div className="content">
-                    <div className="contentOne">
-                        <div className="titleContent">
-                            <h2>Be</h2>
-                        </div>
-                        <div className="contentImages">
-                            <img src={Image21} alt="" />
-                        </div>
-                    </div>
-                    <div className="contentTwo">
-                        <div className="titleContent">
-                            <h2>Lala</h2>
-                        </div>
-                        <div className="contentImages">
-                            <img src={Image21m} alt="" />
-                        </div>
-                    </div>
-                </div>
-                <div className="content">
-                    <div className="contentOne">
-                        <div className="titleContent">
-                            <h2>Be</h2>
-                        </div>
-                        <div className="contentImages">
-                            <img src={Image22} alt="" />
-                        </div>
-                    </div>
-                    <div className="contentTwo">
-                        <div className="titleContent">
-                            <h2>Lala</h2>
-                        </div>
-                        <div className="contentImages">
-                            <img src={Image22m} alt="" />
-                        </div>
-                    </div>
-                </div>
-                <div className="content">
-                    <div className="contentOne">
-                        <div className="titleContent">
-                            <h2>Be</h2>
-                        </div>
-                        <div className="contentImages">
-                            <img src={Image23} alt="" />
-                        </div>
-                    </div>
-                    <div className="contentTwo">
-                        <div className="titleContent">
-                            <h2>Lala</h2>
-                        </div>
-                        <div className="contentImages">
-                            <img src={Image23m} alt="" />
-                        </div>
-                    </div>
-                </div>
-                <div className="content">
-                    <div className="contentOne">
-                        <div className="titleContent">
-                            <h2>Be</h2>
-                        </div>
-                        <div className="contentImages">
-                            <img src={Image24} alt="" />
-                        </div>
-                    </div>
-                    <div className="contentTwo">
-                        <div className="titleContent">
-                            <h2>Lala</h2>
-                        </div>
-                        <div className="contentImages">
-                            <img src={Image24m} alt="" />
-                        </div>
-                    </div>
-                </div>
-                <div className="content">
-                    <div className="contentOne">
-                        <div className="titleContent">
-                            <h2>Be</h2>
-                        </div>
-                        <div className="contentImages">
-                            <img src={Image25} alt="" />
-                        </div>
-                    </div>
-                    <div className="contentTwo">
-                        <div className="titleContent">
-                            <h2>Lala</h2>
-                        </div>
-                        <div className="contentImages">
-                            <img src={Image25m} alt="" />
-                        </div>
-                    </div>
-                </div>
-                <div className="content">
-                    <div className="contentOne">
-                        <div className="titleContent">
-                            <h2>Be</h2>
-                        </div>
-                        <div className="contentImages">
-                            <img src={Image26} alt="" />
-                        </div>
-                    </div>
-                    <div className="contentTwo">
-                        <div className="titleContent">
-                            <h2>Lala</h2>
-                        </div>
-                        <div className="contentImages">
-                            <img src={Image26m} alt="" />
-                        </div>
-                    </div>
-                </div>
-                <div className="content">
-                    <div className="contentOne">
-                        <div className="titleContent">
-                            <h2>Be</h2>
-                        </div>
-                        <div className="contentImages">
-                            <img src={Image27} alt="" />
-                        </div>
-                    </div>
-                    <div className="contentTwo">
-                        <div className="titleContent">
-                            <h2>Lala</h2>
-                        </div>
-                        <div className="contentImages">
-                            <img src={Image27m} alt="" />
-                        </div>
-                    </div>
-                </div>
-                <div className="content">
-                    <div className="contentOne">
-                        <div className="titleContent">
-                            <h2>Be</h2>
-                        </div>
-                        <div className="contentImages">
-                            <img src={Image28} alt="" />
-                        </div>
-                    </div>
-                    <div className="contentTwo">
-                        <div className="titleContent">
-                            <h2>Lala</h2>
-                        </div>
-                        <div className="contentImages">
-                            <img src={Image28m} alt="" />
-                        </div>
-                    </div>
-                </div>
-                <div className="content">
-                    <div className="contentOne">
-                        <div className="titleContent">
-                            <h2>Be</h2>
-                        </div>
-                        <div className="contentImages">
-                            <img src={Image29} alt="" />
-                        </div>
-                    </div>
-                    <div className="contentTwo">
-                        <div className="titleContent">
-                            <h2>Lala</h2>
-                        </div>
-                        <div className="contentImages">
-                            <img src={Image29m} alt="" />
-                        </div>
-                    </div>
-                </div>
-                <div className="content">
-                    <div className="contentOne">
-                        <div className="titleContent">
-                            <h2>Be</h2>
-                        </div>
-                        <div className="contentImages">
-                            <img src={Image30} alt="" />
-                        </div>
-                    </div>
-                    <div className="contentTwo">
-                        <div className="titleContent">
-                            <h2>Lala</h2>
-                        </div>
-                        <div className="contentImages">
-                            <img src={Image30m} alt="" />
-                        </div>
-                    </div>
-                </div>
-                <div className="content">
-                    <div className="contentOne">
-                        <div className="titleContent">
-                            <h2>Be</h2>
-                        </div>
-                        <div className="contentImages">
-                            <img src={Image31} alt="" />
-                        </div>
-                    </div>
-                    <div className="contentTwo">
-                        <div className="titleContent">
-                            <h2>Lala</h2>
-                        </div>
-                        <div className="contentImages">
-                            <img src={Image31m} alt="" />
-                        </div>
-                    </div>
-                </div>
-                <div className="content">
-                    <div className="contentOne">
-                        <div className="titleContent">
-                            <h2>Be</h2>
-                        </div>
-                        <div className="contentImages">
-                            <img src={Image32} alt="" />
-                        </div>
-                    </div>
-                    <div className="contentTwo">
-                        <div className="titleContent">
-                            <h2>Lala</h2>
-                        </div>
-                        <div className="contentImages">
-                            <img src={Image32m} alt="" />
-                        </div>
-                    </div>
-                </div>
-                <div className="content">
-                    <div className="contentOne">
-                        <div className="titleContent">
-                            <h2>Be</h2>
-                        </div>
-                        <div className="contentImages">
-                            <img src={Image33} alt="" />
-                        </div>
-                    </div>
-                    <div className="contentTwo">
-                        <div className="titleContent">
-                            <h2>Lala</h2>
-                        </div>
-                        <div className="contentImages">
-                            <img src={Image33m} alt="" />
-                        </div>
-                    </div>
-                </div>
-                <div className="content">
-                    <div className="contentOne">
-                        <div className="titleContent">
-                            <h2>Be</h2>
-                        </div>
-                        <div className="contentImages">
-                            <img src={Image34} alt="" />
-                        </div>
-                    </div>
-                    <div className="contentTwo">
-                        <div className="titleContent">
-                            <h2>Lala</h2>
-                        </div>
-                        <div className="contentImages">
-                            <img src={Image34m} alt="" />
-                        </div>
-                    </div>
-                </div>
-                <div className="content">
-                    <div className="contentOne">
-                        <div className="titleContent">
-                            <h2>Be</h2>
-                        </div>
-                        <div className="contentImages">
-                            <img src={Image35} alt="" />
-                        </div>
-                    </div>
-                    <div className="contentTwo">
-                        <div className="titleContent">
-                            <h2>Lala</h2>
-                        </div>
-                        <div className="contentImages">
-                            <img src={Image35m} alt="" />
-                        </div>
-                    </div>
-                </div>
-                <div className="content">
-                    <div className="contentOne">
-                        <div className="titleContent">
-                            <h2>Be</h2>
-                        </div>
-                        <div className="contentImages">
-                            <img src={Image36} alt="" />
-                        </div>
-                    </div>
-                    <div className="contentTwo">
-                        <div className="titleContent">
-                            <h2>Lala</h2>
-                        </div>
-                        <div className="contentImages">
-                            <img src={Image36m} alt="" />
-                        </div>
-                    </div>
-                </div>
-                <div className="content">
-                    <div className="contentOne">
-                        <div className="titleContent">
-                            <h2>Be</h2>
-                        </div>
-                        <div className="contentImages">
-                            <img src={Image37} alt="" />
-                        </div>
-                    </div>
-                    <div className="contentTwo">
-                        <div className="titleContent">
-                            <h2>Lala</h2>
-                        </div>
-                        <div className="contentImages">
-                            <img src={Image37m} alt="" />
-                        </div>
-                    </div>
-                </div>
-                <div className="content">
-                    <div className="contentOne">
-                        <div className="titleContent">
-                            <h2>Be</h2>
-                        </div>
-                        <div className="contentImages">
-                            <img src={Image38} alt="" />
-                        </div>
-                    </div>
-                    <div className="contentTwo">
-                        <div className="titleContent">
-                            <h2>Lala</h2>
-                        </div>
-                        <div className="contentImages">
-                            <img src={Image38m} alt="" />
-                        </div>
-                    </div>
-                </div>
-                <div className="content">
-                    <div className="contentOne">
-                        <div className="titleContent">
-                            <h2>Be</h2>
-                        </div>
-                        <div className="contentImages">
-                            <img src={Image39} alt="" />
-                        </div>
-                    </div>
-                    <div className="contentTwo">
-                        <div className="titleContent">
-                            <h2>Lala</h2>
-                        </div>
-                        <div className="contentImages">
-                            <img src={Image39m} alt="" />
-                        </div>
-                    </div>
-                </div>
-                <div className="content">
-                    <div className="contentOne">
-                        <div className="titleContent">
-                            <h2>Be</h2>
-                        </div>
-                        <div className="contentImages">
-                            <img src={Image40} alt="" />
-                        </div>
-                    </div>
-                    <div className="contentTwo">
-                        <div className="titleContent">
-                            <h2>Lala</h2>
-                        </div>
-                        <div className="contentImages">
-                            <img src={Image40m} alt="" />
                         </div>
                     </div>
                 </div>
