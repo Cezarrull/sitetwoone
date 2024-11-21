@@ -31,6 +31,7 @@ a:hover {
 
 .sticky {
     background: var(--bgHeader);
+    backdrop-filter: blur(20px);
 }
 
 .nav__brand {
@@ -83,7 +84,6 @@ a:hover {
         transform: translateX(100%);
         transition: 0.5s ease-in;
         border-bottom-left-radius: 16px;
-        border-top-left-radius: 16px;
         gap: 0;
         }
 
@@ -99,10 +99,6 @@ a:hover {
     .nav__itemLast:hover {
         background: var(--gray);
         }
-
-    .nav__itemFirst {
-        border-top-left-radius: 16px;
-    }
 
     .nav__itemLast {
         border-bottom-left-radius: 16px;

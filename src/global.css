@@ -4,15 +4,19 @@
     --gray: #dcdcdc;
 
     --purple: #662fff;
+    --purpleTwo: #4400ff;
 
     --green: #1aaaaf;
 
     --bgOne: #662fff96;
-    --bgHeader: #4400ff;
+    --bgHeader: rgba(68, 0, 255, 0.65);
+    --bgMain: rgba(255, 255, 255, .1);
+    
 
-    --shadow: #ae7eed;
+    --shadow: #44444444;
     --shadowTwo: #67c9cc;
     --shadowThree: #2c02a0;
+    --shadowFour: #25252595;
 }
 
 * {
