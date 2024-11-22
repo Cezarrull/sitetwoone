@@ -39,10 +39,10 @@ export function Home() {
                         </div>
                     </div>
                 </Link>
-                <Link to="#" className="buttonHref">
+                <Link to="/Galeria" className="buttonHref">
                     <div className="container">
                         <div className="text">
-                            <h2>TESTE SOBRE ALINHAMENTO DE TEXTO PARA DIV</h2>
+                            <h2>GALERIA DOS MELHORES MOMENTOS</h2>
                             <p>
                                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum omnis exercitationem voluptates perferendis temporibus pariatur
                             </p>

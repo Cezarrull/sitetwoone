@@ -1,0 +1,64 @@
+.primeirasBody {
+    height: 100%;
+    background: linear-gradient(to bottom, var(--purple), var(--green));
+    padding: 20vh 20px 20vh 20px;
+}
+
+.buttonBack {
+    position: fixed;
+    top: 75px;
+    left: 20px;
+    color: var(--black);
+    width: 100px;
+    height: 40px;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background: var(--button);
+    backdrop-filter: blur(50px);
+}
+
+.contentGaleria a:hover {
+    text-decoration: none;
+}
+
+.boxPhotoPrimeiras {
+    background-color: var(--white);
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 0 15px var(--shadow);
+    max-width: 380px;
+    transition: 0.4s;
+    margin-bottom: 10vh;
+}
+
+.boxPhotoPrimeiras:hover {
+    box-shadow: 0 0 20px var(--shadowFour);
+}
+
+.boxPhotoPrimeiras img {
+    width: 100%;
+    height: 350px;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+
+    transition: all 200ms ease-out;
+    display: block;
+}
+
+.details {
+    padding: 20px;
+    background: var(--white);
+    z-index: 1;
+}
+
+.details h2 {
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    color: var(--black);
+    font-weight: 600;
+}
