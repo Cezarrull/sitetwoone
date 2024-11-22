@@ -44,6 +44,7 @@ export function Pedido() {
 }
 
 // function CountDays
+
     const agora = new Date();
     const pedido = new Date('09 01 2024')
     
@@ -53,7 +54,7 @@ export function Pedido() {
     
     const diffInDays = diffInTime / timeInOneDay
 
-    const diffInDaysValue = diffInDays.toFixed(0) 
+    const diffInDaysValue = diffInDays.toFixed() 
 
     const message = Number(diffInDaysValue);
 
