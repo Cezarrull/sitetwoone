@@ -1,4 +1,4 @@
-.galeriaBody {
+.pedidoFotosBody {
     height: 100%;
     background: linear-gradient(to bottom, var(--purple), var(--green));
     padding: 20vh 20px 20vh 20px;
@@ -7,17 +7,42 @@
     align-items: center;
 }
 
-.contentGaleria {
+.pedidoFotosContent {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+} 
+
+.buttonBack {
+    position: fixed;
+    bottom: 30px;
+    left: 20px;
+    color: var(--black);
+    width: 100px;
+    height: 40px;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background: var(--button);
+    backdrop-filter: blur(50px);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.buttonBack:hover {
+    text-decoration: none;
+    background: var(--white);
 }
 
 .contentGaleria a:hover {
     text-decoration: none;
 }
 
-.boxPhoto {
+.boxPhotoPedido {
     background-color: var(--white);
     border-radius: 20px;
     overflow: hidden;
@@ -27,12 +52,11 @@
     margin-bottom: 10vh;
 }
 
-.boxPhoto:hover {
-    transform: scale(1.05);
+.boxPhotoPedido:hover {
     box-shadow: 0 0 20px var(--shadowFour);
 }
 
-.boxPhoto img {
+.boxPhotoPedido img {
     width: 100%;
     height: 350px;
     aspect-ratio: 16/9;
@@ -56,12 +80,12 @@
 }
 
 @media screen and (min-width: 700px) {
-    .boxPhoto {
+    .boxPhotoPedido {
         max-width: 300px;
         margin: 20px;
     }
 
-    .boxPhoto img {
+    .boxPhotoPedido img {
         height: 270px;
     }
 }

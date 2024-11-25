@@ -16,70 +16,72 @@ export function PrimeirasFotos() {
         <>
         <Header />
         <ButtonUp />
-            <Link to="/Galeria" className="buttonBack"><ArrowLeft size={16}/>Voltar</Link>
+        <Link to="/Galeria" className="buttonBack"><ArrowLeft size={16}/>Voltar</Link>
+
             <div className="primeirasBody">
-                <Link to="#">
-                    <figure className="boxPhotoPrimeiras">
-                        <img src={Image1} alt="" />
+                <div className="primeirasFotosContent">
 
-                        <figcaption className="details">
-                            <h2>PRIMEIRAS FOTOS</h2>
-                        </figcaption>
-                    </figure>
-                </Link>
-                <Link to="#">
-                    <figure className="boxPhotoPrimeiras">
-                        <img src={Image2} alt="" />
+                    <Link to="#">
+                        <figure className="boxPhotoPrimeiras">
+                            <img src={Image1} alt="" />
 
-                        <figcaption className="details">
-                            <h2>PRIMEIRAS FOTOS</h2>
-                        </figcaption>
-                    </figure>
-                </Link>
-                <Link to="#">
-                    <figure className="boxPhotoPrimeiras">
-                        <img src={Image3} alt="" />
+                            <figcaption className="details">
+                                <h2>PRIMEIRAS FOTOS</h2>
+                            </figcaption>
+                        </figure>
+                    </Link>
+                    <Link to="#">
+                        <figure className="boxPhotoPrimeiras">
+                            <img src={Image2} alt="" />
 
-                        <figcaption className="details">
-                            <h2>PRIMEIRAS FOTOS</h2>
-                        </figcaption>
-                    </figure>
-                </Link>
-                <Link to="#">
-                    <figure className="boxPhotoPrimeiras">
-                        <img src={Image4} alt="" />
+                            <figcaption className="details">
+                                <h2>PRIMEIRAS FOTOS</h2>
+                            </figcaption>
+                        </figure>
+                    </Link>
+                    <Link to="#">
+                        <figure className="boxPhotoPrimeiras">
+                            <img src={Image3} alt="" />
 
-                        <figcaption className="details">
-                            <h2>PRIMEIRAS FOTOS</h2>
-                        </figcaption>
-                    </figure>
-                </Link>
-                <Link to="#">
-                    <figure className="boxPhotoPrimeiras">
-                        <img src={Image5} alt="" />
+                            <figcaption className="details">
+                                <h2>PRIMEIRAS FOTOS</h2>
+                            </figcaption>
+                        </figure>
+                    </Link>
+                    <Link to="#">
+                        <figure className="boxPhotoPrimeiras">
+                            <img src={Image4} alt="" />
 
-                        <figcaption className="details">
-                            <h2>PRIMEIRAS FOTOS</h2>
-                        </figcaption>
-                    </figure>
-                </Link>
-                <Link to="#">
-                    <figure className="boxPhotoPrimeiras">
-                        <img src={Image6} alt="" />
+                            <figcaption className="details">
+                                <h2>PRIMEIRAS FOTOS</h2>
+                            </figcaption>
+                        </figure>
+                    </Link>
+                    <Link to="#">
+                        <figure className="boxPhotoPrimeiras">
+                            <img src={Image5} alt="" />
 
-                        <figcaption className="details">
-                            <h2>PRIMEIRAS FOTOS</h2>
-                        </figcaption>
-                    </figure>
-                </Link>
+                            <figcaption className="details">
+                                <h2>PRIMEIRAS FOTOS</h2>
+                            </figcaption>
+                        </figure>
+                    </Link>
+                    <Link to="#">
+                        <figure className="boxPhotoPrimeiras">
+                            <img src={Image6} alt="" />
+
+                            <figcaption className="details">
+                                <h2>PRIMEIRAS FOTOS</h2>
+                            </figcaption>
+                        </figure>
+                    </Link>
+                </div>
             </div>
         </>
     )
 }
 /*
-const navigate = useNavigate();
-
-function handleBack() {
-    navigate(-1)
-}*/
-
+window.addEventListener("click", function() {
+    var button = document.querySelectorAll("figure")
+    button.classList.add(".online")
+})*/

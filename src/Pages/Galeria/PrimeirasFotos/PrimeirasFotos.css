@@ -2,6 +2,15 @@
     height: 100%;
     background: linear-gradient(to bottom, var(--purple), var(--green));
     padding: 20vh 20px 20vh 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.primeirasFotosContent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .buttonBack {
@@ -68,4 +77,15 @@
     font-family: 'Poppins', sans-serif;
     color: var(--black);
     font-weight: 600;
+}
+
+@media screen and (min-width: 700px) {
+    .boxPhotoPrimeiras {
+        max-width: 300px;
+        margin: 20px;
+    }
+
+    .boxPhotoPrimeiras img {
+        height: 270px;
+    }
 }

@@ -20,12 +20,12 @@ export function Galeria() {
                                 </figcaption>
                         </figure>
                     </Link>
-                    <Link to="/">
+                    <Link to="/DiaDoPedido">
                         <figure className="boxPhoto">
                                 <img src={Image2} alt="" />
 
                                 <figcaption className="details">
-                                    <h2>PEDIDO</h2>
+                                    <h2>DIA DO PEDIDO</h2>
                                 </figcaption>
                         </figure>
                     </Link>
