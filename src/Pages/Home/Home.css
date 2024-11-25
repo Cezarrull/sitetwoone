@@ -10,21 +10,21 @@
 }
 
 .container {
-    padding: 18px;
+    padding: 20px 18px;
     background: var(--bgMain);
     backdrop-filter: blur(50px);
     border-radius: 20px;
-    margin-bottom: 40vh;
+    margin-bottom: 35vh;
     box-shadow: 0 0 13px var(--shadow);
     transition: 0.4s;
 }
 
 .containerTwo {
-    padding: 18px;
+    padding: 20px 18px;
     background: var(--bgMain);
     backdrop-filter: blur(50px);
     border-radius: 20px;
-    margin-bottom: 40vh;
+    margin-bottom: 35vh;
     box-shadow: 0 0 13px var(--shadow);
     transition: 0.4s;
 }
@@ -60,19 +60,21 @@
 
 .image,
 .imageTwo {
-    width: 60vw;
-    height: 40vh;
-    max-width: max-content;
-    max-height: max-content;
+    max-width: 300px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .image img,
 .imageTwo img {
-    border-radius: 24px;
     width: 100%;
-    height: 100%;
+    height: 400px;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+
+    transition: all 200ms ease-out;
+    display: block;
+    border-radius: 16px;
 }
 
 @media screen and (min-width: 768px) {
@@ -99,12 +101,10 @@
         font-size: 1.5rem;
         line-height: 1.75rem;
     }
-}
 
-@media screen and (max-height: 430px) {
     .image,
     .imageTwo {
-        height: 90vh;
+        max-width: 350px;
     }
 }
 

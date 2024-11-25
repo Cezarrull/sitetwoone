@@ -100,23 +100,24 @@
 
 .imageOrder,
 .imageTwoOrder {
-    width: 60vw;
-    height: 40vh;
-    max-width: max-content;
-    max-height: max-content;
+    max-width: 320px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .imageOrder img {
-    border-radius: 24px;
     width: 100%;
-    height: 100%;
-    transition: 0.4s;
+    height: 500px;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+
+    transition: all 200ms ease-out;
+    display: block;
+    border-radius: 16px;
 }
 
 .imageOrder img:hover {
-    transform: scale(1.5);
+    transform: scale(1.05);
     box-shadow: 0 0 15px var(--shadowFour);
 }
 
@@ -177,13 +178,9 @@
 }
 
 @media screen and (max-height: 430px) {
-    .imageOrder,
-    .imageTwoOrder {
-        height: 90vh;
-    }
-
     .buttonDiv a {
         font-size: 0.875rem;
+        margin-bottom: 20px;
     }
 }
 
