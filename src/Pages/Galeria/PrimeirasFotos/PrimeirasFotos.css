@@ -6,7 +6,7 @@
 
 .buttonBack {
     position: fixed;
-    top: 75px;
+    bottom: 30px;
     left: 20px;
     color: var(--black);
     width: 100px;
@@ -20,6 +20,13 @@
     border-radius: 20px;
     background: var(--button);
     backdrop-filter: blur(50px);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.buttonBack:hover {
+    text-decoration: none;
+    background: var(--white);
 }
 
 .contentGaleria a:hover {

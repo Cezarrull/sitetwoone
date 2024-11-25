@@ -1,6 +1,8 @@
 import { Header } from "../../Components/Header/Header";
 import './Desenhos.css'
 
+import { ButtonUp } from "../../Components/ButtonUp/ButtonUp";
+
 /*/////////////// Import Images ////////////////*/
 import Image1 from "../../Assets/Desenhos/img1.jpg"
 import Image1m from "../../Assets/Desenhos/img1m.jpg"
@@ -48,6 +50,7 @@ export function Desenhos() {
     return(
         <>
         <Header />
+        <ButtonUp />
             <div className="desenhoBody">
                 <div className="content">
                     <div className="contentOne">

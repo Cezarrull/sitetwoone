@@ -9,11 +9,13 @@ import Image3 from '../Photos/FotosPrimeiras/delado.jpg'
 import Image4 from '../Photos/FotosPrimeiras/porto.jpg'
 import Image5 from '../Photos/FotosPrimeiras/riso.jpg'
 import Image6 from '../Photos/FotosPrimeiras/snap.jpg'
+import { ButtonUp } from "../../../Components/ButtonUp/ButtonUp";
 
 export function PrimeirasFotos() {
     return(
         <>
         <Header />
+        <ButtonUp />
             <Link to="/Galeria" className="buttonBack"><ArrowLeft size={16}/>Voltar</Link>
             <div className="primeirasBody">
                 <Link to="#">
@@ -80,3 +82,4 @@ const navigate = useNavigate();
 function handleBack() {
     navigate(-1)
 }*/
+
