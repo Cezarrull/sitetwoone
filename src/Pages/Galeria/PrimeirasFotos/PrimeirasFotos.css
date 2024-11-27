@@ -79,6 +79,53 @@
     font-weight: 600;
 }
 
+.activeImage {
+    position: fixed;
+    background: var(--bgPhoto);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10000;
+    transition: 1s;
+    display: none;
+}
+
+.activeImage .buttonClose {
+    color: var(--white);
+    position: absolute;
+    font-size: 50px;
+    font-weight: 600;
+    top: 0;
+    right: 15px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.activeImage span:hover {
+    transform: scale(1.1);
+    color: var(--gray);
+}
+
+.activeImage img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    border-radius: 10px;
+}
+
+.activeImage.active {
+    display: block;
+}
+
+@media (max-width: 380px) {
+    .activeImage img {
+        width: 85%;
+    }
+}
+
 @media screen and (min-width: 700px) {
     .boxPhotoPrimeiras {
         max-width: 300px;
