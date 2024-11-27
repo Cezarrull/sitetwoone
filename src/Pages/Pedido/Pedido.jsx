@@ -45,7 +45,7 @@ export function Pedido() {
 
 // function CountDays
 
-    const agora = new Date();
+    const agora = Date.now();
     const pedido = new Date('09 01 2024')
     
     const diffInTime = Math.abs(pedido - agora)
