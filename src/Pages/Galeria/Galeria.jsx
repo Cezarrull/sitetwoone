@@ -1,8 +1,8 @@
 import { Header } from "../../Components/Header/Header";
 import './Galeria.css';
 
-import Image1 from '../Galeria/Photos/FotosPrimeiras/Image4.jpg'
-import Image2 from '../Galeria/Photos/PedidoDia/Image4.jpg'
+import Image1 from '../Galeria/Photos/FotosPrimeiras/porto.jpg'
+import Image2 from '../Galeria/Photos/PedidoDia/nosDoisPedido.jpg'
 import { Link } from "react-router-dom";
 
 export function Galeria() {

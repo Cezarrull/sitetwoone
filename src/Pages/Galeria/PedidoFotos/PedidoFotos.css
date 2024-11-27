@@ -79,53 +79,6 @@
     font-weight: 600;
 }
 
-.activeImagePd {
-    position: fixed;
-    background: var(--bgPhoto);
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    z-index: 10000;
-    transition: 1s;
-    display: none;
-}
-
-.activeImagePd .buttonClosePd {
-    color: var(--white);
-    position: absolute;
-    font-size: 50px;
-    font-weight: 600;
-    top: 0;
-    right: 15px;
-    cursor: pointer;
-    transition: 0.2s;
-}
-
-.activeImagePd span:hover {
-    transform: scale(1.1);
-    color: var(--gray);
-}
-
-.activeImagePd img {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    width: 350px;
-    border-radius: 10px;
-}
-
-.activeImagePd.activePd {
-    display: block;
-}
-
-@media (max-width: 380px) {
-    .activeImagePd img {
-        width: 85%;
-    }
-}
-
 @media screen and (min-width: 700px) {
     .boxPhotoPedido {
         max-width: 300px;
