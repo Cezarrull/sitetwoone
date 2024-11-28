@@ -17,7 +17,7 @@ export function Pedido() {
                                 E foi no dia 01 de novembro de 2024, que convidei a mulher dos meus sonhos, para ser o amor da minha vida!
                             </p>
                             <p>
-                                Estamos juntos a <span className='buttonDate' id='days'>{`${StringMessage}`}</span> dias!
+                                Estamos juntos a <span className='buttonDate' id='days'>{StringMessage}</span> dias!
                                 Que venha muitos outros.
                             </p>
                         </div>
@@ -47,8 +47,10 @@ export function Pedido() {
 
     const agora = Date.now();
     const pedido = new Date('09 01 2024')
+
+    const DateTwo = Number(pedido)
     
-    const diffInTime = Math.abs(pedido - agora)
+    const diffInTime = Math.abs(DateTwo - agora)
     
     const timeInOneDay = 1000 * 60 * 60 * 24
     
