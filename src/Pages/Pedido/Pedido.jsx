@@ -17,7 +17,7 @@ export function Pedido() {
                                 E foi no dia 01 de novembro de 2024, que convidei a mulher dos meus sonhos, para ser o amor da minha vida!
                             </p>
                             <p>
-                                Estamos juntos a <span className='buttonDate' id='days'>{diffInDaysValue}</span> dias!
+                                Estamos juntos a <span className='buttonDate' id='days'>00</span> dias!
                                 Que venha muitos outros.
                             </p>
                         </div>
@@ -57,3 +57,7 @@ export function Pedido() {
     const diffInDays = diffInTime / timeInOneDay
 
     const diffInDaysValue = diffInDays.toFixed() 
+
+    var numberDays = document.querySelector("#days")
+
+    numberDays.innerHTML = diffInDaysValue
