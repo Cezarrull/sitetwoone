@@ -17,7 +17,7 @@ export function Pedido() {
                                 E foi no dia 01 de novembro de 2024, que convidei a mulher dos meus sonhos, para ser o amor da minha vida!
                             </p>
                             <p>
-                                Estamos juntos a <span className='buttonDate' id='days'>{message}</span> dias!
+                                Estamos juntos a <span className='buttonDate' id='days'>{sms}</span> dias!
                                 Que venha muitos outros.
                             </p>
                         </div>
@@ -56,4 +56,6 @@ export function Pedido() {
 
     const diffInDaysValue = diffInDays.toFixed() 
 
-    const message = Number.parseInt(diffInDaysValue);
+    const message = Number(diffInDaysValue);
+
+    const sms = String("ola jovem")
