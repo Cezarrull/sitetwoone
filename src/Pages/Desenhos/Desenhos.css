@@ -1,6 +1,6 @@
 .desenhoBody {
     height: 100%;
-    background: linear-gradient(to top, var(--purple), var(--green));
+    background: linear-gradient(to left, var(--purple), var(--green));
     padding: 20vh 20px 20vh 20px;
 }
 

@@ -18,7 +18,7 @@ export function Home() {
                         <div className="text">
                             <h2>ONDE TUDO COMEÇOU</h2>
                             <p>
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum omnis exercitationem voluptates perferendis temporibus pariatur
+                                Um pouco de um grande dia!
                             </p>
                         </div>
                         <div className="image">
@@ -34,7 +34,7 @@ export function Home() {
                         <div className="textTwo">
                             <h2>NOSSOS DESENHOS</h2>
                             <p>
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum omnis exercitationem voluptates perferendis temporibus pariatur
+                                20 Desenhos pintados com dois estilos diferentes! 
                             </p>
                         </div>
                     </div>
@@ -44,7 +44,7 @@ export function Home() {
                         <div className="text">
                             <h2>GALERIA DOS MELHORES MOMENTOS</h2>
                             <p>
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum omnis exercitationem voluptates perferendis temporibus pariatur
+                                Algumas fotos de dias especiais e incríveis!
                             </p>
                         </div>
                         <div className="image">

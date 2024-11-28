@@ -14,7 +14,7 @@ export function Pedido() {
                         <div className="textOrder">
                             <h2>DIA DO PEDIDO 01/09/2024</h2>
                             <p>
-                                E foi no dia 01 de novembro de 2024, que convidei a mulher dos meus sonhos, para ser o amor da minha vida!
+                                E foi no dia 01 de setembro de 2024, que convidei a mulher dos meus sonhos, para ser o amor da minha vida!
                             </p>
                             <p>
                                 Estamos juntos a <span className='buttonDate' id='numberDays' dangerouslySetInnerHTML={{__html: result}} ></span> dias!
@@ -43,7 +43,7 @@ export function Pedido() {
     )
 }
 
-// function CountDays
+// function CounterDays
 
 const agora = new Date();
     const pedido = new Date('2024-09-01');
