@@ -139,6 +139,10 @@
     box-shadow: 0 0 10px var(--shadowFour);
 }
 
+.buttonDate:hover {
+    text-decoration: none;
+}
+
 @media screen and (min-width: 768px) {
     .containerOrder,
     .containerTwoOrder {
