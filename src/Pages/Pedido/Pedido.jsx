@@ -17,7 +17,7 @@ export function Pedido() {
                                 E foi no dia 01 de novembro de 2024, que convidei a mulher dos meus sonhos, para ser o amor da minha vida!
                             </p>
                             <p>
-                                Estamos juntos a <span className='buttonDate' id='numberDays' dangerouslySetInnerHTML={{__html: diffInDaysValue}} ></span> dias!
+                                Estamos juntos a <span className='buttonDate' id='numberDays' dangerouslySetInnerHTML={{__html: timeInOneDay}} ></span> dias!
                                 Que venha muitos outros.
                             </p>
                         </div>
@@ -45,15 +45,9 @@ export function Pedido() {
 
 // function CountDays
 
-    const agora = Date.now();
-    const pedido = new Date('09 01 2024')
+const agora = new Date();
+    const pedido = new Date('2024-09-01');
 
-    const dateTwo = Number(pedido)
-
-    const diffInTime = Math.abs(dateTwo - agora)
+    const diffInTime = pedido - agora;
     
-    const timeInOneDay = 1000 * 60 * 60 * 24
-    
-    const diffInDays = diffInTime / timeInOneDay
-
-    const diffInDaysValue = diffInDays.toFixed() 
+    const timeInOneDay = Math.floor(diffInTime / (1000 * 60 * 60 * 24)); 
