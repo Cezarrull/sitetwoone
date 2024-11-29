@@ -4,6 +4,8 @@
     padding: 20vh 20px 20vh 20px;
     background-size: cover;
     background-position: center;
+    object-fit: cover;
+    display: block;
 }
 
 .pedidoBody video {
