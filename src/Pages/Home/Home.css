@@ -1,7 +1,9 @@
 .homeBody {
-    height: 100%;
-    background: linear-gradient(to left, var(--purple), var(--green));
+    background-attachment: fixed;
+    background-image: url(../../Assets/bgMobile.jpg);
     padding: 20vh 20px 20vh 20px;
+    background-size: cover;
+    background-position: center;
 }
 
 .buttonHref:hover {
@@ -78,6 +80,10 @@
 }
 
 @media screen and (min-width: 768px) {
+    .homeBody {
+        background-image: url(../../Assets/bg.jpg);
+    }
+    
     .container,
     .containerTwo {
         display: flex;

@@ -1,7 +1,9 @@
 .pedidoBody {
-    height: 100%;
-    background: linear-gradient(to left, var(--purple), var(--green));
+    background-attachment: fixed;
+    background-image: url(../../Assets/bgMobile.jpg);
     padding: 20vh 20px 20vh 20px;
+    background-size: cover;
+    background-position: center;
 }
 
 .pedidoBody video {
@@ -136,7 +138,7 @@
     font-size: 1rem;
     font-weight: 600;
     font-family: "Abcgintonord", sans-serif;
-    box-shadow: 0 0 10px var(--shadowFour);
+    box-shadow: 0 0 10px var(--black);
 }
 
 .buttonDate:hover {
@@ -144,6 +146,10 @@
 }
 
 @media screen and (min-width: 768px) {
+    .pedidoBody {
+        background-image: url(../../Assets/bg.jpg);
+    }
+
     .containerOrder,
     .containerTwoOrder {
         padding: 5vh 0;
