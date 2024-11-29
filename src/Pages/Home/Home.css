@@ -1,9 +1,6 @@
 .homeBody {
-    background-attachment: fixed;
-    background-image: url(../../Assets/bgMobile.jpg);
+    background: linear-gradient(to left, var(--purple), var(--green));
     padding: 20vh 20px 20vh 20px;
-    background-size: cover;
-    background-position: center;
 }
 
 .buttonHref:hover {
@@ -14,7 +11,7 @@
 .container {
     padding: 20px 18px;
     background: var(--bgMain);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(50px);
     border-radius: 20px;
     margin-bottom: 35vh;
     box-shadow: 0 0 13px var(--shadow);
@@ -24,7 +21,7 @@
 .containerTwo {
     padding: 20px 18px;
     background: var(--bgMain);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(50px);
     border-radius: 20px;
     margin-bottom: 35vh;
     box-shadow: 0 0 13px var(--shadow);
@@ -80,10 +77,6 @@
 }
 
 @media screen and (min-width: 768px) {
-    .homeBody {
-        background-image: url(../../Assets/bg.jpg);
-    }
-    
     .container,
     .containerTwo {
         display: flex;
