@@ -1,6 +1,8 @@
 import { Header } from '../../Components/Header/Header'
 import './Pedido.css'
-import { Play } from '@phosphor-icons/react'
+
+import { Play, ArrowLeft } from '@phosphor-icons/react'
+import { Link } from 'react-router-dom'
 
 import Image1 from '../../Assets/Pedido/quartoTeAmo.jpg'
 
@@ -8,6 +10,8 @@ export function Pedido() {
     return(
         <>
         <Header />
+        <Link to="/" className="buttonBack"><ArrowLeft size={16}/>Voltar</Link>
+
             <div className="pedidoBody">
                 <div className="containerOrder">
                     <div className="containerDiv">

@@ -2,6 +2,8 @@ import { Header } from "../../Components/Header/Header";
 import './Desenhos.css'
 
 import { ButtonUp } from "../../Components/ButtonUp/ButtonUp";
+import { ArrowLeft } from "@phosphor-icons/react";
+import { Link } from "react-router-dom";
 
 /*/////////////// Import Images ////////////////*/
 import Image1 from "../../Assets/Desenhos/img1.jpg"
@@ -51,6 +53,8 @@ export function Desenhos() {
         <>
         <Header />
         <ButtonUp />
+        <Link to="/" className="buttonBack"><ArrowLeft size={16}/>Voltar</Link>
+
             <div className="desenhoBody">
                 <div className="content">
                     <div className="contentOne">

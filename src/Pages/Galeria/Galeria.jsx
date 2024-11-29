@@ -4,11 +4,13 @@ import './Galeria.css';
 import Image1 from '../Galeria/Photos/FotosPrimeiras/porto.jpg'
 import Image2 from '../Galeria/Photos/PedidoDia/nosDoisPedido.jpg'
 import { Link } from "react-router-dom";
+import { ArrowLeft, Folder,FolderOpen } from "@phosphor-icons/react";
 
 export function Galeria() {
     return(
         <>
             <Header />
+            <Link to="/" className="buttonBack"><ArrowLeft size={16}/>Voltar</Link>
             <div className="galeriaBody">
                 <div className="contentGaleria">
                     <Link to="/PrimeirasFotos">
@@ -17,6 +19,8 @@ export function Galeria() {
 
                                 <figcaption className="details">
                                     <h2>PRIMEIRAS FOTOS</h2>
+                                    <Folder size={32} className="folder"/>
+                                    <FolderOpen size={32} className="folderOpen"/>
                                 </figcaption>
                         </figure>
                     </Link>
@@ -26,6 +30,8 @@ export function Galeria() {
 
                                 <figcaption className="details">
                                     <h2>DIA DO PEDIDO</h2>
+                                    <Folder size={32} className="folder"/>
+                                    <FolderOpen size={32} className="folderOpen"/>
                                 </figcaption>
                         </figure>
                     </Link>

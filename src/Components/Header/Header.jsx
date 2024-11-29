@@ -1,5 +1,6 @@
 import { useState } from "react";
 import './Header.css'
+import { Link } from "react-router-dom";
 
 export function Header() {
     const [active, setActive] = useState("nav__menu");
@@ -23,9 +24,9 @@ export function Header() {
 
                 <ul className={active}>
                     <li className="nav__itemFirst" id="first">
-                        <a href="#" className="nav__link">
+                        <Link to="/" className="nav__link">
                             Início
-                        </a>
+                        </Link>
                     </li>
                     <li className="nav__item">
                         <a href="#" className="nav__link">

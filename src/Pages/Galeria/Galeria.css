@@ -7,6 +7,31 @@
     align-items: center;
 }
 
+.buttonBack {
+    position: fixed;
+    bottom: 30px;
+    left: 20px;
+    color: var(--black);
+    width: 100px;
+    height: 40px;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background: var(--button);
+    backdrop-filter: blur(50px);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.buttonBack:hover {
+    text-decoration: none;
+    background: var(--white);
+}
+
 .contentGaleria {
     display: flex;
     flex-wrap: wrap;
@@ -46,6 +71,8 @@
     padding: 20px;
     background: var(--white);
     z-index: 1;
+    display: flex;
+    justify-content: space-between;
 }
 
 .details h2 {
@@ -53,6 +80,26 @@
     font-family: 'Poppins', sans-serif;
     color: var(--black);
     font-weight: 600;
+}
+
+.folder {
+    color: var(--black);
+    opacity: 1;
+}
+
+.folderOpen {
+    color: var(--black);
+    position: absolute;
+    opacity: 0;
+    right: 20px;
+}
+
+.boxPhoto:hover .folder{
+    opacity: 0;
+}
+
+.boxPhoto:hover .folderOpen {
+    opacity: 1;
 }
 
 @media screen and (min-width: 700px) {

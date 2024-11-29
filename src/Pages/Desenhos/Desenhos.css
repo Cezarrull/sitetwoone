@@ -4,10 +4,35 @@
     padding: 20vh 20px 20vh 20px;
 }
 
+.buttonBack {
+    position: fixed;
+    bottom: 30px;
+    left: 20px;
+    color: var(--black);
+    width: 100px;
+    height: 40px;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background: var(--button);
+    backdrop-filter: blur(50px);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.buttonBack:hover {
+    text-decoration: none;
+    background: var(--white);
+}
+
 .content {
     padding: 18px;
     background: var(--bgMain);
-    backdrop-filter: blur(50px);
+    backdrop-filter: blur(10px);
     border-radius: 20px;
     margin-bottom: 10vh;
     padding-bottom: 5vh;
