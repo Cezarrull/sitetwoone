@@ -5,12 +5,16 @@ import { Play, ArrowLeft } from '@phosphor-icons/react'
 import { Link } from 'react-router-dom'
 
 import Image1 from '../../Assets/Pedido/quartoTeAmo.jpg'
+import bgImage from '../../Assets/bgImage.jpg'
+import bgMobile from '../../Assets/bgImageMobile.jpg'
 
 export function Pedido() {
     return(
         <>
         <Header />
         <Link to="/" className="buttonBack"><ArrowLeft size={16}/>Voltar</Link>
+        <img src={bgImage} alt="" className='bg'/>
+        <img src={bgMobile} alt="" className='bgMobile'/>
 
             <div className="pedidoBody">
                 <div className="containerOrder">

@@ -6,12 +6,15 @@ import Image1 from '../../Assets/Home/brava.jpg'
 import Image2 from '../../Assets/Home/carros.jpg'
 import Image3 from '../../Assets/Home/celular.jpg'
 import Image4 from '../../Assets/Home/olhos.jpg'
+import bgImage from '../../Assets/bgImage.jpg'
+import bgMobile from '../../Assets/bgImageMobile.jpg'
 
 export function Home() {
     return (
         <>
         <Header/>
-        <img src={Image2} alt="" className='bg'/>
+        <img src={bgImage} alt="" className='bg'/>
+        <img src={bgMobile} alt="" className='bgMobile'/>
             <div className="homeBody">
                 <Link to="/Pedido" className="buttonHref">
                     <div className="container">
