@@ -1,7 +1,21 @@
+.bg {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    display: none;
+}
+.bgMobile {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    display: block;
+}
+
 .desenhoBody {
-    height: 100%;
-    background: linear-gradient(to left, var(--purple), var(--green));
+    background: transparent;
+    background-attachment: fixed;
     padding: 20vh 20px 20vh 20px;
+    position: relative;
 }
 
 .buttonBack {
@@ -32,7 +46,7 @@
 .content {
     padding: 18px;
     background: var(--bgMain);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(8px);
     border-radius: 20px;
     margin-bottom: 10vh;
     padding-bottom: 5vh;
@@ -83,6 +97,13 @@
 /*/////////////////// @medias screen ///////////////////*/
 
 @media screen and (min-width: 768px) {
+    .bg {
+        display: block;
+    }
+    .bgMobile {
+        display: none;
+    }
+
     .contentImages {
         max-width: 40vw;
     }

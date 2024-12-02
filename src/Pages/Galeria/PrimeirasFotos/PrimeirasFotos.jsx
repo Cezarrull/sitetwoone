@@ -9,6 +9,8 @@ import Image3 from '../Photos/FotosPrimeiras/delado.jpg'
 import Image4 from '../Photos/FotosPrimeiras/porto.jpg'
 import Image5 from '../Photos/FotosPrimeiras/riso.jpg'
 import Image6 from '../Photos/FotosPrimeiras/snap.jpg'
+import bgImage from '../../../Assets/bgImage.jpg'
+import bgMobile from '../../../Assets/bgImageMobile.jpg'
 import { ButtonUp } from "../../../Components/ButtonUp/ButtonUp";
 
 export function PrimeirasFotos() {
@@ -17,6 +19,8 @@ export function PrimeirasFotos() {
         <Header />
         <ButtonUp />
         <Link to="/Galeria" className="buttonBack"><ArrowLeft size={16}/>Voltar</Link>
+        <img src={bgImage} alt="" className='bg'/>
+        <img src={bgMobile} alt="" className='bgMobile'/>
 
             <div className="primeirasBody">
                 <div className="primeirasFotosContent">

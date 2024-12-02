@@ -5,6 +5,9 @@ import { ButtonUp } from "../../Components/ButtonUp/ButtonUp";
 import { ArrowLeft } from "@phosphor-icons/react";
 import { Link } from "react-router-dom";
 
+import bgImage from '../../Assets/bgImage.jpg'
+import bgMobile from '../../Assets/bgImageMobile.jpg'
+
 /*/////////////// Import Images ////////////////*/
 import Image1 from "../../Assets/Desenhos/img1.jpg"
 import Image1m from "../../Assets/Desenhos/img1m.jpg"
@@ -54,6 +57,8 @@ export function Desenhos() {
         <Header />
         <ButtonUp />
         <Link to="/" className="buttonBack"><ArrowLeft size={16}/>Voltar</Link>
+        <img src={bgImage} alt="" className='bg'/>
+        <img src={bgMobile} alt="" className='bgMobile'/>
 
             <div className="desenhoBody">
                 <div className="content">

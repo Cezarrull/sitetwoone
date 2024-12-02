@@ -3,6 +3,8 @@ import './Galeria.css';
 
 import Image1 from '../Galeria/Photos/FotosPrimeiras/porto.jpg'
 import Image2 from '../Galeria/Photos/PedidoDia/nosDoisPedido.jpg'
+import bgImage from '../../Assets/bgImage.jpg'
+import bgMobile from '../../Assets/bgImageMobile.jpg'
 import { Link } from "react-router-dom";
 import { ArrowLeft, Folder,FolderOpen } from "@phosphor-icons/react";
 
@@ -11,6 +13,8 @@ export function Galeria() {
         <>
             <Header />
             <Link to="/" className="buttonBack"><ArrowLeft size={16}/>Voltar</Link>
+            <img src={bgImage} alt="" className='bg'/>
+            <img src={bgMobile} alt="" className='bgMobile'/>
             <div className="galeriaBody">
                 <div className="contentGaleria">
                     <Link to="/PrimeirasFotos">

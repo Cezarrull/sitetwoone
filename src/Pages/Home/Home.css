@@ -15,6 +15,7 @@
     background: transparent;
     padding: 20vh 20px 20vh 20px;
     background-attachment: fixed;
+    position: relative;
 }
 
 .buttonHref:hover {
@@ -25,7 +26,7 @@
 .container {
     padding: 20px 18px;
     background: var(--bgMain);
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(8px);
     border-radius: 20px;
     margin-bottom: 35vh;
     box-shadow: 0 0 13px var(--shadow);
@@ -35,7 +36,7 @@
 .containerTwo {
     padding: 20px 18px;
     background: var(--bgMain);
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(8px);
     border-radius: 20px;
     margin-bottom: 35vh;
     box-shadow: 0 0 13px var(--shadow);

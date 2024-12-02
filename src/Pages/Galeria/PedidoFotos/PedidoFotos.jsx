@@ -11,6 +11,8 @@ import Image3 from '../Photos/PedidoDia/mariaLauraFlor.jpg'
 import Image4 from '../Photos/PedidoDia/nosDoisPedido.jpg'
 import Image5 from '../Photos/PedidoDia/teAmoFlor.jpg'
 import Image6 from '../Photos/PedidoDia/teAmoQuarto.jpg'
+import bgImage from '../../../Assets/bgImage.jpg'
+import bgMobile from '../../../Assets/bgImageMobile.jpg'
 
 export function PedidoFotos () {
     return(
@@ -18,6 +20,8 @@ export function PedidoFotos () {
             <Header />
             <ButtonUp />
             <Link to="/Galeria" className="buttonBack"><ArrowLeft size={16}/>Voltar</Link>
+            <img src={bgImage} alt="" className='bg'/>
+            <img src={bgMobile} alt="" className='bgMobile'/>
 
                 <div className="pedidoFotosBody">
                     <div className='pedidoFotosContent'>
