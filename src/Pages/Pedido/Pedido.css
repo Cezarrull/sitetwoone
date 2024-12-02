@@ -46,11 +46,8 @@
     box-shadow: 0 0 13px var(--shadow);
 }
 
-.containerDiv {
-    margin-bottom: 5vh;
-}
-
 .buttonVideo {
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,10 +57,11 @@
 .buttonVideo .textTwoOrder h2 {
     line-height: 1.5rem;
     margin-bottom: 0;
+    font-size: 1.5rem;
 }
 
 .buttonDiv {
-    height: 8vh;
+    height: min-content;
     width: 100%;
     border-radius: 42px;
     display: flex;
@@ -76,13 +74,13 @@
 .buttonDiv a {
     background: var(--purpleTwo);
     box-shadow: 0 0 13px var(--shadowThree);
-    padding: 15px 8vh;
+    padding: 15px 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 42px;
     font-size: 1rem;
-    transition: 0.3s;
+    transition: 0.2s;
 }
 
 .buttonDiv a:hover {
@@ -121,7 +119,7 @@
     font-weight: 400;
     color: var(--white);
     line-height: 1.5rem;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
 .imageOrder,
@@ -143,7 +141,7 @@
 }
 
 .imageOrder img:hover {
-    transform: scale(1.05);
+    transform: scale(1.02);
     box-shadow: 0 0 15px var(--shadowFour);
 }
 
@@ -169,16 +167,20 @@
     text-decoration: none;
 }
 
+.buttonVideo .textTwoOrder {
+    padding: 5px 5px 15px 5px;
+}
+
 @media screen and (min-width: 768px) {
     .containerOrder,
     .containerTwoOrder {
-        padding: 5vh 0;
+        padding: 5vh 20px;
     }
+    
     .containerDiv {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-bottom: 10vh;
     }
 
     .textOrder,
@@ -203,8 +205,11 @@
     }
 
     .imageOrder img:hover {
-        transform: scale(1.3);
         box-shadow: 0 0 15px var(--shadowFour);
+    }
+
+    .buttonVideo .textTwoOrder h2 {
+        font-size: 1.70rem;
     }
 }
 
@@ -218,7 +223,7 @@
 @media screen and (min-width: 1050px) {
     .textOrder,
     .textTwoOrder {
-        max-width: 30vw;
+        padding: 5vh 20px 35px 40px;
     }
     
     .containerOrder,
@@ -229,7 +234,6 @@
     }
 
     .imageOrder img:hover {
-        transform: scale(1.2);
         box-shadow: 0 0 15px var(--shadowFour);
     }
 }

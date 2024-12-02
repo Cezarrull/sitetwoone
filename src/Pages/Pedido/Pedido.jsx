@@ -24,21 +24,21 @@ export function Pedido() {
                                 Estamos juntos a <span className='buttonDate' id='numberDays' dangerouslySetInnerHTML={{__html: result}} ></span> dias!
                                 Que venha muitos outros.
                             </p>
+                            <div className="divVideoLink">
+                                <div className="buttonVideo">
+                                    <div className="textTwoOrder">
+                                        <h2>ASSISTA UM VÍDEO CHEIO DE EMOÇÕES.</h2>
+                                    </div>
+                                </div>
+                                <div className="buttonDiv">
+                                    <a href="https://www.instagram.com/reel/C_Zek4OMqiUuhxMz8ivk2K__eUvTDa4cvzwucs0/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target='_blanck'>
+                                        <Play size={18} weight="fill" className="playButton"/>ASSISTA AGORA
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                         <div className="imageOrder">
                             <img src={Image1}></img>
-                        </div>
-                    </div>
-                    <div className="divVideoLink">
-                        <div className="buttonVideo">
-                            <div className="textTwoOrder">
-                                <h2>ASSISTA UM VÍDEO CHEIO DE EMOÇÕES.</h2>
-                            </div>
-                        </div>
-                        <div className="buttonDiv">
-                            <a href="https://www.instagram.com/reel/C_Zek4OMqiUuhxMz8ivk2K__eUvTDa4cvzwucs0/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target='_blanck'>
-                                <Play size={18} weight="fill" className="playButton"/>ASSISTA AGORA
-                            </a>
                         </div>
                     </div>
                 </div>
