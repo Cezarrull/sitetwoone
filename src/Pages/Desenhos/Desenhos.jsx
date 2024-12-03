@@ -7,6 +7,8 @@ import { Link } from "react-router-dom";
 
 import bgImage from '../../Assets/bgImage.jpg'
 import bgMobile from '../../Assets/bgImageMobile.jpg'
+import pinPng from '../../Assets/Pin.png'
+import fitaPng from '../../Assets/Desenhos/fita.png'
 
 /*/////////////// Import Images ////////////////*/
 import Image1 from "../../Assets/Desenhos/img1.jpg"
@@ -62,6 +64,8 @@ export function Desenhos() {
 
             <div className="desenhoBody">
                 <div className="content">
+                <img src={pinPng} alt=""  className="pin"/>
+                <img src={fitaPng} alt="" className="fita"/>
                     <div className="contentOne">
                         <div className="titleContent">
                             <h2>Cezar</h2>
@@ -80,6 +84,8 @@ export function Desenhos() {
                     </div>
                 </div>
                 <div className="content">
+                <img src={pinPng} alt=""  className="pin"/>
+                <img src={fitaPng} alt="" className="fita"/>
                     <div className="contentOne">
                         <div className="titleContent">
                             <h2>Cezar</h2>
@@ -98,6 +104,8 @@ export function Desenhos() {
                     </div>
                 </div>
                 <div className="content">
+                <img src={pinPng} alt=""  className="pin"/>
+                <img src={fitaPng} alt="" className="fita"/>
                     <div className="contentOne">
                         <div className="titleContent">
                             <h2>Cezar</h2>
@@ -116,6 +124,8 @@ export function Desenhos() {
                     </div>
                 </div>
                 <div className="content">
+                <img src={pinPng} alt=""  className="pin"/>
+                <img src={fitaPng} alt="" className="fita"/>
                     <div className="contentOne">
                         <div className="titleContent">
                             <h2>Cezar</h2>
@@ -134,6 +144,8 @@ export function Desenhos() {
                     </div>
                 </div>
                 <div className="content">
+                <img src={pinPng} alt=""  className="pin"/>
+                <img src={fitaPng} alt="" className="fita"/>
                     <div className="contentOne">
                         <div className="titleContent">
                             <h2>Cezar</h2>
@@ -152,6 +164,8 @@ export function Desenhos() {
                     </div>
                 </div>
                 <div className="content">
+                <img src={pinPng} alt=""  className="pin"/>
+                <img src={fitaPng} alt="" className="fita"/>
                     <div className="contentOne">
                         <div className="titleContent">
                             <h2>Cezar</h2>
@@ -170,6 +184,8 @@ export function Desenhos() {
                     </div>
                 </div>
                 <div className="content">
+                <img src={pinPng} alt=""  className="pin"/>
+                <img src={fitaPng} alt="" className="fita"/>
                     <div className="contentOne">
                         <div className="titleContent">
                             <h2>Cezar</h2>
@@ -188,6 +204,8 @@ export function Desenhos() {
                     </div>
                 </div>
                 <div className="content">
+                <img src={pinPng} alt=""  className="pin"/>
+                <img src={fitaPng} alt="" className="fita"/>
                     <div className="contentOne">
                         <div className="titleContent">
                             <h2>Cezar</h2>
@@ -206,6 +224,8 @@ export function Desenhos() {
                     </div>
                 </div>
                 <div className="content">
+                <img src={pinPng} alt=""  className="pin"/>
+                <img src={fitaPng} alt="" className="fita"/>
                     <div className="contentOne">
                         <div className="titleContent">
                             <h2>Cezar</h2>
@@ -224,6 +244,8 @@ export function Desenhos() {
                     </div>
                 </div>
                 <div className="content">
+                <img src={pinPng} alt=""  className="pin"/>
+                <img src={fitaPng} alt="" className="fita"/>
                     <div className="contentOne">
                         <div className="titleContent">
                             <h2>Cezar</h2>
@@ -242,6 +264,8 @@ export function Desenhos() {
                     </div>
                 </div>
                 <div className="content">
+                <img src={pinPng} alt=""  className="pin"/>
+                <img src={fitaPng} alt="" className="fita"/>
                     <div className="contentOne">
                         <div className="titleContent">
                             <h2>Cezar</h2>
@@ -260,6 +284,8 @@ export function Desenhos() {
                     </div>
                 </div>
                 <div className="content">
+                <img src={pinPng} alt=""  className="pin"/>
+                <img src={fitaPng} alt="" className="fita"/>
                     <div className="contentOne">
                         <div className="titleContent">
                             <h2>Cezar</h2>
@@ -278,6 +304,8 @@ export function Desenhos() {
                     </div>
                 </div>
                 <div className="content">
+                <img src={pinPng} alt=""  className="pin"/>
+                <img src={fitaPng} alt="" className="fita"/>
                     <div className="contentOne">
                         <div className="titleContent">
                             <h2>Cezar</h2>
@@ -296,6 +324,8 @@ export function Desenhos() {
                     </div>
                 </div>
                 <div className="content">
+                <img src={pinPng} alt=""  className="pin"/>
+                <img src={fitaPng} alt="" className="fita"/>
                     <div className="contentOne">
                         <div className="titleContent">
                             <h2>Cezar</h2>
@@ -314,6 +344,8 @@ export function Desenhos() {
                     </div>
                 </div>
                 <div className="content">
+                <img src={pinPng} alt=""  className="pin"/>
+                <img src={fitaPng} alt="" className="fita"/>
                     <div className="contentOne">
                         <div className="titleContent">
                             <h2>Cezar</h2>
@@ -332,6 +364,8 @@ export function Desenhos() {
                     </div>
                 </div>
                 <div className="content">
+                <img src={pinPng} alt=""  className="pin"/>
+                <img src={fitaPng} alt="" className="fita"/>
                     <div className="contentOne">
                         <div className="titleContent">
                             <h2>Cezar</h2>
@@ -350,6 +384,8 @@ export function Desenhos() {
                     </div>
                 </div>
                 <div className="content">
+                <img src={pinPng} alt=""  className="pin"/>
+                <img src={fitaPng} alt="" className="fita"/>
                     <div className="contentOne">
                         <div className="titleContent">
                             <h2>Cezar</h2>
@@ -368,6 +404,8 @@ export function Desenhos() {
                     </div>
                 </div>
                 <div className="content">
+                <img src={pinPng} alt=""  className="pin"/>
+                <img src={fitaPng} alt="" className="fita"/>
                     <div className="contentOne">
                         <div className="titleContent">
                             <h2>Cezar</h2>
@@ -386,6 +424,8 @@ export function Desenhos() {
                     </div>
                 </div>
                 <div className="content">
+                <img src={pinPng} alt=""  className="pin"/>
+                <img src={fitaPng} alt="" className="fita"/>
                     <div className="contentOne">
                         <div className="titleContent">
                             <h2>Cezar</h2>
@@ -404,6 +444,8 @@ export function Desenhos() {
                     </div>
                 </div>
                 <div className="content">
+                <img src={pinPng} alt=""  className="pin"/>
+                <img src={fitaPng} alt="" className="fita"/>
                     <div className="contentOne">
                         <div className="titleContent">
                             <h2>Cezar</h2>

@@ -8,6 +8,7 @@ import Image3 from '../../Assets/Home/celular.jpg'
 import Image4 from '../../Assets/Home/olhos.jpg'
 import bgImage from '../../Assets/bgImage.jpg'
 import bgMobile from '../../Assets/bgImageMobile.jpg'
+import pinPng from '../../Assets/Pin.png'
 
 export function Home() {
     return (
@@ -18,6 +19,7 @@ export function Home() {
             <div className="homeBody">
                 <Link to="/Pedido" className="buttonHref">
                     <div className="container">
+                    <img src={pinPng} alt="" className="pin"/>
                         <div className="text">
                             <h2>ONDE TUDO COMEÇOU</h2>
                             <p>
@@ -31,6 +33,7 @@ export function Home() {
                 </Link>
                 <Link to="/Desenhos" className="buttonHref">
                     <div className="containerTwo">
+                        <img src={pinPng} alt="" className="pin"/>
                         <div className="imageTwo">
                             <img src={Image2} alt="Two" />
                         </div>
@@ -44,6 +47,7 @@ export function Home() {
                 </Link>
                 <Link to="/Galeria" className="buttonHref">
                     <div className="container">
+                        <img src={pinPng} alt="" className="pin"/>
                         <div className="text">
                             <h2>GALERIA DOS MELHORES MOMENTOS</h2>
                             <p>
@@ -57,6 +61,7 @@ export function Home() {
                 </Link>
                 <Link to="#" className="buttonHref">
                     <div className="containerTwo">
+                        <img src={pinPng} alt="" className="pin"/>
                         <div className="imageTwo">
                             <img src={Image4} alt="Four" />
                         </div>

@@ -7,6 +7,7 @@ import { Link } from 'react-router-dom'
 import Image1 from '../../Assets/Pedido/quartoTeAmo.jpg'
 import bgImage from '../../Assets/bgImage.jpg'
 import bgMobile from '../../Assets/bgImageMobile.jpg'
+import pinPng from '../../Assets/Pin.png'
 
 export function Pedido() {
     return(
@@ -18,6 +19,7 @@ export function Pedido() {
 
             <div className="pedidoBody">
                 <div className="containerOrder">
+                    <img src={pinPng} alt="" className="pinPedido"/>
                     <div className="containerDiv">
                         <div className="textOrder">
                             <h2>DIA DO PEDIDO 01/09/2024</h2>

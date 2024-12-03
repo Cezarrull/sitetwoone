@@ -18,6 +18,21 @@
     position: relative;
 }
 
+.container .pin {
+    height: 80px;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.containerTwo .pin {
+    height: 80px;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    transform: rotateY(180deg)
+}
+
 .buttonHref:hover {
     list-style: none;
     text-decoration: none;
@@ -28,7 +43,7 @@
     background: var(--bgMain);
     backdrop-filter: blur(8px);
     border-radius: 20px;
-    margin-bottom: 35vh;
+    margin-bottom: 25vh;
     box-shadow: 0 0 13px var(--shadow);
     transition: 0.2s;
 }
@@ -38,7 +53,7 @@
     background: var(--bgMain);
     backdrop-filter: blur(8px);
     border-radius: 20px;
-    margin-bottom: 35vh;
+    margin-bottom: 25vh;
     box-shadow: 0 0 13px var(--shadow);
     transition: 0.2s;
 }
@@ -105,6 +120,9 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        max-width: 900px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .text,
@@ -134,12 +152,5 @@
     .text,
     .textTwo {
         max-width: 35vw;
-    }
-    
-    .container,
-    .containerTwo {
-        max-width: 1050px;
-        margin-left: auto;
-        margin-right: auto;
     }
 }

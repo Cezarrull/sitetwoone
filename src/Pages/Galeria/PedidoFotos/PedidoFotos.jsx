@@ -31,7 +31,7 @@ export function PedidoFotos () {
                                 <img src={Image1} alt="" />
 
                                 <figcaption className="details">
-                                    <h2>PRIMEIRAS FOTOS</h2>
+                                    <h2>DIA DO PEDIDO</h2>
                                 </figcaption>
                             </figure>
                         </Link>
@@ -40,7 +40,7 @@ export function PedidoFotos () {
                                 <img src={Image2} alt="" />
 
                                 <figcaption className="details">
-                                    <h2>PRIMEIRAS FOTOS</h2>
+                                    <h2>DIA DO PEDIDO</h2>
                                 </figcaption>
                             </figure>
                         </Link>
@@ -49,7 +49,7 @@ export function PedidoFotos () {
                                 <img src={Image3} alt="" />
 
                                 <figcaption className="details">
-                                    <h2>PRIMEIRAS FOTOS</h2>
+                                    <h2>DIA DO PEDIDO</h2>
                                 </figcaption>
                             </figure>
                         </Link>
@@ -58,7 +58,7 @@ export function PedidoFotos () {
                                 <img src={Image4} alt="" />
 
                                 <figcaption className="details">
-                                    <h2>PRIMEIRAS FOTOS</h2>
+                                    <h2>DIA DO PEDIDO</h2>
                                 </figcaption>
                             </figure>
                         </Link>
@@ -67,7 +67,7 @@ export function PedidoFotos () {
                                 <img src={Image5} alt="" />
 
                                 <figcaption className="details">
-                                    <h2>PRIMEIRAS FOTOS</h2>
+                                    <h2>DIA DO PEDIDO</h2>
                                 </figcaption>
                             </figure>
                         </Link>
@@ -76,7 +76,7 @@ export function PedidoFotos () {
                                 <img src={Image6} alt="" />
 
                                 <figcaption className="details">
-                                    <h2>PRIMEIRAS FOTOS</h2>
+                                    <h2>DIA DO PEDIDO</h2>
                                 </figcaption>
                             </figure>
                         </Link>

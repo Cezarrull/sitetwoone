@@ -48,12 +48,27 @@
     background: var(--bgMain);
     backdrop-filter: blur(8px);
     border-radius: 20px;
-    margin-bottom: 10vh;
+    margin-bottom: 15vh;
     padding-bottom: 5vh;
     box-shadow: 0 0 13px var(--shadow);
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+
+.pin {
+    height: 70px;
+    position: absolute;
+    top: -15px;
+}
+
+.fita {
+    height: 200px;
+    position: absolute;
+    bottom: -115px;
+    transform: rotateX(180deg);
+    opacity: 0.9;
 }
 
 .titleContent {
@@ -104,6 +119,24 @@
         display: none;
     }
 
+    .content {
+        max-width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 25vh;
+    }
+
+    .pin {
+        height: 80px;
+    }
+
+    .fita {
+        height: 340px;
+        position: absolute;
+        bottom: -200px;
+        transform: rotateX(180deg);
+    }
+
     .contentImages {
         max-width: 40vw;
     }
@@ -120,12 +153,6 @@
 }
 
 @media screen and (min-width: 1050px) {
-    .content {
-        max-width: 1050px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
     .contentImages {
         max-width: 20vw;
     }

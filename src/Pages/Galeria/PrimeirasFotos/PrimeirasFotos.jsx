@@ -5,10 +5,10 @@ import './PrimeirasFotos.css';
 
 import Image1 from '../Photos/FotosPrimeiras/beijo.jpg'
 import Image2 from '../Photos/FotosPrimeiras/celular.jpg'
-import Image3 from '../Photos/FotosPrimeiras/delado.jpg'
+import Image3 from '../Photos/FotosPrimeiras/snap.jpg'
 import Image4 from '../Photos/FotosPrimeiras/porto.jpg'
-import Image5 from '../Photos/FotosPrimeiras/riso.jpg'
-import Image6 from '../Photos/FotosPrimeiras/snap.jpg'
+import Image5 from '../Photos/FotosPrimeiras/banheiro.jpg'
+import Image6 from '../Photos/FotosPrimeiras/bravesa.jpg'
 import bgImage from '../../../Assets/bgImage.jpg'
 import bgMobile from '../../../Assets/bgImageMobile.jpg'
 import { ButtonUp } from "../../../Components/ButtonUp/ButtonUp";
