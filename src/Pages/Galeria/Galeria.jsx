@@ -21,7 +21,7 @@ export function Galeria() {
                         <figure className="boxPhoto">
                                 <img src={Image1} alt="" />
 
-                                <figcaption className="details">
+                                <figcaption className="detailsGallery">
                                     <h2>PRIMEIRAS FOTOS</h2>
                                     <Folder size={32} className="folder"/>
                                     <FolderOpen size={32} className="folderOpen"/>
@@ -32,7 +32,7 @@ export function Galeria() {
                         <figure className="boxPhoto">
                                 <img src={Image2} alt="" />
 
-                                <figcaption className="details">
+                                <figcaption className="detailsGallery">
                                     <h2>DIA DO PEDIDO</h2>
                                     <Folder size={32} className="folder"/>
                                     <FolderOpen size={32} className="folderOpen"/>

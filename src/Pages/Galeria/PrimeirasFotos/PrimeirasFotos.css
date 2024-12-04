@@ -56,21 +56,21 @@
     text-decoration: none;
 }
 
-.boxPhotoPrimeiras {
+.boxOpened {
     background-color: var(--white);
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0 0 15px var(--shadow);
     max-width: 380px;
-    transition: 0.4s;
+    transition: 0.2s;
     margin-bottom: 10vh;
 }
 
-.boxPhotoPrimeiras:hover {
+.boxOpened:hover {
     box-shadow: 0 0 20px var(--shadowFour);
 }
 
-.boxPhotoPrimeiras img {
+.boxOpened img {
     width: 100%;
     height: 350px;
     aspect-ratio: 16/9;
@@ -91,6 +91,77 @@
     font-family: 'Poppins', sans-serif;
     color: var(--black);
     font-weight: 600;
+    display: none;
+}
+
+.details p {
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    color: var(--black);
+    font-weight: 600;
+    display: block;
+}
+
+.buttonClose {
+    display: none;
+}
+
+.boxCheck {
+    position: fixed;
+    z-index: 100000;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 0;
+    background: var(--bgPhoto);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    transition: 0s;
+}
+
+.boxCheck .details {
+    padding: 20px 80px;
+    position: absolute;
+    bottom: 0;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.boxCheck .details h2 {
+    display: block;
+}
+
+.boxCheck .details P {
+    display: none;
+}
+
+.boxCheck img {
+    position: absolute;
+    padding: 20px;
+    height: 500px;
+    width: 100%;
+    max-width: 400px;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+
+    transition: all 200ms ease-out;
+    display: block;;
+}
+
+.boxCheck .buttonClose {
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    color: var(--white);
+    transition: 0.2s;
+}
+
+.boxCheck .buttonClose:hover {
+    color: var(--button);
 }
 
 @media screen and (min-width: 768px) {
@@ -103,12 +174,27 @@
 }
 
 @media screen and (min-width: 700px) {
-    .boxPhotoPrimeiras {
+    .boxOpened {
         max-width: 300px;
         margin: 20px;
     }
 
-    .boxPhotoPrimeiras img {
+    .boxOpened img {
         height: 270px;
+    }
+
+    .boxCheck {
+        margin: 0;
+        max-width: 100%;
+    }
+
+    .boxCheck img {
+        height: 500px;
+        width: 400px;
+    }
+
+    .boxCheck .buttonClose {
+        top: 25px;
+        right: 25px;
     }
 }
