@@ -14,7 +14,7 @@
 .pedidoFotosBody {
     background: transparent;
     background-attachment: fixed;
-    padding: 20vh 20px 20vh 20px;
+    padding: 20vh 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,6 +22,7 @@
 }
 
 .pedidoFotosContent {
+    margin: 0 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -161,6 +162,50 @@
 
 .boxCheckPedido .buttonClosePedido:hover {
     color: var(--button);
+}
+
+.PedidoLinkPage {
+    height: 100px;
+    width: 100%;
+    max-width: 400px;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonPagePedido {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 32px;
+    background: var(--red);
+    color: var(--white);
+    padding: 15px 90px;
+    box-shadow: 0 0 10px var(--shadowThree);
+    font-family: 'Poppins', sans-serif;
+    transition: 0.2s;
+}
+
+.iconButtonPedido {
+    margin-left: 5px;
+    margin-bottom: 3px;
+}
+
+.buttonPagePedido:hover {
+    text-decoration: none;
+    transform: scale(1.02);
+}
+
+.closeButtonLink {
+    position: absolute;
+    top: -8px;
+    left: -8px;
+    background: var(--bgHeader);
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    padding: 5px;
 }
 
 @media screen and (min-width: 768px) {

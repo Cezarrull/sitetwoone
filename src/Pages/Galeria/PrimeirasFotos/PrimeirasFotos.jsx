@@ -50,7 +50,7 @@ export function PrimeirasFotos() {
 
                             <figcaption className="details">
                                 <p>PRIMEIRAS FOTOS</p>
-                                <h2>01/01/2024</h2>
+                                <h2>16/08/2024</h2>
                             </figcaption>
                         </figure>
                     </Link>
@@ -63,7 +63,7 @@ export function PrimeirasFotos() {
 
                             <figcaption className="details">
                                 <p>PRIMEIRAS FOTOS</p>
-                                <h2>02/02/2024</h2>
+                                <h2>10/08/2024</h2>
                             </figcaption>
                         </figure>
                     </Link>
@@ -76,7 +76,7 @@ export function PrimeirasFotos() {
 
                             <figcaption className="details">
                                 <p>PRIMEIRAS FOTOS</p>
-                                <h2>03/03/2024</h2>
+                                <h2>09/08/2024</h2>
                             </figcaption>
                         </figure>
                     </Link>
@@ -89,7 +89,7 @@ export function PrimeirasFotos() {
 
                             <figcaption className="details">
                                 <p>PRIMEIRAS FOTOS</p>
-                                <h2>04/04/2024</h2>
+                                <h2>20/07/2024</h2>
                             </figcaption>
                         </figure>
                     </Link>
@@ -102,7 +102,7 @@ export function PrimeirasFotos() {
 
                             <figcaption className="details">
                                 <p>PRIMEIRAS FOTOS</p>
-                                <h2>05/05/2024</h2>
+                                <h2>25/08/2024</h2>
                             </figcaption>
                         </figure>
                     </Link>
@@ -115,7 +115,7 @@ export function PrimeirasFotos() {
 
                             <figcaption className="details">
                                 <p>PRIMEIRAS FOTOS</p>
-                                <h2>06/06/2024</h2>
+                                <h2>31/08/2024</h2>
                             </figcaption>
                         </figure>
                     </Link>

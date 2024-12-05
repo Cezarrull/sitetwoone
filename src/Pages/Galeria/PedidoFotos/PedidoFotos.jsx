@@ -4,7 +4,7 @@ import { useState } from "react";
 import { ButtonUp } from "../../../Components/ButtonUp/ButtonUp";
 import { Header } from "../../../Components/Header/Header";
 import { Link } from "react-router-dom";
-import { ArrowLeft, X } from '@phosphor-icons/react';
+import { ArrowLeft, X, ArrowSquareOut } from '@phosphor-icons/react';
 
 import Image1 from '../Photos/PedidoDia/alianças.jpg'
 import Image2 from '../Photos/PedidoDia/floresM.jpg'
@@ -52,7 +52,7 @@ export function PedidoFotos () {
 
                                 <figcaption className="details">
                                     <p>DIA DO PEDIDO</p>
-                                    <h2>01/01/2024</h2>
+                                    <h2>01/09/2024</h2>
                                 </figcaption>
                             </figure>
                         </Link>
@@ -65,7 +65,7 @@ export function PedidoFotos () {
 
                                 <figcaption className="details">
                                     <p>DIA DO PEDIDO</p>
-                                    <h2>02/02/2024</h2>
+                                    <h2>01/09/2024</h2>
                                 </figcaption>
                             </figure>
                         </Link>
@@ -78,7 +78,7 @@ export function PedidoFotos () {
 
                                 <figcaption className="details">
                                     <p>DIA DO PEDIDO</p>
-                                    <h2>03/03/2024</h2>
+                                    <h2>01/09/2024</h2>
                                 </figcaption>
                             </figure>
                         </Link>
@@ -91,7 +91,7 @@ export function PedidoFotos () {
 
                                 <figcaption className="details">
                                     <p>DIA DO PEDIDO</p>
-                                    <h2>04/04/2024</h2>
+                                    <h2>01/09/2024</h2>
                                 </figcaption>
                             </figure>
                         </Link>
@@ -104,7 +104,7 @@ export function PedidoFotos () {
 
                                 <figcaption className="details">
                                     <p>DIA DO PEDIDO</p>
-                                    <h2>05/05/2024</h2>
+                                    <h2>01/09/2024</h2>
                                 </figcaption>
                             </figure>
                         </Link>
@@ -117,10 +117,13 @@ export function PedidoFotos () {
 
                                 <figcaption className="details">
                                     <p>DIA DO PEDIDO</p>
-                                    <h2>06/06/2024</h2>
+                                    <h2>01/09/2024</h2>
                                 </figcaption>
                             </figure>
                         </Link>
+                        <div className="PedidoLinkPage">
+                            <Link to="/Pedido" className='buttonPagePedido'>Vejas mais <ArrowSquareOut size={22} className='iconButtonPedido'/></Link>
+                        </div>
                     </div>
                 </div>
         </>

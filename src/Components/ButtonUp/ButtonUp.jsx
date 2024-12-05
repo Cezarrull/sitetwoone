@@ -8,7 +8,7 @@ export function ButtonUp() {
 
         const handleScroll = () => {
             if (toTop) {  // Verifique se o elemento existe
-                toTop.classList.toggle("active", window.scrollY > 1000);
+                toTop.classList.toggle("active", window.scrollY > 900);
             }
         };
 

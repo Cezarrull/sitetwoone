@@ -12,8 +12,8 @@
     border: none;
     opacity: 0;
     transition: 0.2s;
-    cursor: pointer;
     z-index: 90;
+    cursor: default;
 }
 
 .buttonUp:hover {
@@ -22,4 +22,5 @@
 
 .active {
     opacity: 1;
+    cursor: pointer;
 }

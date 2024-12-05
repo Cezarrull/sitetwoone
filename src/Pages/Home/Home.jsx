@@ -1,5 +1,7 @@
 import { Header } from '../../Components/Header/Header';
 import { Link } from 'react-router-dom';
+import { ButtonUp } from '../../Components/ButtonUp/ButtonUp';
+import { useEffect } from 'react';
 import './Home.css'
 
 import Image1 from '../../Assets/Home/brava.jpg'
@@ -11,13 +13,27 @@ import bgMobile from '../../Assets/bgImageMobile.jpg'
 import pinPng from '../../Assets/Pin.png'
 
 export function Home() {
+    const saveScrollPosition = () => {
+        sessionStorage.setItem('scrollPosition', window.scrollY);
+    };
+    
+    useEffect(() => {
+        const savedScrollPosition = sessionStorage.getItem('scrollPosition');
+        if (savedScrollPosition) {
+            window.scrollTo(0, parseInt(savedScrollPosition, 10)); 
+        } else {
+            window.scrollTo(0, 0); 
+        }
+    }, []);
+
     return (
         <>
         <Header/>
+        <ButtonUp />
         <img src={bgImage} alt="" className='bg'/>
         <img src={bgMobile} alt="" className='bgMobile'/>
             <div className="homeBody">
-                <Link to="/Pedido" className="buttonHref">
+                <Link to="/Pedido" className="buttonHref" onClick={saveScrollPosition}>
                     <div className="container">
                     <img src={pinPng} alt="" className="pin"/>
                         <div className="text">
@@ -31,7 +47,7 @@ export function Home() {
                         </div>
                     </div>
                 </Link>
-                <Link to="/Desenhos" className="buttonHref">
+                <Link to="/Desenhos" className="buttonHref" onClick={saveScrollPosition}>
                     <div className="containerTwo">
                         <img src={pinPng} alt="" className="pin"/>
                         <div className="imageTwo">
@@ -45,7 +61,7 @@ export function Home() {
                         </div>
                     </div>
                 </Link>
-                <Link to="/Galeria" className="buttonHref">
+                <Link to="/Galeria" className="buttonHref" onClick={saveScrollPosition}>
                     <div className="container">
                         <img src={pinPng} alt="" className="pin"/>
                         <div className="text">
@@ -59,7 +75,7 @@ export function Home() {
                         </div>
                     </div>
                 </Link>
-                <Link to="#" className="buttonHref">
+                <Link to="/Notas" className="buttonHref" onClick={saveScrollPosition}>
                     <div className="containerTwo">
                         <img src={pinPng} alt="" className="pin"/>
                         <div className="imageTwo">
