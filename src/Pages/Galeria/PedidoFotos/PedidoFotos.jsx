@@ -51,7 +51,6 @@ export function PedidoFotos () {
                                 </div>
 
                                 <figcaption className="details">
-                                    <p>DIA DO PEDIDO</p>
                                     <h2>01/09/2024</h2>
                                 </figcaption>
                             </figure>
@@ -64,7 +63,6 @@ export function PedidoFotos () {
                                 </div>
 
                                 <figcaption className="details">
-                                    <p>DIA DO PEDIDO</p>
                                     <h2>01/09/2024</h2>
                                 </figcaption>
                             </figure>
@@ -77,7 +75,6 @@ export function PedidoFotos () {
                                 </div>
 
                                 <figcaption className="details">
-                                    <p>DIA DO PEDIDO</p>
                                     <h2>01/09/2024</h2>
                                 </figcaption>
                             </figure>
@@ -90,7 +87,6 @@ export function PedidoFotos () {
                                 </div>
 
                                 <figcaption className="details">
-                                    <p>DIA DO PEDIDO</p>
                                     <h2>01/09/2024</h2>
                                 </figcaption>
                             </figure>
@@ -103,7 +99,6 @@ export function PedidoFotos () {
                                 </div>
 
                                 <figcaption className="details">
-                                    <p>DIA DO PEDIDO</p>
                                     <h2>01/09/2024</h2>
                                 </figcaption>
                             </figure>
@@ -116,7 +111,6 @@ export function PedidoFotos () {
                                 </div>
 
                                 <figcaption className="details">
-                                    <p>DIA DO PEDIDO</p>
                                     <h2>01/09/2024</h2>
                                 </figcaption>
                             </figure>

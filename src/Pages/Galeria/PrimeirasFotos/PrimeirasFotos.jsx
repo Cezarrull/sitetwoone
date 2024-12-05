@@ -43,13 +43,12 @@ export function PrimeirasFotos() {
                 <div className="primeirasFotosContent">
                     <Link to="#">
                         <figure className={`boxOpened ${active === 0 ? 'boxCheck' : ''}`} onClick={() => handleClick(0)}>
-                            <img src={Image1} alt=""/>
+                            <img src={Image1} alt="" />
                             <div className="buttonClose" onClick={(event) => btnClose(0, event)}>
                                 <X size={32}/>
                             </div>
 
                             <figcaption className="details">
-                                <p>PRIMEIRAS FOTOS</p>
                                 <h2>16/08/2024</h2>
                             </figcaption>
                         </figure>
@@ -62,7 +61,6 @@ export function PrimeirasFotos() {
                             </div>
 
                             <figcaption className="details">
-                                <p>PRIMEIRAS FOTOS</p>
                                 <h2>10/08/2024</h2>
                             </figcaption>
                         </figure>
@@ -75,7 +73,6 @@ export function PrimeirasFotos() {
                             </div>
 
                             <figcaption className="details">
-                                <p>PRIMEIRAS FOTOS</p>
                                 <h2>09/08/2024</h2>
                             </figcaption>
                         </figure>
@@ -88,7 +85,6 @@ export function PrimeirasFotos() {
                             </div>
 
                             <figcaption className="details">
-                                <p>PRIMEIRAS FOTOS</p>
                                 <h2>20/07/2024</h2>
                             </figcaption>
                         </figure>
@@ -101,7 +97,6 @@ export function PrimeirasFotos() {
                             </div>
 
                             <figcaption className="details">
-                                <p>PRIMEIRAS FOTOS</p>
                                 <h2>25/08/2024</h2>
                             </figcaption>
                         </figure>
@@ -114,7 +109,6 @@ export function PrimeirasFotos() {
                             </div>
 
                             <figcaption className="details">
-                                <p>PRIMEIRAS FOTOS</p>
                                 <h2>31/08/2024</h2>
                             </figcaption>
                         </figure>

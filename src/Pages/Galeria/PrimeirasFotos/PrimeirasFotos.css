@@ -58,7 +58,7 @@
 
 .boxOpened {
     background-color: var(--white);
-    border-radius: 20px;
+    border-radius: 14px;
     overflow: hidden;
     box-shadow: 0 0 15px var(--shadow);
     max-width: 380px;
@@ -84,6 +84,7 @@
     padding: 20px;
     background: var(--white);
     z-index: 1;
+    display: none;
 }
 
 .details h2 {
@@ -92,14 +93,6 @@
     color: var(--black);
     font-weight: 600;
     display: none;
-}
-
-.details p {
-    font-size: 1.2rem;
-    font-family: 'Poppins', sans-serif;
-    color: var(--black);
-    font-weight: 600;
-    display: block;
 }
 
 .buttonClose {
@@ -120,6 +113,7 @@
     align-items: center;
     max-width: 100%;
     transition: 0s;
+    transform: rotate(0);
 }
 
 .boxCheck .details {
@@ -128,6 +122,7 @@
     bottom: 0;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
+    display: block;
 }
 
 .boxCheck .details h2 {
@@ -180,7 +175,7 @@
     }
 
     .boxOpened img {
-        height: 270px;
+        height: 300px;
     }
 
     .boxCheck {
