@@ -82,9 +82,9 @@ export function Home() {
                             <img src={Image4} alt="Four" />
                         </div>
                         <div className="textTwo">
-                            <h2>TESTE SOBRE ALINHAMENTO DE TEXTO PARA DIV</h2>
+                            <h2>ALGUMAS NOTAS</h2>
                             <p>
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum omnis exercitationem voluptates perferendis temporibus pariatur
+                                Em cada nota, um pedaço do meu amor por você.
                             </p>
                         </div>
                     </div>
