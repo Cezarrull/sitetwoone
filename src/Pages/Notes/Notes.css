@@ -12,6 +12,72 @@
     display: block;
 }
 
+.buttonBack {
+    position: fixed;
+    bottom: 30px;
+    left: 20px;
+    color: var(--black);
+    width: 100px;
+    height: 40px;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background: var(--button);
+    backdrop-filter: blur(50px);
+    transition: 0.2s;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.buttonBack:hover {
+    text-decoration: none;
+    background: var(--white);
+}
+
+.containerNote {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10vh 20px;
+}
+
+.contentNote {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.contentNote .postBack {
+    height: 350px;
+    border: 1px solid green;
+}
+
+.textNote {
+    font-family: "Oooh Baby", cursive;
+    color: var(--red);
+    font-weight: 600;
+    font-size: 2rem;
+    position: absolute;
+}
+
+.contentNote .postUp {
+    height: 300px;
+    position: absolute;
+    transition: 1s;
+    border: 1px solid red;
+}
+
+.postUp:hover {
+    opacity: 0;
+}
+
 @media screen and (min-width: 768px) {
     .bg {
         display: block;
