@@ -1,0 +1,131 @@
+.bg {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    display: none;
+}
+
+.bgMobile {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    display: block;
+}
+
+.buttonBack {
+    position: fixed;
+    bottom: 30px;
+    left: 20px;
+    color: var(--black);
+    width: 100px;
+    height: 40px;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background: var(--button);
+    backdrop-filter: blur(50px);
+    transition: 0.2s;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.buttonBack:hover {
+    text-decoration: none;
+    background: var(--white);
+}
+
+.quizBody {
+    padding: 100px 20px;
+}
+
+.contentQuiz {
+    padding: 20px 18px;
+    background: var(--bgMain);
+    backdrop-filter: blur(8px);
+    border-radius: 20px;
+    margin-bottom: 25vh;
+    box-shadow: 0 0 13px var(--shadow);
+    transition: 0.2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.quiz:hover {
+    text-decoration: none;
+}
+
+.quizContainer {
+    background-color: var(--white);
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 0 15px var(--shadowFour);
+    max-width: 320px;
+    transition: 0.2s;
+    margin-bottom: 20px;
+}
+
+.quizContainer:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 20px var(--shadowFour);
+}
+
+.quizContainer img {
+    width: 100%;
+    height: 275px;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+
+    transition: all 200ms ease-out;
+    display: block;
+}
+
+.quizDetails {
+    padding: 15px 30px 15px 20px;
+    height: 80px;
+    background: var(--white);
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.quizDetails h2 {
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    color: var(--black);
+    font-weight: 500;
+}
+
+@media screen and (min-width: 700px) {
+    .quizContainer {
+        max-width: 280px;
+        margin: 20px;
+    }
+
+    .quizContainer img {
+        height: 250px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .bg {
+        display: block;
+    }
+    .bgMobile {
+        display: none;
+    }
+
+    .contentQuiz {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

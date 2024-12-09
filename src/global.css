@@ -1,11 +1,12 @@
 :root {
     --black: #000000;
     --white: #ffffff;
-    --gray: #dcdcdc;
+    --gray: #f3f3f3;
 
     --purple: #662fff;
     
     --red: #e00d0d;
+    --redTwo: #c90808;
 
     --green: #1aaaaf;
 
@@ -16,7 +17,6 @@
 
     --button: rgba(255, 255, 255, 0.5);
     
-
     --shadow: #44444444;
     --shadowTwo: #67c9cc;
     --shadowThree: #a30606;

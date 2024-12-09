@@ -5,8 +5,11 @@ import { Desenhos } from "../Pages/Desenhos/Desenhos";
 import { Galeria } from "../Pages/Galeria/Galeria";
 import { PrimeirasFotos } from "../Pages/Galeria/PrimeirasFotos/PrimeirasFotos";
 import { PedidoFotos } from "../Pages/Galeria/PedidoFotos/PedidoFotos";
-import { Notes } from "../Pages/Notes/Notes";
+import { Quiz } from "../Pages/Quiz/Quiz";
 import ScrollToTop from "./ScrollToTop";
+import { QuizJuntos } from "../Pages/Quiz/PageQuiz/QuizJuntos";
+import { QuizCezar } from "../Pages/Quiz/PageQuiz/QuizCezar";
+import { QuizLala } from "../Pages/Quiz/PageQuiz/QuizLala";
 
 export function AppRouter() {
     const location = useLocation();
@@ -21,7 +24,10 @@ export function AppRouter() {
                 <Route path="/Galeria" element={<Galeria />} />
                 <Route path="/PrimeirasFotos" element={<PrimeirasFotos />} />
                 <Route path="/DiaDoPedido" element={<PedidoFotos />} />
-                <Route path="/Notas" element={<Notes />} />
+                <Route path="/Quiz" element={<Quiz />} />
+                <Route path="/QuizSobreNós" element={<QuizJuntos />} />
+                <Route path="/QuizCezar" element={<QuizCezar />} />
+                <Route path="/QuizLala" element={<QuizLala />} />
             </Routes>
         </>
     )

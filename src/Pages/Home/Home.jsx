@@ -75,16 +75,16 @@ export function Home() {
                         </div>
                     </div>
                 </Link>
-                <Link to="/Notas" className="buttonHref" onClick={saveScrollPosition}>
+                <Link to="/Quiz" className="buttonHref" onClick={saveScrollPosition}>
                     <div className="containerTwo">
                         <img src={pinPng} alt="" className="pin"/>
                         <div className="imageTwo">
                             <img src={Image4} alt="Four" />
                         </div>
                         <div className="textTwo">
-                            <h2>ALGUMAS NOTAS</h2>
+                            <h2>QUIZZES</h2>
                             <p>
-                                Em cada nota, um pedaço do meu amor por você.
+                                Alguns quizzes com até 20 perguntas sobre nós!
                             </p>
                         </div>
                     </div>

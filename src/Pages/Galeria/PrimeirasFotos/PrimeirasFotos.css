@@ -79,21 +79,7 @@
     transition: all 200ms ease-out;
     display: block;
 }
-/*
-.textPhoto {
-    position: absolute;
-    height: 100px;
-    width: 200px;
-    background: linear-gradient(80deg var(--bgPhoto), var(--shadow));
-    border-bottom-right-radius: 75%;
-    opacity: 0;
-    box-shadow: 0 0 100px var(--black);
-}
 
-.boxOpened:hover .textPhoto  {
-    opacity: 1;
-}
-*/
 .details {
     padding: 20px;
     background: var(--white);

@@ -118,9 +118,3 @@ export function PrimeirasFotos() {
         </>
     )
 }
-
-/*
-    <div className="textPhoto">
-        <p>test test</p>
-    </div>
-*/

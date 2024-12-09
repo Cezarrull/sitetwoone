@@ -1,0 +1,150 @@
+.bg {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    display: none;
+}
+
+.bgMobile {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    display: block;
+}
+
+.buttonBack {
+    position: fixed;
+    bottom: 30px;
+    left: 20px;
+    color: var(--black);
+    width: 100px;
+    height: 40px;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background: var(--button);
+    backdrop-filter: blur(50px);
+    transition: 0.2s;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.buttonBack:hover {
+    text-decoration: none;
+    background: var(--white);
+}
+
+.bodyPlayQuiz {
+    padding: 100px 20px;
+}
+
+.containerPlay {
+    padding: 20px 18px;
+    background: var(--bgMain);
+    backdrop-filter: blur(8px);
+    border-radius: 20px;
+    margin-bottom: 25vh;
+    box-shadow: 0 0 13px var(--shadow);
+    transition: 0.2s;
+    justify-items: center;
+}
+
+.contentImg {
+    background-color: var(--white);
+    overflow: hidden;
+    box-shadow: 0 0 15px var(--shadowFour);
+    max-width: 320px;
+    transition: 0.2s;
+    margin-bottom: 20px;
+}
+
+.contentImg img {
+    width: 100%;
+    height: 270px;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+
+    transition: all 200ms ease-out;
+    display: block;
+}
+
+.contentPlay {
+    max-width: 450px;
+    height: 100%;
+}
+
+.contentPlay h2 {
+    font-size: 1.75rem;
+    font-family: 'Poppins',sans-serif;
+    color: var(--white);
+    font-weight: 500;
+    margin-bottom: 10px;
+    line-height: 2rem;
+}
+
+.containerPlay p {
+    font-size: 1rem;
+    font-family: 'Poppins',sans-serif;
+    color: var(--gray);
+    font-weight: 400;
+}
+
+.buttonPlayLink:hover {
+    text-decoration: none;
+}
+
+.buttonPlay {
+    margin-top: 50px;
+    height: 60px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--red);
+    box-shadow: 0 0 8px var(--shadowThree);
+    transition: 0.2s;
+}
+
+.buttonPlay p {
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.buttonPlay:hover {
+    background: var(--redTwo);
+}
+
+.othersQuiz {
+    border: 1px solid red;
+    width: 100%;
+    height: 200px;
+}
+
+@media screen and (min-width: 768px) {
+    .bg {
+        display: block;
+    }
+    .bgMobile {
+        display: none;
+    } 
+
+    .containerPlay {
+        padding: 20px 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        max-width: max-content;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .contentImg {
+        margin-right: 20px;
+        margin-bottom: 0;
+    }
+}
