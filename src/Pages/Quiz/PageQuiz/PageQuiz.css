@@ -56,7 +56,6 @@
 .contentImg {
     background-color: var(--white);
     overflow: hidden;
-    box-shadow: 0 0 15px var(--shadowFour);
     max-width: 320px;
     transition: 0.2s;
     margin-bottom: 20px;
