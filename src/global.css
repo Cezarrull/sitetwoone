@@ -7,8 +7,17 @@
     
     --red: #e00d0d;
     --redTwo: #c90808;
+    --redThree: #8f0505;
 
-    --green: #1aaaaf;
+    --green: #03ad1a;
+    --greenBlack: #028013;
+    --greenTwo: #018b14;
+    --greenBlackTwo: #01520c;
+
+    --blueBlack: #001457;
+    --blueBlackTwo: #021142;
+    --blue: #001d7e;
+    --blueTwo: #021a69;
 
     --bgOne: #662fff96;
     --bgHeader: rgba(75, 75, 75, 0.6);

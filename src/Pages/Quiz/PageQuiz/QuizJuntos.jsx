@@ -29,7 +29,7 @@ export function QuizJuntos() {
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     </p>
-                    <Link className="buttonPlayLink">
+                    <Link to="/DescubraSeVoceSabeUmPoucoSobreNos" className="buttonPlayLink">
                         <div className="buttonPlay">
                             <p>Jogar o Quiz</p>
                         </div>
