@@ -25,7 +25,7 @@ export function AppRouter() {
                 <Route path="/PrimeirasFotos" element={<PrimeirasFotos />} />
                 <Route path="/DiaDoPedido" element={<PedidoFotos />} />
                 <Route path="/Quiz" element={<Quiz />} />
-                <Route path="/QuizSobreNós" element={<QuizJuntos />} />
+                <Route path="/Quiz/QuizSobreNós" element={<QuizJuntos />} />
                 <Route path="/QuizCezar" element={<QuizCezar />} />
                 <Route path="/QuizLala" element={<QuizLala />} />
             </Routes>

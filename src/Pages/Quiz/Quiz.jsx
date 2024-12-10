@@ -20,7 +20,7 @@ export function Quiz() {
 
             <div className="quizBody">
                 <div className="contentQuiz">
-                    <Link to="/QuizSobreNós" className="quiz">
+                    <Link to="/Quiz/QuizSobreNós" className="quiz">
                         <figure className="quizContainer">
                             <img src={juntos} alt="" />
 

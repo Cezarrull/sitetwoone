@@ -26,6 +26,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    max-width: 1050px;
 } 
 
 .buttonBack {
@@ -161,7 +162,6 @@
 .PedidoLinkPage {
     height: 100px;
     width: 100%;
-    max-width: 400px;
     background: transparent;
     display: flex;
     justify-content: center;
@@ -213,12 +213,12 @@
 
 @media screen and (min-width: 700px) {
     .boxOpenedPedido {
-        max-width: 300px;
+        max-width: 280px;
         margin: 20px;
     }
 
     .boxOpenedPedido img {
-        height: 300px;
+        height: 270px;
     }
 
     .boxCheckPedido {

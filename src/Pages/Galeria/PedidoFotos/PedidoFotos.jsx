@@ -42,7 +42,6 @@ export function PedidoFotos () {
 
                 <div className="pedidoFotosBody">
                     <div className='pedidoFotosContent'>
-                        
                         <Link to="#">
                             <figure className={`boxOpenedPedido ${active === 0 ? 'boxCheckPedido' : ''}`} onClick={() => handleClick(0)}>
                                 <img src={Image1} alt="" />

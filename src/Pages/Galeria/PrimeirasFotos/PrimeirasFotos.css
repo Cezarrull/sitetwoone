@@ -25,6 +25,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    max-width: 1050px;
 }
 
 .buttonBack {
@@ -170,12 +171,12 @@
 
 @media screen and (min-width: 700px) {
     .boxOpened {
-        max-width: 300px;
+        max-width: 280px;
         margin: 20px;
     }
 
     .boxOpened img {
-        height: 300px;
+        height: 270px;
     }
 
     .boxCheck {
