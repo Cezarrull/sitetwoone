@@ -9,7 +9,7 @@ import bgImage from '../../../../Assets/bgImage.jpg'
 import { Link } from "react-router-dom";
 import { ArrowLeft } from "@phosphor-icons/react";
 
-export function Juntos() {
+export function Cezar() {
     const [active, setActive] = useState(new Set());  // Usar um Set para manter os índices abertos
 
     const handleClick = (index) => {
@@ -40,7 +40,7 @@ export function Juntos() {
                             <p><span>2)</span>testTwo</p>
                             <p><span>3)</span>testThree</p>
                         </div>
-                        <div className={`buttonCheckQuestion ${active.has(0) ? 'buttonOpenResponse' : ''}`} onClick={() => handleClick(0)}>
+                        <div className={`buttonCheckQuestion ${active.has(0) ? 'buttonOpenResponse' : ''}`} onClick={() => handleClick(0)} id="cezarQuiz">
                             <p>RESPOSTA</p>
                             <div className="response">
                                 <p className="textResponse">
@@ -60,7 +60,7 @@ export function Juntos() {
                             <p><span>2)</span>testTwo</p>
                             <p><span>3)</span>testThree</p>
                         </div>
-                        <div className={`buttonCheckQuestion ${active.has(1) ? 'buttonOpenResponse' : ''}`} onClick={() => handleClick(1)}>
+                        <div className={`buttonCheckQuestion ${active.has(1) ? 'buttonOpenResponse' : ''}`} onClick={() => handleClick(1)} id="cezarQuiz">
                             <p>RESPOSTA</p>
                             <div className="response">
                                 <p className="textResponse">

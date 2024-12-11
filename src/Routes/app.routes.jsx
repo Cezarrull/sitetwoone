@@ -11,6 +11,8 @@ import { QuizJuntos } from "../Pages/Quiz/PageQuiz/QuizJuntos";
 import { QuizCezar } from "../Pages/Quiz/PageQuiz/QuizCezar";
 import { QuizLala } from "../Pages/Quiz/PageQuiz/QuizLala";
 import { Juntos } from "../Pages/Quiz/PageQuiz/Quizzes/Juntos";
+import { Cezar } from "../Pages/Quiz/PageQuiz/Quizzes/Cezar";
+import { Lala } from "../Pages/Quiz/PageQuiz/Quizzes/Lala";
 
 export function AppRouter() {
     const location = useLocation();
@@ -30,6 +32,9 @@ export function AppRouter() {
                 <Route path="/QuizCezar" element={<QuizCezar />} />
                 <Route path="/QuizLala" element={<QuizLala />} />
                 <Route path="/DescubraSeVoceSabeUmPoucoSobreNos" element={<Juntos />}/>
+                <Route path="/OQuantoVocêConheceOCezar" element={<Cezar />}/>
+                <Route path="/OQuantoVocêConheceALala" element={<Lala />}/>
+
             </Routes>
         </>
     )

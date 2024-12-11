@@ -42,7 +42,7 @@
 }
 
 .containerQuizzes {
-    padding: 20px 18px;
+    padding: 15px 18px;
     background: var(--bgMain);
     backdrop-filter: blur(8px);
     border-radius: 20px;
@@ -52,12 +52,30 @@
     display: flex;
 }
 
+.numberQuestion {
+    height: 30px;
+    width: 60px;
+    border-radius: 6px;
+    background: var(--white);
+    color: var(--black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    position: absolute;
+    right: 18px;
+    top: 15px;
+}
+
 .titleQuestion {
     font-size: 1.5rem;
     font-weight: 500px;
     font-family: 'Poppins', sans-serif;
     color: var(--white);
     margin-bottom: 20px;
+    margin-right: 60px;
     max-width: 400px;
 }
 
@@ -82,12 +100,15 @@
 .buttonCheckQuestion {
     border-radius: 8px;
     width: 100%;
+    max-width: 768px;
     height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
     background: var(--blue);
-    border: 5px solid var(--blueBlack);
+    padding: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px var(--shadowFour);
 }
 
 .buttonCheckQuestion p {
@@ -99,20 +120,32 @@
 
 .buttonCheckQuestion:hover {
     background: var(--blueTwo);
-    border: 5px solid var(--blueBlackTwo);
 }
 
 .buttonCheckQuestion .response {
     display: none;
 }
 
-.buttonCloseResponse {
-    display: none;
-}
-
 .buttonOpenResponse {
     display: block;
     height: min-content;
+    background: var(--blue);
+}
+
+#lalaQuiz {
+    background: var(--red);
+}
+
+#lalaQuiz:hover {
+    background: var(--redTwo);
+}
+
+#cezarQuiz {
+    background: var(--green);
+}
+
+#cezarQuiz:hover {
+    background: var(--greenTwo);
 }
 
 .buttonOpenResponse p {
@@ -122,38 +155,16 @@
 
 .buttonOpenResponse .response {
     display: block;
-    max-height: 200px;
+    height: min-content;
     padding: 10px;
     border-radius: 6px;
     background: var(--white);
-    animation: go-up 0.5s;
 }
 
 .buttonOpenResponse .response .textResponse {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     color: var(--black);
-}
-
-.buttonOpenResponse .buttonCloseResponse {
-    height: 45px;
-    width: 45px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    background: var(--blue);
-    border: 4px solid var(--blueBlack);
-    border-radius: 50%;
-    bottom: 5px;
-    right: -2px;
-    animation: go-down 1.5s;
-}
-
-.buttonOpenResponse .buttonCloseResponse:hover {
-    background: var(--blueTwo);
-    border: 4px solid var(--blueBlackTwo);
-    cursor: pointer;
 }
 
 @media screen and (min-width: 768px) {
@@ -164,31 +175,16 @@
         display: none;
     }
 
+    .bodyQuizzes {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
     .containerQuizzes {
-        max-width: 1000px;
+        max-width: 500px;
+        width: 100%;
         margin-left: auto;
         margin-right: auto;
-    }
-}
-
-@keyframes go-up {
-    from {
-        opacity: 0;
-        transform: scale(0.2) translate(-1%, -100%);
-    }
-
-    to {
-        opacity: 1;
-        transform: scale(1);
-    }
-}
-
-@keyframes go-down {
-    from {
-        transform: translateY(-180px) rotate(-180deg);
-    }
-
-    to {
-        transform: translateY(0px);
+        height: min-content;
     }
 }
