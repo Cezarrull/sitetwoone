@@ -35,6 +35,8 @@
 
 .bodyQuizzes {
     padding: 100px 20px;
+    max-width: 1300px;
+    width: 100%;
 }
 
 .questionContent {
@@ -162,6 +164,7 @@
 
     .bodyQuizzes {
         display: flex;
+        justify-self: center;
         flex-wrap: wrap;
     }
 

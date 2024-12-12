@@ -69,6 +69,44 @@ export function Juntos() {
                         </div>
                     </div>
                 </div>
+                <div className="containerQuizzes">
+                    <div className="questionContent">
+                        <div className="numberQuestion">2/20</div>
+                        <h2 className="titleQuestion">Aonde eles se conheceram pessoalmente?</h2>
+                        <div className="question">
+                            <p><span>a)</span>Festa</p>
+                            <p><span>b)</span>Cidade Natal</p>
+                            <p><span>c)</span>Viajem de formatura</p>
+                        </div>
+                        <div className={`buttonCheckQuestion ${active.has(2) ? 'buttonOpenResponse' : ''}`} onClick={() => handleClick(2)}>
+                            <p>RESPOSTA</p>
+                            <div className="response">
+                                <p className="textResponse">
+                                    Alternativa c: Viajem de formatura para Porto Seguro - BA
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="containerQuizzes">
+                    <div className="questionContent">
+                        <div className="numberQuestion">2/20</div>
+                        <h2 className="titleQuestion">test test test test</h2>
+                        <div className="question">
+                            <p><span>a)</span>test</p>
+                            <p><span>b)</span>test test</p>
+                            <p><span>c)</span>test test test</p>
+                        </div>
+                        <div className={`buttonCheckQuestion ${active.has(3) ? 'buttonOpenResponse' : ''}`} onClick={() => handleClick(3)}>
+                            <p>RESPOSTA</p>
+                            <div className="response">
+                                <p className="textResponse">
+                                    test test test
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </>
     )
