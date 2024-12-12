@@ -34,18 +34,17 @@ export function Juntos() {
                 <div className="containerQuizzes">
                     <div className="questionContent">
                         <div className="numberQuestion">1/20</div>
-                        <h2 className="titleQuestion">BLA BLABLA BA BLA?</h2>
+                        <h2 className="titleQuestion">como eles chamam um ao outro?</h2>
                         <div className="question">
-                            <p><span>1)</span>testOne</p>
-                            <p><span>2)</span>testTwo</p>
-                            <p><span>3)</span>testThree</p>
+                            <p><span>a)</span>vida</p>
+                            <p><span>b)</span>be</p>
+                            <p><span>c)</span>amor</p>
                         </div>
                         <div className={`buttonCheckQuestion ${active.has(0) ? 'buttonOpenResponse' : ''}`} onClick={() => handleClick(0)}>
                             <p>RESPOSTA</p>
                             <div className="response">
                                 <p className="textResponse">
-                                    Porque test test test é test por causa do test,
-                                    se test test test for test então dia test é test.
+                                    Alternativa b: be
                                 </p>
                             </div>
                         </div>
@@ -54,18 +53,17 @@ export function Juntos() {
                 <div className="containerQuizzes">
                     <div className="questionContent">
                         <div className="numberQuestion">2/20</div>
-                        <h2 className="titleQuestion">BLA BLABLA BA BLA?</h2>
+                        <h2 className="titleQuestion">A quanto dias estão juntos?</h2>
                         <div className="question">
-                            <p><span>1)</span>testOne</p>
-                            <p><span>2)</span>testTwo</p>
-                            <p><span>3)</span>testThree</p>
+                            <p><span>a)</span>{result + 12} dias</p>
+                            <p><span>b)</span>{result - 7} dias</p>
+                            <p><span>c)</span>{result} dias</p>
                         </div>
                         <div className={`buttonCheckQuestion ${active.has(1) ? 'buttonOpenResponse' : ''}`} onClick={() => handleClick(1)}>
                             <p>RESPOSTA</p>
                             <div className="response">
                                 <p className="textResponse">
-                                    Porque test test test é test por causa do test,
-                                    se test test test for test então dia test é test.
+                                    Alternativa c: {result} dias ou {months} mêses juntos.
                                 </p>
                             </div>
                         </div>
@@ -75,3 +73,16 @@ export function Juntos() {
         </>
     )
 }
+
+const agora = new Date();
+    const pedido = new Date('2024-09-01');
+
+    const diffInTime = pedido - agora;
+    
+    const timeInOneDay = Math.floor(diffInTime / (1000 * 60 * 60 * 24)); 
+
+    const result = Math.abs(timeInOneDay)
+    
+    const positiveDiffInTime = Math.abs(timeInOneDay);
+    const remainingDays = positiveDiffInTime % 365;
+    const months = Math.floor(remainingDays / 30);

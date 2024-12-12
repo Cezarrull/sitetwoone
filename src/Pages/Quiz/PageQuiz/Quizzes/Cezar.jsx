@@ -36,11 +36,11 @@ export function Cezar() {
                         <div className="numberQuestion">1/20</div>
                         <h2 className="titleQuestion">BLA BLABLA BA BLA?</h2>
                         <div className="question">
-                            <p><span>1)</span>testOne</p>
-                            <p><span>2)</span>testTwo</p>
-                            <p><span>3)</span>testThree</p>
+                            <p><span>a)</span>testOne</p>
+                            <p><span>b)</span>testTwo</p>
+                            <p><span>c)</span>testThree</p>
                         </div>
-                        <div className={`buttonCheckQuestion ${active.has(0) ? 'buttonOpenResponse' : ''}`} onClick={() => handleClick(0)} id="cezarQuiz">
+                        <div className={`buttonCheckQuestion ${active.has(0) ? 'buttonOpenResponse' : ''}`} onClick={() => handleClick(0)}>
                             <p>RESPOSTA</p>
                             <div className="response">
                                 <p className="textResponse">
@@ -56,11 +56,11 @@ export function Cezar() {
                         <div className="numberQuestion">2/20</div>
                         <h2 className="titleQuestion">BLA BLABLA BA BLA?</h2>
                         <div className="question">
-                            <p><span>1)</span>testOne</p>
-                            <p><span>2)</span>testTwo</p>
-                            <p><span>3)</span>testThree</p>
+                            <p><span>a)</span>testOne</p>
+                            <p><span>b)</span>testTwo</p>
+                            <p><span>c)</span>testThree</p>
                         </div>
-                        <div className={`buttonCheckQuestion ${active.has(1) ? 'buttonOpenResponse' : ''}`} onClick={() => handleClick(1)} id="cezarQuiz">
+                        <div className={`buttonCheckQuestion ${active.has(1) ? 'buttonOpenResponse' : ''}`} onClick={() => handleClick(1)}>
                             <p>RESPOSTA</p>
                             <div className="response">
                                 <p className="textResponse">

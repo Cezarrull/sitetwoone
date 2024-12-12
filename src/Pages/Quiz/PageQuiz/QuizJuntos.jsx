@@ -25,9 +25,9 @@ export function QuizJuntos() {
                     <img src={Juntos} alt="" />
                 </figure>
                 <div className="contentPlay">
-                    <h2>Título teste para o quiz</h2>
+                    <h2>Descubra se você sabe um pouco sobre nós</h2>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Aqui vai 20 perguntas sobre o casal, para você descobrir o quanto o conhecem
                     </p>
                     <Link to="/DescubraSeVoceSabeUmPoucoSobreNos" className="buttonPlayLink">
                         <div className="buttonPlay">

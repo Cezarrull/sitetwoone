@@ -17,7 +17,7 @@ export function Galeria() {
             <img src={bgMobile} alt="" className='bgMobile'/>
             <div className="galeriaBody">
                 <div className="contentGaleria">
-                    <Link to="/Galeria/PrimeirasFotos">
+                    <Link to="/PrimeirasFotos">
                         <figure className="boxPhoto">
                                 <img src={Image1} alt="" />
 
@@ -28,7 +28,7 @@ export function Galeria() {
                                 </figcaption>
                         </figure>
                     </Link>
-                    <Link to="/Galeria/DiaDoPedido">
+                    <Link to="/DiaDoPedido">
                         <figure className="boxPhoto">
                                 <img src={Image2} alt="" />
 

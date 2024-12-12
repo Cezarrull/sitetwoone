@@ -132,22 +132,6 @@
     background: var(--blue);
 }
 
-#lalaQuiz {
-    background: var(--red);
-}
-
-#lalaQuiz:hover {
-    background: var(--redTwo);
-}
-
-#cezarQuiz {
-    background: var(--green);
-}
-
-#cezarQuiz:hover {
-    background: var(--greenTwo);
-}
-
 .buttonOpenResponse p {
     text-align: center;
     margin: 10px 0px;
@@ -165,6 +149,7 @@
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     color: var(--black);
+    cursor: text;
 }
 
 @media screen and (min-width: 768px) {
