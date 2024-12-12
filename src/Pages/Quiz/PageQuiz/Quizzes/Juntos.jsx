@@ -10,16 +10,16 @@ import { Link } from "react-router-dom";
 import { ArrowLeft } from "@phosphor-icons/react";
 
 export function Juntos() {
-    const [active, setActive] = useState(new Set());  // Usar um Set para manter os índices abertos
+    const [active, setActive] = useState(new Set());  
 
     const handleClick = (index) => {
-        const updatedActive = new Set(active);  // Cria uma cópia do Set atual
+        const updatedActive = new Set(active);
         if (updatedActive.has(index)) {
-            updatedActive.delete(index);  // Se o índice já estiver ativo, remove-o
+            updatedActive.delete(index);
         } else {
-            updatedActive.add(index);  // Se não estiver, adiciona-o
+            updatedActive.add(index);
         }
-        setActive(updatedActive);  // Atualiza o estado com o novo Set
+        setActive(updatedActive);
     };
 
     return(
