@@ -7,3 +7,10 @@ createRoot(document.getElementById('root')).render(
     <App />
   </StrictMode>,
 )
+
+window.onload = function() {
+  document.getElementById('root').oncontextmenu = function() {
+    alert('função desabilitada!')
+    return false;
+  }
+}
