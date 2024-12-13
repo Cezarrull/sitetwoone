@@ -40,21 +40,20 @@ export function Lala() {
             <img src={bgMobile} alt="" className='bgMobile'/>
 
             <div className="bodyQuizzes">
-                <div id="quiz-0" className="containerQuizzes">
+            <div id="quiz-0" className="containerQuizzes">
                     <div className="questionContent">
                         <div className="numberQuestion">1/20</div>
-                        <h2 className="titleQuestion">BLA BLABLA BA BLA?</h2>
+                        <h2 className="titleQuestion">Qual a cor favorita do Cézar?</h2>
                         <div className="question">
-                            <p><span>a)</span>testOne</p>
-                            <p><span>b)</span>testTwo</p>
-                            <p><span>c)</span>testThree</p>
+                            <p><span>a)</span><div className="colorOne">Preto</div></p>
+                            <p><span>b)</span><div className="colorFour">Rosa</div></p>
+                            <p><span>c)</span><div className="colorFive">Vermelho</div></p>
                         </div>
                         <div className={`buttonCheckQuestion ${active.has(0) ? 'buttonOpenResponse' : ''}`} onClick={() => handleClick(0)}>
                             <p>RESPOSTA</p>
                             <div className="response">
                                 <p className="textResponse">
-                                    Porque test test test é test por causa do test,
-                                    se test test test for test então dia test é test.
+                                    Alternativa a: <div className="colorOne"></div> Preto
                                 </p>
                             </div>
                         </div>
@@ -63,18 +62,36 @@ export function Lala() {
                 <div id="quiz-1" className="containerQuizzes">
                     <div className="questionContent">
                         <div className="numberQuestion">2/20</div>
-                        <h2 className="titleQuestion">BLA BLABLA BA BLA?</h2>
+                        <h2 className="titleQuestion">Quando é seu aniversário?</h2>
                         <div className="question">
-                            <p><span>a)</span>testOne</p>
-                            <p><span>b)</span>testTwo</p>
-                            <p><span>c)</span>testThree</p>
+                            <p><span>a)</span>01/12/2007</p>
+                            <p><span>b)</span>01/11/2006</p>
+                            <p><span>c)</span>01/12/2006</p>
                         </div>
                         <div className={`buttonCheckQuestion ${active.has(1) ? 'buttonOpenResponse' : ''}`} onClick={() => handleClick(1)}>
                             <p>RESPOSTA</p>
                             <div className="response">
                                 <p className="textResponse">
-                                    Porque test test test é test por causa do test,
-                                    se test test test for test então dia test é test.
+                                    Alternativa c: 01/12/2006 = {result} anos
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="quiz-2" className="containerQuizzes">
+                    <div className="questionContent">
+                        <div className="numberQuestion">3/20</div>
+                        <h2 className="titleQuestion">Qual sua comida favorita?</h2>
+                        <div className="question">
+                            <p><span>a)</span>Macarrão</p>
+                            <p><span>b)</span>Japonesa</p>
+                            <p><span>c)</span>Strogonoff</p>
+                        </div>
+                        <div className={`buttonCheckQuestion ${active.has(2) ? 'buttonOpenResponse' : ''}`} onClick={() => handleClick(2)}>
+                            <p>RESPOSTA</p>
+                            <div className="response">
+                                <p className="textResponse">
+                                    Alternativa b: Japonesa
                                 </p>
                             </div>
                         </div>
@@ -84,3 +101,14 @@ export function Lala() {
         </>
     )
 }
+
+const agora = new Date();
+const pedido = new Date('2006-12-01');
+
+const diffInTime = pedido - agora;
+
+const millisecondsInYear = 1000 * 60 * 60 * 24 * 365.25;
+
+const diffInYears = Math.abs(diffInTime / millisecondsInYear);
+
+const result = Math.floor(diffInYears);

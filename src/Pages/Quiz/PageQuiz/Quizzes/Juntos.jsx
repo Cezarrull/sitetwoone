@@ -80,7 +80,7 @@ export function Juntos() {
                 </div>
                 <div id="quiz-2" className="containerQuizzes">
                     <div className="questionContent">
-                        <div className="numberQuestion">2/20</div>
+                        <div className="numberQuestion">3/20</div>
                         <h2 className="titleQuestion">Aonde eles se conheceram pessoalmente?</h2>
                         <div className="question">
                             <p><span>a)</span>Instagram</p>
@@ -99,18 +99,17 @@ export function Juntos() {
                 </div>
                 <div id="quiz-3" className="containerQuizzes">
                     <div className="questionContent">
-                        <div className="numberQuestion">2/20</div>
-                        <h2 className="titleQuestion">test test test test</h2>
+                        <div className="numberQuestion">4/20</div>
+                        <h2 className="titleQuestion">Quem é mais velho?</h2>
                         <div className="question">
-                            <p><span>a)</span>test</p>
-                            <p><span>b)</span>test test</p>
-                            <p><span>c)</span>test test test</p>
+                            <p><span>a)</span>Cézar</p>
+                            <p><span>b)</span>Lala</p>
                         </div>
                         <div className={`buttonCheckQuestion ${active.has(3) ? 'buttonOpenResponse' : ''}`} onClick={() => handleClick(3)}>
                             <p>RESPOSTA</p>
                             <div className="response">
                                 <p className="textResponse">
-                                    test test test
+                                    Alternativa b: Lala é mais velha por 4 meses de diferença
                                 </p>
                             </div>
                         </div>
