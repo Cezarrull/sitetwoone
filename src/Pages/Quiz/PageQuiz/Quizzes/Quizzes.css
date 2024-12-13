@@ -48,7 +48,7 @@
     background: var(--bgMain);
     backdrop-filter: blur(8px);
     border-radius: 20px;
-    margin-bottom: 5vh;
+    margin-bottom: 20vh;
     box-shadow: 0 0 13px var(--shadow);
     transition: 0.2s;
     display: flex;
@@ -163,16 +163,12 @@
     }
 
     .bodyQuizzes {
-        display: flex;
-        justify-self: center;
-        flex-wrap: wrap;
+        justify-items: center;
     }
 
     .containerQuizzes {
-        max-width: 500px;
+        max-width: 750px;
         width: 100%;
-        margin-left: auto;
-        margin-right: auto;
         height: min-content;
     }
 }

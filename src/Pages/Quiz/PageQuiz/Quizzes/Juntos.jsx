@@ -14,12 +14,21 @@ export function Juntos() {
 
     const handleClick = (index) => {
         const updatedActive = new Set(active);
-        if (updatedActive.has(index)) {
-            updatedActive.delete(index);
+        const isActive = updatedActive.has(index);
+
+        if (!isActive) {
+            setActive(updatedActive.add(index));
+
+            setTimeout(() => {
+                const nextQuiz = document.getElementById(`quiz-${index + 1}`);
+                if (nextQuiz) {
+                    nextQuiz.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                }
+            }, 1500);
         } else {
-            updatedActive.add(index);
+            updatedActive.delete(index);
+            setActive(updatedActive);
         }
-        setActive(updatedActive);
     };
 
     return(
@@ -31,7 +40,7 @@ export function Juntos() {
             <img src={bgMobile} alt="" className='bgMobile'/>
 
             <div className="bodyQuizzes">
-                <div className="containerQuizzes">
+                <div id="quiz-0" className="containerQuizzes">
                     <div className="questionContent">
                         <div className="numberQuestion">1/20</div>
                         <h2 className="titleQuestion">como eles chamam um ao outro?</h2>
@@ -50,7 +59,7 @@ export function Juntos() {
                         </div>
                     </div>
                 </div>
-                <div className="containerQuizzes">
+                <div id="quiz-1" className="containerQuizzes">
                     <div className="questionContent">
                         <div className="numberQuestion">2/20</div>
                         <h2 className="titleQuestion">A quanto dias estão juntos?</h2>
@@ -69,13 +78,13 @@ export function Juntos() {
                         </div>
                     </div>
                 </div>
-                <div className="containerQuizzes">
+                <div id="quiz-2" className="containerQuizzes">
                     <div className="questionContent">
                         <div className="numberQuestion">2/20</div>
                         <h2 className="titleQuestion">Aonde eles se conheceram pessoalmente?</h2>
                         <div className="question">
-                            <p><span>a)</span>Festa</p>
-                            <p><span>b)</span>Cidade Natal</p>
+                            <p><span>a)</span>Instagram</p>
+                            <p><span>b)</span>Festa</p>
                             <p><span>c)</span>Viajem de formatura</p>
                         </div>
                         <div className={`buttonCheckQuestion ${active.has(2) ? 'buttonOpenResponse' : ''}`} onClick={() => handleClick(2)}>
@@ -88,7 +97,7 @@ export function Juntos() {
                         </div>
                     </div>
                 </div>
-                <div className="containerQuizzes">
+                <div id="quiz-3" className="containerQuizzes">
                     <div className="questionContent">
                         <div className="numberQuestion">2/20</div>
                         <h2 className="titleQuestion">test test test test</h2>

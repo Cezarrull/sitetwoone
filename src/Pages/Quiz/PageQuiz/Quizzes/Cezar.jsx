@@ -10,16 +10,25 @@ import { Link } from "react-router-dom";
 import { ArrowLeft } from "@phosphor-icons/react";
 
 export function Cezar() {
-    const [active, setActive] = useState(new Set());
+    const [active, setActive] = useState(new Set());  
 
     const handleClick = (index) => {
         const updatedActive = new Set(active);
-        if (updatedActive.has(index)) {
-            updatedActive.delete(index);
+        const isActive = updatedActive.has(index);
+
+        if (!isActive) {
+            setActive(updatedActive.add(index));
+
+            setTimeout(() => {
+                const nextQuiz = document.getElementById(`quiz-${index + 1}`);
+                if (nextQuiz) {
+                    nextQuiz.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                }
+            }, 1500);
         } else {
-            updatedActive.add(index);
+            updatedActive.delete(index);
+            setActive(updatedActive);
         }
-        setActive(updatedActive);
     };
 
     return(
@@ -31,7 +40,7 @@ export function Cezar() {
             <img src={bgMobile} alt="" className='bgMobile'/>
 
             <div className="bodyQuizzes">
-                <div className="containerQuizzes">
+                <div id="quiz-0" className="containerQuizzes">
                     <div className="questionContent">
                         <div className="numberQuestion">1/20</div>
                         <h2 className="titleQuestion">BLA BLABLA BA BLA?</h2>
@@ -51,7 +60,7 @@ export function Cezar() {
                         </div>
                     </div>
                 </div>
-                <div className="containerQuizzes">
+                <div id="quiz-1" className="containerQuizzes">
                     <div className="questionContent">
                         <div className="numberQuestion">2/20</div>
                         <h2 className="titleQuestion">BLA BLABLA BA BLA?</h2>
