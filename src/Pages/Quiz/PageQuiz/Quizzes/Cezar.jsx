@@ -55,8 +55,9 @@ export function Cezar() {
                                 <p className="textResponse">
                                     Alternativa b: 
                                     <div className="colorBody">
-                                        <div className="colorTwo"></div> Azul petróle
-                                    </div> 
+                                        <div className="colorTwo"></div> 
+                                    </div>
+                                    Azul petróle
                                 </p>
                             </div>
                         </div>

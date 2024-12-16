@@ -55,8 +55,9 @@ export function Lala() {
                                 <p className="textResponse">
                                     Alternativa a: 
                                     <div className="colorBody">
-                                        <div className="colorOne"></div> Preto
+                                        <div className="colorOne"></div>
                                     </div> 
+                                    Preto
                                 </p>
                             </div>
                         </div>
