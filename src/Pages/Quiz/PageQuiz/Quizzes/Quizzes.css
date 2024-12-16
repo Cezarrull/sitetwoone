@@ -35,12 +35,13 @@
 
 .bodyQuizzes {
     padding: 100px 20px;
-    max-width: 1300px;
     width: 100%;
+    justify-items: center;
 }
 
 .questionContent {
     width: 100%;
+    max-width: 1300px;
 }
 
 .containerQuizzes {
@@ -252,10 +253,5 @@
         max-width: 750px;
         width: 100%;
         height: min-content;
-    }
-
-    .questionContent {
-        width: 100%;
-        justify-items: center;
     }
 }
