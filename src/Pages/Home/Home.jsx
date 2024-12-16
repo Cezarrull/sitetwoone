@@ -47,16 +47,16 @@ export function Home() {
                         </div>
                     </div>
                 </Link>
-                <Link to="/Desenhos" className="buttonHref" onClick={saveScrollPosition}>
+                <Link to="/Quiz" className="buttonHref" onClick={saveScrollPosition}>
                     <div className="containerTwo">
                         <img src={pinPng} alt="" className="pin"/>
                         <div className="imageTwo">
-                            <img src={Image2} alt="Two" />
+                            <img src={Image4} alt="Four" />
                         </div>
                         <div className="textTwo">
-                            <h2>NOSSOS DESENHOS</h2>
+                            <h2>QUIZZES</h2>
                             <p>
-                                20 Desenhos pintados com dois estilos diferentes! 
+                                Alguns quizzes com 20 perguntas!
                             </p>
                         </div>
                     </div>
@@ -75,16 +75,16 @@ export function Home() {
                         </div>
                     </div>
                 </Link>
-                <Link to="/Quiz" className="buttonHref" onClick={saveScrollPosition}>
+                <Link to="/Desenhos" className="buttonHref" onClick={saveScrollPosition}>
                     <div className="containerTwo">
                         <img src={pinPng} alt="" className="pin"/>
                         <div className="imageTwo">
-                            <img src={Image4} alt="Four" />
+                            <img src={Image2} alt="Two" />
                         </div>
                         <div className="textTwo">
-                            <h2>QUIZZES</h2>
+                            <h2>NOSSOS DESENHOS</h2>
                             <p>
-                                Alguns quizzes com até 20 perguntas sobre nós!
+                                20 Desenhos pintados com dois estilos diferentes! 
                             </p>
                         </div>
                     </div>
