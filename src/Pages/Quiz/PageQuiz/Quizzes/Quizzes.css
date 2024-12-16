@@ -94,6 +94,11 @@
     margin-right: 12px;
 }
 
+.colorBody {
+    width: 100%;
+    justify-items: center;
+}
+
 .colorOne, 
 .colorTwo, 
 .colorThree,
@@ -103,10 +108,11 @@
     width: 100px;
     border-radius: 8px;
     color: transparent;
+    cursor: default;
     display: flex;
     justify-content: center;
     align-items: center;
-    cursor: default;
+    border: 1px solid red;
 }
 
 .colorOne {
@@ -217,5 +223,10 @@
         max-width: 750px;
         width: 100%;
         height: min-content;
+    }
+
+    .questionContent {
+        width: 100%;
+        justify-items: center;
     }
 }
