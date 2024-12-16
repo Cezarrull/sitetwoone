@@ -24,7 +24,7 @@ export function Lala() {
                 if (nextQuiz) {
                     nextQuiz.scrollIntoView({ behavior: 'smooth', block: 'center' });
                 }
-            }, 1500);
+            }, 400);
         } else {
             updatedActive.delete(index);
             setActive(updatedActive);
@@ -68,15 +68,15 @@ export function Lala() {
                         <div className="numberQuestion">2/20</div>
                         <h2 className="titleQuestion">Quando é seu aniversário?</h2>
                         <div className="question">
-                            <p><span>a)</span>01/12/2007</p>
-                            <p><span>b)</span>01/11/2006</p>
-                            <p><span>c)</span>01/12/2006</p>
+                            <p><span>a)</span>01 de dezembro de 2007</p>
+                            <p><span>b)</span>01 de novembro de 2006</p>
+                            <p><span>c)</span>01 de dezembro de 2006</p>
                         </div>
                         <div className={`buttonCheckQuestion ${active.has(1) ? 'buttonOpenResponse' : ''}`} onClick={() => handleClick(1)}>
                             <p>RESPOSTA</p>
                             <div className="response">
                                 <p className="textResponse">
-                                    Alternativa c: 01/12/2006 = {result} anos
+                                    Alternativa c: 01 de dezembro de 2006 / {result} anos
                                 </p>
                             </div>
                         </div>
@@ -100,6 +100,48 @@ export function Lala() {
                             </div>
                         </div>
                     </div>
+                </div>
+                <div id="quiz-3" className="containerQuizzes">
+                    <div className="questionContent">
+                        <div className="numberQuestion">4/20</div>
+                        <h2 className="titleQuestion">Oque ela mais gosta de fazer?</h2>
+                        <div className="question">
+                            <p><span>a)</span>Dormir</p>
+                            <p><span>b)</span>Assistir TV</p>
+                            <p><span>c)</span>Treinar</p>
+                        </div>
+                        <div className={`buttonCheckQuestion ${active.has(3) ? 'buttonOpenResponse' : ''}`} onClick={() => handleClick(3)}>
+                            <p>RESPOSTA</p>
+                            <div className="response">
+                                <p className="textResponse">
+                                    Alternativa c: Assisitr TV
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="quiz-4" className="containerQuizzes">
+                    <div className="questionContent">
+                        <div className="numberQuestion">5/20</div>
+                        <h2 className="titleQuestion">Qual o nome da cachorra de Lala?</h2>
+                        <div className="question">
+                            <p><span>a)</span>Milie</p>
+                            <p><span>b)</span>Melícia</p>
+                            <p><span>c)</span>Nini</p>
+                        </div>
+                        <div className={`buttonCheckQuestion ${active.has(4) ? 'buttonOpenResponse' : ''}`} onClick={() => handleClick(4)}>
+                            <p>RESPOSTA</p>
+                            <div className="response">
+                                <p className="textResponse">
+                                    Alternativa a: Milie
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="playAgain">
+                    <Link to="/QuizLala">Jogar novamente</Link>
                 </div>
             </div>
         </>

@@ -24,7 +24,7 @@ export function Cezar() {
                 if (nextQuiz) {
                     nextQuiz.scrollIntoView({ behavior: 'smooth', block: 'center' });
                 }
-            }, 1500);
+            }, 400);
         } else {
             updatedActive.delete(index);
             setActive(updatedActive);
@@ -43,7 +43,7 @@ export function Cezar() {
                 <div id="quiz-0" className="containerQuizzes">
                     <div className="questionContent">
                         <div className="numberQuestion">1/20</div>
-                        <h2 className="titleQuestion">Qual a cor favorita do Cézar?</h2>
+                        <h2 className="titleQuestion">Qual sua cor favorita?</h2>
                         <div className="question">
                             <p><span>a)</span><div className="colorOne">Preto</div></p>
                             <p><span>b)</span><div className="colorTwo">Azul</div></p>
@@ -68,15 +68,15 @@ export function Cezar() {
                         <div className="numberQuestion">2/20</div>
                         <h2 className="titleQuestion">Quando é seu aniversário?</h2>
                         <div className="question">
-                            <p><span>a)</span>25/04/2007</p>
-                            <p><span>b)</span>24/04/2006</p>
-                            <p><span>c)</span>27/04/2007</p>
+                            <p><span>a)</span>25 de abril de 2007</p>
+                            <p><span>b)</span>24 de abril de 2006</p>
+                            <p><span>c)</span>27 de abril de 2007</p>
                         </div>
                         <div className={`buttonCheckQuestion ${active.has(1) ? 'buttonOpenResponse' : ''}`} onClick={() => handleClick(1)}>
                             <p>RESPOSTA</p>
                             <div className="response">
                                 <p className="textResponse">
-                                    Alternativa a: 25/04/2007 = {result} anos
+                                    Alternativa a: 25 de abril de 2007 / {result} anos
                                 </p>
                             </div>
                         </div>
@@ -100,6 +100,48 @@ export function Cezar() {
                             </div>
                         </div>
                     </div>
+                </div>
+                <div id="quiz-3" className="containerQuizzes">
+                    <div className="questionContent">
+                        <div className="numberQuestion">4/20</div>
+                        <h2 className="titleQuestion">Oque ele mais gosta de fazer?</h2>
+                        <div className="question">
+                            <p><span>a)</span>Dormir</p>
+                            <p><span>b)</span>Jogar</p>
+                            <p><span>c)</span>Andar de bike</p>
+                        </div>
+                        <div className={`buttonCheckQuestion ${active.has(3) ? 'buttonOpenResponse' : ''}`} onClick={() => handleClick(3)}>
+                            <p>RESPOSTA</p>
+                            <div className="response">
+                                <p className="textResponse">
+                                    Alternativa c: Andar de bike
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="quiz-4" className="containerQuizzes">
+                    <div className="questionContent">
+                        <div className="numberQuestion">5/20</div>
+                        <h2 className="titleQuestion">Qual o nome das duas cachorras de Cézar?</h2>
+                        <div className="question">
+                            <p><span>a)</span>Sushi e Pipoca</p>
+                            <p><span>b)</span>Mel e Melicia</p>
+                            <p><span>c)</span>Nina e Luna</p>
+                        </div>
+                        <div className={`buttonCheckQuestion ${active.has(4) ? 'buttonOpenResponse' : ''}`} onClick={() => handleClick(4)}>
+                            <p>RESPOSTA</p>
+                            <div className="response">
+                                <p className="textResponse">
+                                    Alternativa a: Sushi e Pipoca
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div className="playAgain">
+                    <Link to="/QuizCezar">Jogar novamente</Link>
                 </div>
             </div>
         </>

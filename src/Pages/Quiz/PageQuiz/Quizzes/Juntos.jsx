@@ -24,7 +24,7 @@ export function Juntos() {
                 if (nextQuiz) {
                     nextQuiz.scrollIntoView({ behavior: 'smooth', block: 'center' });
                 }
-            }, 1500);
+            }, 400);
         } else {
             updatedActive.delete(index);
             setActive(updatedActive);
@@ -114,6 +114,28 @@ export function Juntos() {
                             </div>
                         </div>
                     </div>
+                </div>
+                <div id="quiz-4" className="containerQuizzes">
+                    <div className="questionContent">
+                        <div className="numberQuestion">5/20</div>
+                        <h2 className="titleQuestion">Quem falou Eu te amo primeiro?</h2>
+                        <div className="question">
+                            <p><span>a)</span>Cézar</p>
+                            <p><span>b)</span>Lala</p>
+                        </div>
+                        <div className={`buttonCheckQuestion ${active.has(4) ? 'buttonOpenResponse' : ''}`} onClick={() => handleClick(4)}>
+                            <p>RESPOSTA</p>
+                            <div className="response">
+                                <p className="textResponse">
+                                    Alternativa a: Cezar falou primeiro
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="playAgain">
+                    <Link to="/QuizSobreNós">Jogar novamente</Link>
                 </div>
             </div>
         </>
