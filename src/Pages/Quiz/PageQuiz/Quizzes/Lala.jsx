@@ -125,7 +125,7 @@ export function Lala() {
                         <div className="numberQuestion">5/20</div>
                         <h2 className="titleQuestion">Qual o nome da cachorra de Lala?</h2>
                         <div className="question">
-                            <p><span>a)</span>Milie</p>
+                            <p><span>a)</span>Mili</p>
                             <p><span>b)</span>Melícia</p>
                             <p><span>c)</span>Nini</p>
                         </div>
@@ -133,14 +133,54 @@ export function Lala() {
                             <p>RESPOSTA</p>
                             <div className="response">
                                 <p className="textResponse">
-                                    Alternativa a: Milie
+                                    Alternativa a: Mili
                                 </p>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div className="playAgain">
+                <div id="quiz-5" className="containerQuizzes">
+                    <div className="questionContent">
+                        <div className="numberQuestion">6/20</div>
+                        <h2 className="titleQuestion">Quantos irmão Lala tem?</h2>
+                        <div className="question">
+                            <p><span>a)</span>2</p>
+                            <p><span>b)</span>1</p>
+                            <p><span>c)</span>4</p>
+                        </div>
+                        <div className={`buttonCheckQuestion ${active.has(5) ? 'buttonOpenResponse' : ''}`} onClick={() => handleClick(5)}>
+                            <p>RESPOSTA</p>
+                            <div className="response">
+                                <p className="textResponse">
+                                    Alternativa b: 1 Irmão
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="quiz-6" className="containerQuizzes">
+                    <div className="questionContent">
+                        <div className="numberQuestion">7/20</div>
+                        <h2 className="titleQuestion">Qual é o seu lugar dos sonhos para viajar?</h2>
+                        <div className="question">
+                            <p><span>a)</span>Cancún</p>
+                            <p><span>b)</span>Paris</p>
+                            <p><span>c)</span>EUA</p>
+                        </div>
+                        <div className={`buttonCheckQuestion ${active.has(6) ? 'buttonOpenResponse' : ''}`} onClick={() => handleClick(6)}>
+                            <p>RESPOSTA</p>
+                            <div className="response">
+                                <p className="textResponse">
+                                    Alternativa a: Cancún - México
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="quiz-7" className="playAgain">
                     <Link to="/QuizLala">Jogar novamente</Link>
                 </div>
             </div>

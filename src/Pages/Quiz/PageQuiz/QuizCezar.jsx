@@ -25,9 +25,9 @@ export function QuizCezar() {
                     <img src={Cezar} alt="" />
                 </figure>
                 <div className="contentPlay">
-                    <h2>Título teste para o quiz</h2>
+                    <h2>Descubra se você sabe sobre o Cézar</h2>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Aqui vai 20 perguntas sobre o Cézar, para você descobrir o quanto o conhece
                     </p>
                     <Link to="/OQuantoVocêConheceOCezar" className="buttonPlayLink">
                         <div className="buttonPlay">

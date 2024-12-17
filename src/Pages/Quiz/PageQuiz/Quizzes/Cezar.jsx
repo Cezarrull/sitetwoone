@@ -139,8 +139,48 @@ export function Cezar() {
                         </div>
                     </div>
                 </div>
+
+                <div id="quiz-5" className="containerQuizzes">
+                    <div className="questionContent">
+                        <div className="numberQuestion">6/20</div>
+                        <h2 className="titleQuestion">Quantos irmão Lala tem?</h2>
+                        <div className="question">
+                            <p><span>a)</span>2</p>
+                            <p><span>b)</span>4</p>
+                            <p><span>c)</span>1</p>
+                        </div>
+                        <div className={`buttonCheckQuestion ${active.has(5) ? 'buttonOpenResponse' : ''}`} onClick={() => handleClick(5)}>
+                            <p>RESPOSTA</p>
+                            <div className="response">
+                                <p className="textResponse">
+                                    Alternativa b: 4 irmões
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="quiz-6" className="containerQuizzes">
+                    <div className="questionContent">
+                        <div className="numberQuestion">7/20</div>
+                        <h2 className="titleQuestion">Qual é o seu lugar dos sonhos para viajar?</h2>
+                        <div className="question">
+                            <p><span>a)</span>Veneza</p>
+                            <p><span>b)</span>Paris</p>
+                            <p><span>c)</span>EUA</p>
+                        </div>
+                        <div className={`buttonCheckQuestion ${active.has(6) ? 'buttonOpenResponse' : ''}`} onClick={() => handleClick(6)}>
+                            <p>RESPOSTA</p>
+                            <div className="response">
+                                <p className="textResponse">
+                                    Alternativa A: Veneza - Itália
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 
-                <div className="playAgain">
+                <div id="quiz-7" className="playAgain">
                     <Link to="/QuizCezar">Jogar novamente</Link>
                 </div>
             </div>

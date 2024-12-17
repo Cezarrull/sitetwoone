@@ -134,7 +134,7 @@ export function Juntos() {
                     </div>
                 </div>
 
-                <div className="playAgain">
+                <div id="quiz-5" className="playAgain">
                     <Link to="/QuizSobreNós">Jogar novamente</Link>
                 </div>
             </div>

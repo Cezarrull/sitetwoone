@@ -37,12 +37,12 @@
     background: var(--white);
 }
 
-.bodySocial {
+.sobreBody {
     padding: 20vh 20px 20vh 20px;
     position: relative;
 }
 
-.containerSocial {
+.sobreContainer {
     padding: 18px;
     background: var(--bgMain);
     backdrop-filter: blur(8px);
@@ -53,63 +53,24 @@
     justify-items: center;
 }
 
-.containerSocial h2 {
-    font-family: "Paytone One", sans-serif;
-    font-weight: 500;
-    font-size: 2rem;
-    color: var(--white);
-}
-
-.containerSocial p {
+.sobreContainer h2 {
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
-    font-size: 1rem;
+    font-size: 1.25rem;
     color: var(--white);
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
-.itensSocial {
-    display: flex;
-    width: 100%;
-    max-width: 300px;
-    justify-content: space-around;
-}
-
-.socialCezar,
-.socialLala {
-    justify-items: center;
-}
-
-.socialCezar h3,
-.socialLala h3 {
+.sobreContainer h2 .titleSite {
     font-family: "Paytone One", sans-serif;
     font-size: 1.5rem;
-    font-weight: 200;
+}
+
+.sobreContainer p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
     color: var(--white);
-}
-
-.socialCezar img,
-.socialLala img {
-    height: 80px;
-    width: 80px;
-    border-radius: 50%;
-    object-fit: cover;
-    box-shadow: 0 0 10px var(--shadowFour);
-} 
-
-.sociais {
-    margin-top: 10px;
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-}
-
-.sociais a {
-    transition: 0.2s;
-}
-
-.sociais a:hover {
-    color: var(--red);
+    font-weight: 500;
 }
 
 @media screen and (min-width: 768px) {
@@ -120,7 +81,7 @@
         display: none;
     }
 
-    .containerSocial {
+    .sobreContainer {
         max-width: 900px;
         margin-left: auto;
         margin-right: auto;

@@ -25,9 +25,9 @@ export function QuizLala() {
                     <img src={Lala} alt="" />
                 </figure>
                 <div className="contentPlay">
-                    <h2>Título teste para o quiz</h2>
+                    <h2>Descubra se você sabe sobre a Lala</h2>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Aqui vai 20 perguntas sobre a Lala, para você descobrir o quanto a conhece
                     </p>
                     <Link to="/OQuantoVocêConheceALala" className="buttonPlayLink">
                         <div className="buttonPlay">

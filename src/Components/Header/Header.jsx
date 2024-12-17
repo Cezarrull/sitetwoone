@@ -53,9 +53,9 @@ export function Header() {
                         </Link>
                     </li>
                     <li className="nav__itemLast" id="last">
-                        <a href="#" className="nav__link">
+                        <Link to="/Sobre" className="nav__link">
                             Sobre
-                        </a>
+                        </Link>
                     </li>
                 </ul>
                 <div onClick={navToggle} className={icon}>
