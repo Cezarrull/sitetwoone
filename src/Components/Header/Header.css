@@ -63,6 +63,10 @@ a:hover {
     transition: 0.3s ease-in;
 }
 
+#navLinkTopic {
+    color: var(--white);
+}
+
 .topics {
     position: absolute;
     height: min-content;
@@ -149,6 +153,15 @@ a:hover {
         text-decoration: none;
     }
 
+    #navLinkTopic {
+        color: var(--black);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+    }
+
     .topics {
         position: absolute;
         left: -120px;
@@ -156,7 +169,6 @@ a:hover {
         border-top-left-radius: 8px;
         border-bottom-left-radius: 8px;
         display: none;
-        height: min-content;
     }
     
     .navTopics a {

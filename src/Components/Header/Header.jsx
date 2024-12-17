@@ -29,23 +29,23 @@ export function Header() {
                         </Link>
                     </li>
                     <li className="nav__item" id="itemTopics">
-                        <a href="#" className="nav__link">
+                        <div href="#" className="nav__link" id="navLinkTopic">
                             Tópicos
                             <div className="topics">
-                                <li className="navTopics" id="firstNavTopics">
+                                <ol className="navTopics" id="firstNavTopics">
                                     <Link to="/Pedido">Pedido</Link>
-                                </li>
-                                <li className="navTopics">
+                                </ol>
+                                <ol className="navTopics">
                                     <Link to="/Quiz">Quizzes</Link>
-                                </li>
-                                <li className="navTopics">
+                                </ol>
+                                <ol className="navTopics">
                                     <Link to="/Galeria">Galeria</Link>
-                                </li>
-                                <li className="navTopics" id="lastNavTopics">
+                                </ol>
+                                <ol className="navTopics" id="lastNavTopics">
                                     <Link to="/Desenhos">Desenhos</Link>
-                                </li>
+                                </ol>
                             </div>
-                        </a>
+                        </div>
                     </li>
                     <li className="nav__item">
                         <Link to="/Social" className="nav__link">

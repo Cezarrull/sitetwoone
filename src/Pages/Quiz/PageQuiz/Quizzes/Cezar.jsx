@@ -143,7 +143,7 @@ export function Cezar() {
                 <div id="quiz-5" className="containerQuizzes">
                     <div className="questionContent">
                         <div className="numberQuestion">6/20</div>
-                        <h2 className="titleQuestion">Quantos irmão Lala tem?</h2>
+                        <h2 className="titleQuestion">Quantos irmão Cézar tem?</h2>
                         <div className="question">
                             <p><span>a)</span>2</p>
                             <p><span>b)</span>4</p>
