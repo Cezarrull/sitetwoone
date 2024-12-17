@@ -28,9 +28,23 @@ export function Header() {
                             Início
                         </Link>
                     </li>
-                    <li className="nav__item">
+                    <li className="nav__item" id="itemTopics">
                         <a href="#" className="nav__link">
-                            Sobre
+                            Tópicos
+                            <div className="topics">
+                                <li className="navTopics" id="firstNavTopics">
+                                    <Link to="/Pedido">Pedido</Link>
+                                </li>
+                                <li className="navTopics">
+                                    <Link to="/Quiz">Quizzes</Link>
+                                </li>
+                                <li className="navTopics">
+                                    <Link to="/Galeria">Galeria</Link>
+                                </li>
+                                <li className="navTopics" id="lastNavTopics">
+                                    <Link to="/Desenhos">Desenhos</Link>
+                                </li>
+                            </div>
                         </a>
                     </li>
                     <li className="nav__item">
