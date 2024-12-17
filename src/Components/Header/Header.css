@@ -65,34 +65,34 @@ a:hover {
 
 .topics {
     position: absolute;
-    left: -120px;
+    height: min-content;
     background: var(--white);
-    border-top-left-radius: 8px;
-    border-bottom-left-radius: 8px;
     display: none;
 }
 
-.navTopics a {
+.navTopics {
     width: 100%;
     height: 100%;
-    padding: 15px 25px;
+}
+
+.navTopics a {
+    color: var(--black);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
 }
 
 .navTopics a:active,
 .navTopics a:hover {
     background: var(--gray);
+    text-decoration: none;
 }
 
 #itemTopics:hover .topics {
     display: block;
-}
-
-#firstNavTopics a {
-    border-top-left-radius: 8px;
-}
-
-#lastNavTopics a {
-    border-bottom-left-radius: 8px;
 }
 
 @media screen and (max-width: 768px) {
@@ -147,6 +147,39 @@ a:hover {
 
     ul li a:hover {
         text-decoration: none;
+    }
+
+    .topics {
+        position: absolute;
+        left: -120px;
+        background: var(--white);
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+        display: none;
+        height: min-content;
+    }
+    
+    .navTopics a {
+        width: 100%;
+        height: 100%;
+        padding: 15px 25px;
+    }
+    
+    .navTopics a:active,
+    .navTopics a:hover {
+        background: var(--gray);
+    }
+    
+    #itemTopics:hover .topics {
+        display: block;
+    }
+    
+    #firstNavTopics a {
+        border-top-left-radius: 8px;
+    }
+    
+    #lastNavTopics a {
+        border-bottom-left-radius: 8px;
     }
 }
 

@@ -48,13 +48,13 @@ export function Header() {
                         </a>
                     </li>
                     <li className="nav__item">
-                        <a href="#" className="nav__link">
-                            Contato
-                        </a>
+                        <Link to="/Social" className="nav__link">
+                            Social
+                        </Link>
                     </li>
                     <li className="nav__itemLast" id="last">
                         <a href="#" className="nav__link">
-                            todos
+                            Sobre
                         </a>
                     </li>
                 </ul>
