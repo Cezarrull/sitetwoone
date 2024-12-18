@@ -179,6 +179,26 @@ export function Cezar() {
                         </div>
                     </div>
                 </div>
+
+                <div id="quiz-7" className="containerQuizzes">
+                    <div className="questionContent">
+                        <div className="numberQuestion">8/20</div>
+                        <h2 className="titleQuestion">Qual é o jogo favorito de Cézar?</h2>
+                        <div className="question">
+                            <p><span>a)</span>Minecraft</p>
+                            <p><span>b)</span>Hollow Knight</p>
+                            <p><span>c)</span>GTA-V</p>
+                        </div>
+                        <div className={`buttonCheckQuestion ${active.has(7) ? 'buttonOpenResponse' : ''}`} onClick={() => handleClick(7)}>
+                            <p>RESPOSTA</p>
+                            <div className="response">
+                                <p className="textResponse">
+                                    Alternativa c: Hollow Knight
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 
                 <div id="quiz-7" className="playAgain">
                     <Link to="/QuizCezar">Jogar novamente</Link>
