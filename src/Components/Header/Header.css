@@ -177,7 +177,7 @@ a:hover {
 
     .topics {
         position: absolute;
-        left: -115px;
+        left: -125px;
         background: var(--white);
         border-top-left-radius: 8px;
         border-bottom-left-radius: 8px;
