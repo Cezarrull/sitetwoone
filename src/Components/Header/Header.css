@@ -63,8 +63,13 @@ a:hover {
     transition: 0.3s ease-in;
 }
 
-#navLinkTopic {
+.navLinkTopic {
+    cursor: pointer;
     color: var(--white);
+}
+
+.navLinkTopic:hover {
+    text-decoration: underline;
 }
 
 .topics {
@@ -89,13 +94,17 @@ a:hover {
     padding: 20px;
 }
 
-.navTopics a:active,
 .navTopics a:hover {
     background: var(--gray);
     text-decoration: none;
 }
 
-#itemTopics:hover .topics {
+.navLinkTopic_active {
+    color: var(--white);
+    cursor: pointer;
+}
+
+.navLinkTopic_active .topics {
     display: block;
 }
 
@@ -153,7 +162,7 @@ a:hover {
         text-decoration: none;
     }
 
-    #navLinkTopic {
+    .navLinkTopic {
         color: var(--black);
         display: flex;
         justify-content: center;
@@ -162,6 +171,10 @@ a:hover {
         width: 100%;
     }
 
+    .navLinkTopic:hover {
+        text-decoration: none;
+    } 
+
     .topics {
         position: absolute;
         left: -120px;
@@ -169,8 +182,6 @@ a:hover {
         border-top-left-radius: 8px;
         border-bottom-left-radius: 8px;
         display: none;
-        height: max-content;
-        border: 1px solid red;
     }
     
     .navTopics a {
@@ -179,13 +190,8 @@ a:hover {
         padding: 15px 25px;
     }
     
-    .navTopics a:active,
     .navTopics a:hover {
         background: var(--gray);
-    }
-    
-    #itemTopics:hover .topics {
-        display: block;
     }
     
     #firstNavTopics a {
@@ -194,6 +200,19 @@ a:hover {
     
     #lastNavTopics a {
         border-bottom-left-radius: 8px;
+    }
+
+    .navLinkTopic_active {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--black);
+        height: 100%;
+        width: 100%;
+    }
+
+    .navLinkTopic_active .topics {
+        display: block;
     }
 }
 

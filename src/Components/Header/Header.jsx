@@ -5,16 +5,31 @@ import { Link } from "react-router-dom";
 export function Header() {
     const [active, setActive] = useState("nav__menu");
     const [icon, setIcon] = useState("nav__toggler");
+    const [topic, setTopic] = useState("navLinkTopic");
+
     const navToggle = () => {
     if (active === "nav__menu") {
         setActive("nav__menu nav__active");
     } else setActive("nav__menu");
 
     // Icon Toggler
-
     if (icon === "nav__toggler") {
         setIcon("nav__toggler toggle");
     } else setIcon("nav__toggler");
+
+    if (active === "nav_menu") {
+        setTopic("navLinkTopic")
+    } else {
+        setTopic("navLinkTopic")
+    }
+};
+
+    // Topic Toggler
+    const navTopicToggle = () => {
+
+    if (topic === "navLinkTopic") {
+        setTopic("navLinkTopic_active")
+    } else setTopic("navLinkTopic")
 };
 
     return(
@@ -28,8 +43,8 @@ export function Header() {
                             Início
                         </Link>
                     </li>
-                    <li className="nav__item" id="itemTopics">
-                        <div href="#" className="nav__link" id="navLinkTopic">
+                    <div className="nav__item" id="itemTopics" >
+                        <div className={topic} onClick={navTopicToggle}>
                             Tópicos
                             <div className="topics">
                                 <div className="navTopics" id="firstNavTopics">
@@ -46,7 +61,7 @@ export function Header() {
                                 </div>
                             </div>
                         </div>
-                    </li>
+                    </div>
                     <li className="nav__item">
                         <Link to="/Social" className="nav__link">
                             Social
