@@ -169,6 +169,8 @@ a:hover {
         border-top-left-radius: 8px;
         border-bottom-left-radius: 8px;
         display: none;
+        height: max-content;
+        border: 1px solid red;
     }
     
     .navTopics a {

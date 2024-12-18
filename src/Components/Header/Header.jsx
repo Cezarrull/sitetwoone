@@ -32,18 +32,18 @@ export function Header() {
                         <div href="#" className="nav__link" id="navLinkTopic">
                             Tópicos
                             <div className="topics">
-                                <ol className="navTopics" id="firstNavTopics">
+                                <div className="navTopics" id="firstNavTopics">
                                     <Link to="/Pedido">Pedido</Link>
-                                </ol>
-                                <ol className="navTopics">
+                                </div>
+                                <div className="navTopics">
                                     <Link to="/Quiz">Quizzes</Link>
-                                </ol>
-                                <ol className="navTopics">
+                                </div>
+                                <div className="navTopics">
                                     <Link to="/Galeria">Galeria</Link>
-                                </ol>
-                                <ol className="navTopics" id="lastNavTopics">
+                                </div>
+                                <div className="navTopics" id="lastNavTopics">
                                     <Link to="/Desenhos">Desenhos</Link>
-                                </ol>
+                                </div>
                             </div>
                         </div>
                     </li>
