@@ -200,7 +200,7 @@ export function Cezar() {
                     </div>
                 </div>
                 
-                <div id="quiz-7" className="playAgain">
+                <div id="quiz-8" className="playAgain">
                     <Link to="/QuizCezar">Jogar novamente</Link>
                 </div>
             </div>
