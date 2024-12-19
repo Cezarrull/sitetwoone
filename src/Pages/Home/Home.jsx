@@ -57,7 +57,7 @@ export function Home() {
                         <div className="textTwo">
                             <h2>QUIZZES</h2>
                             <p>
-                                Alguns quizzes com 20 perguntas!
+                                Alguns quizzes com perguntas sobre eles!
                             </p>
                         </div>
                     </div>

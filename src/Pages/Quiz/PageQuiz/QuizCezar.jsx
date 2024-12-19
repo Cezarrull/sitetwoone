@@ -27,7 +27,7 @@ export function QuizCezar() {
                 <div className="contentPlay">
                     <h2>Descubra se você sabe sobre o Cézar</h2>
                     <p>
-                        Aqui vai 20 perguntas sobre o Cézar, para você descobrir o quanto o conhece
+                        Aqui vai algumas perguntas sobre o Cézar, para você descobrir o quanto o conhece
                     </p>
                     <Link to="/OQuantoVocêConheceOCezar" className="buttonPlayLink">
                         <div className="buttonPlay">

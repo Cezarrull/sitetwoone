@@ -27,7 +27,7 @@ export function QuizJuntos() {
                 <div className="contentPlay">
                     <h2>Descubra se você sabe um pouco sobre nós</h2>
                     <p>
-                        Aqui vai 20 perguntas sobre o casal, para você descobrir o quanto o conhecem
+                        Aqui vai algumas perguntas sobre o casal, para você descobrir o quanto o conhecem
                     </p>
                     <Link to="/DescubraSeVoceSabeUmPoucoSobreNos" className="buttonPlayLink">
                         <div className="buttonPlay">

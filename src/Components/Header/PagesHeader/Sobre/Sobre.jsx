@@ -20,8 +20,10 @@ export function Sobre() {
                     <p>
                         Esse site foi criado para você se divertir e interagir de uma maneira única! Aqui, você pode explorar uma galeria de fotos e desenhos feitos por nós. Cada imagem conta uma história e traz um pedaço do nosso mundo. Além disso, temos quizzes divertidos para testar o quanto você realmente nos conhece! Venha descobrir curiosidades sobre nós e se divertir com perguntas criativas e desafios. Estamos aqui para proporcionar momentos de diversão e interação, e esperamos que você aproveite cada momento neste espaço, explorando e se divertindo com tudo o que preparamos aqui!
                     </p>
-                    <h3>Com muito amor</h3>
-                    <Link to="/TWOONE" className="more">TWOONE</Link>
+                    <div className="footerTitle">
+                        <h3>Com muito amor</h3>
+                        <Link to="/TWOONE" className="more">TWOONE</Link>
+                    </div>
                 </div>
             </div>
         </>

@@ -27,7 +27,7 @@ export function QuizLala() {
                 <div className="contentPlay">
                     <h2>Descubra se você sabe sobre a Lala</h2>
                     <p>
-                        Aqui vai 20 perguntas sobre a Lala, para você descobrir o quanto a conhece
+                        Aqui vai algumas perguntas sobre a Lala, para você descobrir o quanto a conhece
                     </p>
                     <Link to="/OQuantoVocêConheceALala" className="buttonPlayLink">
                         <div className="buttonPlay">
