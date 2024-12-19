@@ -33,6 +33,15 @@
     z-index: 1000;
 }
 
+.buttonBack:hover {
+    text-decoration: none;
+    background: var(--buttonTwo);
+}
+
+.buttonBack:active {
+    background: var(--white);
+}
+
 .bodyQuizzes {
     padding: 100px 20px;
     width: 100%;

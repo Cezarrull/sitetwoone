@@ -43,7 +43,7 @@ export function Header() {
                             Início
                         </Link>
                     </li>
-                    <div className="nav__item" id="itemTopics" >
+                    <div className="nav__item" id="itemTopics">
                         <div className={topic} onClick={navTopicToggle}>
                             Tópicos
                             <div className="topics">

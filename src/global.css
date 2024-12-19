@@ -1,12 +1,16 @@
 :root {
     --black: #000000;
     --white: #ffffff;
+
     --gray: #f3f3f3;
+    --grayTwo: #f7f7f7;
+    --grayThree: #707070;
 
     --purple: #662fff;
     
     --red: #e00d0d;
     --redTwo: #c90808;
+    --redThree: #fd3d3d;
     --redBlack: #8f0505;
     --redBlackTwo: #6d0303;
 
@@ -20,9 +24,12 @@
     --bgOne: #662fff96;
     --bgHeader: rgba(75, 75, 75, 0.6);
     --bgMain: rgba(255, 255, 255, .1);
+    --bgHover: rgba(255, 255, 255, 0.2);
+    --bgFooter: rgba(0, 0, 0, 0.75);
     --bgPhoto: rgba(0, 0, 0, 0.9);
 
     --button: rgba(255, 255, 255, 0.5);
+    --buttonTwo: rgba(255, 255, 255, 0.75);
     
     --shadow: #44444444;
     --shadowThree: #a30606;

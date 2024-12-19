@@ -11,6 +11,7 @@ import Image4 from '../../Assets/Home/olhos.jpg'
 import bgImage from '../../Assets/bgImage.jpg'
 import bgMobile from '../../Assets/bgImageMobile.jpg'
 import pinPng from '../../Assets/Pin.png'
+import { Footer } from '../../Components/Footer/Footer';
 
 export function Home() {
     const saveScrollPosition = () => {
@@ -90,6 +91,7 @@ export function Home() {
                     </div>
                 </Link>
             </div>
+            <Footer />
         </>
     )
 }

@@ -13,7 +13,7 @@
 
 .homeBody {
     background: transparent;
-    padding: 20vh 20px 20vh 20px;
+    padding: 20vh 20px 0 20px;
     background-attachment: fixed;
     position: relative;
 }

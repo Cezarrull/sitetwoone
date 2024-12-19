@@ -15,6 +15,7 @@ import { Cezar } from "../Pages/Quiz/PageQuiz/Quizzes/Cezar";
 import { Lala } from "../Pages/Quiz/PageQuiz/Quizzes/Lala";
 import { Social } from "../Components/Header/PagesHeader/Social/Social";
 import { Sobre } from "../Components/Header/PagesHeader/Sobre/Sobre";
+import { Twoone } from "../Components/Header/PagesHeader/TWOONE/Twoone";
 
 export function AppRouter() {
     const location = useLocation();
@@ -38,6 +39,7 @@ export function AppRouter() {
                 <Route path="/OQuantoVocêConheceALala" element={<Lala />}/>
                 <Route path="/Social" element={<Social />} />
                 <Route path="/Sobre" element={<Sobre />} />
+                <Route path="/TWOONE" element={<Twoone />} />
             </Routes>
         </>
     )

@@ -50,6 +50,10 @@
 
 .buttonBack:hover {
     text-decoration: none;
+    background: var(--buttonTwo);
+}
+
+.buttonBack:active {
     background: var(--white);
 }
 
