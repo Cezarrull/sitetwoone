@@ -173,7 +173,7 @@ export function Cezar() {
                             <p>RESPOSTA</p>
                             <div className="response">
                                 <p className="textResponse">
-                                    Alternativa A: Veneza - Itália
+                                    Alternativa a: Veneza - Itália
                                 </p>
                             </div>
                         </div>
