@@ -42,7 +42,7 @@ export function Juntos() {
             <div className="bodyQuizzes">
                 <div id="quiz-0" className="containerQuizzes">
                     <div className="questionContent">
-                        <div className="numberQuestion">1/20</div>
+                        <div className="numberQuestion">1/6</div>
                         <h2 className="titleQuestion">como eles chamam um ao outro?</h2>
                         <div className="question">
                             <p><span>a)</span>vida</p>
@@ -61,7 +61,7 @@ export function Juntos() {
                 </div>
                 <div id="quiz-1" className="containerQuizzes">
                     <div className="questionContent">
-                        <div className="numberQuestion">2/20</div>
+                        <div className="numberQuestion">2/6</div>
                         <h2 className="titleQuestion">A quanto dias estão juntos?</h2>
                         <div className="question">
                             <p><span>a)</span>{result + 12} dias</p>
@@ -80,7 +80,7 @@ export function Juntos() {
                 </div>
                 <div id="quiz-2" className="containerQuizzes">
                     <div className="questionContent">
-                        <div className="numberQuestion">3/20</div>
+                        <div className="numberQuestion">3/6</div>
                         <h2 className="titleQuestion">Aonde eles se conheceram pessoalmente?</h2>
                         <div className="question">
                             <p><span>a)</span>Instagram</p>
@@ -99,7 +99,7 @@ export function Juntos() {
                 </div>
                 <div id="quiz-3" className="containerQuizzes">
                     <div className="questionContent">
-                        <div className="numberQuestion">4/20</div>
+                        <div className="numberQuestion">4/6</div>
                         <h2 className="titleQuestion">Quem é mais velho?</h2>
                         <div className="question">
                             <p><span>a)</span>Cézar</p>
@@ -117,7 +117,7 @@ export function Juntos() {
                 </div>
                 <div id="quiz-4" className="containerQuizzes">
                     <div className="questionContent">
-                        <div className="numberQuestion">5/20</div>
+                        <div className="numberQuestion">5/6</div>
                         <h2 className="titleQuestion">Quem falou Eu te amo primeiro?</h2>
                         <div className="question">
                             <p><span>a)</span>Lala</p>
@@ -135,7 +135,7 @@ export function Juntos() {
                 </div>
                 <div id="quiz-5" className="containerQuizzes">
                     <div className="questionContent">
-                        <div className="numberQuestion">6/20</div>
+                        <div className="numberQuestion">6/6</div>
                         <h2 className="titleQuestion">Qual o programa favorito do casal?</h2>
                         <div className="question">
                             <p><span>a)</span>Ver filmes</p>

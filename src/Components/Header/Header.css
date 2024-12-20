@@ -215,6 +215,10 @@ a:hover {
         border-bottom-left-radius: 8px;
     }
 
+    .navLinkTopic:active  {
+        background: var(--grayTwo);
+    }
+
     .navLinkTopic_active {
         display: flex;
         justify-content: center;
@@ -222,6 +226,7 @@ a:hover {
         color: var(--black);
         height: 100%;
         width: 100%;
+        background: var(--gray);
     }
 
     .navLinkTopic_active .topics {

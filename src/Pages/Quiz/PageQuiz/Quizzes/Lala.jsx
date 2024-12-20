@@ -42,7 +42,7 @@ export function Lala() {
             <div className="bodyQuizzes">
             <div id="quiz-0" className="containerQuizzes">
                     <div className="questionContent">
-                        <div className="numberQuestion">1/20</div>
+                        <div className="numberQuestion">1/7</div>
                         <h2 className="titleQuestion">Qual a cor favorita da Lala?</h2>
                         <div className="question">
                             <p><span>a)</span><div className="colorOne">Preto</div></p>
@@ -65,7 +65,7 @@ export function Lala() {
                 </div>
                 <div id="quiz-1" className="containerQuizzes">
                     <div className="questionContent">
-                        <div className="numberQuestion">2/20</div>
+                        <div className="numberQuestion">2/7</div>
                         <h2 className="titleQuestion">Quando é seu aniversário?</h2>
                         <div className="question">
                             <p><span>a)</span>01 de dezembro de 2007</p>
@@ -84,7 +84,7 @@ export function Lala() {
                 </div>
                 <div id="quiz-2" className="containerQuizzes">
                     <div className="questionContent">
-                        <div className="numberQuestion">3/20</div>
+                        <div className="numberQuestion">3/7</div>
                         <h2 className="titleQuestion">Qual sua comida favorita?</h2>
                         <div className="question">
                             <p><span>a)</span>Macarrão</p>
@@ -103,7 +103,7 @@ export function Lala() {
                 </div>
                 <div id="quiz-3" className="containerQuizzes">
                     <div className="questionContent">
-                        <div className="numberQuestion">4/20</div>
+                        <div className="numberQuestion">4/7</div>
                         <h2 className="titleQuestion">Oque ela mais gosta de fazer?</h2>
                         <div className="question">
                             <p><span>a)</span>Dormir</p>
@@ -122,7 +122,7 @@ export function Lala() {
                 </div>
                 <div id="quiz-4" className="containerQuizzes">
                     <div className="questionContent">
-                        <div className="numberQuestion">5/20</div>
+                        <div className="numberQuestion">5/7</div>
                         <h2 className="titleQuestion">Qual o nome da cachorra de Lala?</h2>
                         <div className="question">
                             <p><span>a)</span>Mili</p>
@@ -142,7 +142,7 @@ export function Lala() {
 
                 <div id="quiz-5" className="containerQuizzes">
                     <div className="questionContent">
-                        <div className="numberQuestion">6/20</div>
+                        <div className="numberQuestion">6/7</div>
                         <h2 className="titleQuestion">Quantos irmão Lala tem?</h2>
                         <div className="question">
                             <p><span>a)</span>2</p>
@@ -162,7 +162,7 @@ export function Lala() {
 
                 <div id="quiz-6" className="containerQuizzes">
                     <div className="questionContent">
-                        <div className="numberQuestion">7/20</div>
+                        <div className="numberQuestion">7/7</div>
                         <h2 className="titleQuestion">Qual é o seu lugar dos sonhos para viajar?</h2>
                         <div className="question">
                             <p><span>a)</span>Cancún</p>

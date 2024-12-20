@@ -42,7 +42,7 @@ export function Cezar() {
             <div className="bodyQuizzes">
                 <div id="quiz-0" className="containerQuizzes">
                     <div className="questionContent">
-                        <div className="numberQuestion">1/20</div>
+                        <div className="numberQuestion">1/8</div>
                         <h2 className="titleQuestion">Qual sua cor favorita?</h2>
                         <div className="question">
                             <p><span>a)</span><div className="colorOne">Preto</div></p>
@@ -65,7 +65,7 @@ export function Cezar() {
                 </div>
                 <div id="quiz-1" className="containerQuizzes">
                     <div className="questionContent">
-                        <div className="numberQuestion">2/20</div>
+                        <div className="numberQuestion">2/8</div>
                         <h2 className="titleQuestion">Quando é seu aniversário?</h2>
                         <div className="question">
                             <p><span>a)</span>25 de abril de 2007</p>
@@ -84,7 +84,7 @@ export function Cezar() {
                 </div>
                 <div id="quiz-2" className="containerQuizzes">
                     <div className="questionContent">
-                        <div className="numberQuestion">3/20</div>
+                        <div className="numberQuestion">3/8</div>
                         <h2 className="titleQuestion">Qual sua comida favorita?</h2>
                         <div className="question">
                             <p><span>a)</span>Macarrão</p>
@@ -103,7 +103,7 @@ export function Cezar() {
                 </div>
                 <div id="quiz-3" className="containerQuizzes">
                     <div className="questionContent">
-                        <div className="numberQuestion">4/20</div>
+                        <div className="numberQuestion">4/8</div>
                         <h2 className="titleQuestion">Oque ele mais gosta de fazer?</h2>
                         <div className="question">
                             <p><span>a)</span>Dormir</p>
@@ -122,7 +122,7 @@ export function Cezar() {
                 </div>
                 <div id="quiz-4" className="containerQuizzes">
                     <div className="questionContent">
-                        <div className="numberQuestion">5/20</div>
+                        <div className="numberQuestion">5/8</div>
                         <h2 className="titleQuestion">Qual o nome das duas cachorras de Cézar?</h2>
                         <div className="question">
                             <p><span>a)</span>Sushi e Pipoca</p>
@@ -142,7 +142,7 @@ export function Cezar() {
 
                 <div id="quiz-5" className="containerQuizzes">
                     <div className="questionContent">
-                        <div className="numberQuestion">6/20</div>
+                        <div className="numberQuestion">6/8</div>
                         <h2 className="titleQuestion">Quantos irmão Cézar tem?</h2>
                         <div className="question">
                             <p><span>a)</span>2</p>
@@ -162,7 +162,7 @@ export function Cezar() {
 
                 <div id="quiz-6" className="containerQuizzes">
                     <div className="questionContent">
-                        <div className="numberQuestion">7/20</div>
+                        <div className="numberQuestion">7/8</div>
                         <h2 className="titleQuestion">Qual é o seu lugar dos sonhos para viajar?</h2>
                         <div className="question">
                             <p><span>a)</span>Veneza</p>
@@ -182,7 +182,7 @@ export function Cezar() {
 
                 <div id="quiz-7" className="containerQuizzes">
                     <div className="questionContent">
-                        <div className="numberQuestion">8/20</div>
+                        <div className="numberQuestion">8/8</div>
                         <h2 className="titleQuestion">Qual é o jogo favorito de Cézar?</h2>
                         <div className="question">
                             <p><span>a)</span>Minecraft</p>
