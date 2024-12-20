@@ -193,7 +193,7 @@ export function Cezar() {
                             <p>RESPOSTA</p>
                             <div className="response">
                                 <p className="textResponse">
-                                    Alternativa c: Hollow Knight
+                                    Alternativa b: Hollow Knight
                                 </p>
                             </div>
                         </div>

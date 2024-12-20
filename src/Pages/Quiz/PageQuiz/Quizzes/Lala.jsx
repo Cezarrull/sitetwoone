@@ -43,7 +43,7 @@ export function Lala() {
             <div id="quiz-0" className="containerQuizzes">
                     <div className="questionContent">
                         <div className="numberQuestion">1/20</div>
-                        <h2 className="titleQuestion">Qual a cor favorita do Cézar?</h2>
+                        <h2 className="titleQuestion">Qual a cor favorita da Lala?</h2>
                         <div className="question">
                             <p><span>a)</span><div className="colorOne">Preto</div></p>
                             <p><span>b)</span><div className="colorFour">Rosa</div></p>
@@ -114,7 +114,7 @@ export function Lala() {
                             <p>RESPOSTA</p>
                             <div className="response">
                                 <p className="textResponse">
-                                    Alternativa c: Assisitr TV
+                                    Alternativa b: Assisitr TV
                                 </p>
                             </div>
                         </div>

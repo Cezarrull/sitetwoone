@@ -120,21 +120,40 @@ export function Juntos() {
                         <div className="numberQuestion">5/20</div>
                         <h2 className="titleQuestion">Quem falou Eu te amo primeiro?</h2>
                         <div className="question">
-                            <p><span>a)</span>Cézar</p>
-                            <p><span>b)</span>Lala</p>
+                            <p><span>a)</span>Lala</p>
+                            <p><span>b)</span>Cézar</p>
                         </div>
                         <div className={`buttonCheckQuestion ${active.has(4) ? 'buttonOpenResponse' : ''}`} onClick={() => handleClick(4)}>
                             <p>RESPOSTA</p>
                             <div className="response">
                                 <p className="textResponse">
-                                    Alternativa a: Cezar falou primeiro
+                                    Alternativa a: Lala falou primeiro
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="quiz-5" className="containerQuizzes">
+                    <div className="questionContent">
+                        <div className="numberQuestion">6/20</div>
+                        <h2 className="titleQuestion">Qual o programa favorito do casal?</h2>
+                        <div className="question">
+                            <p><span>a)</span>Ver filmes</p>
+                            <p><span>b)</span>Jogar</p>
+                            <p><span>c)</span>Ir em restaurantes</p>
+                        </div>
+                        <div className={`buttonCheckQuestion ${active.has(5) ? 'buttonOpenResponse' : ''}`} onClick={() => handleClick(5)}>
+                            <p>RESPOSTA</p>
+                            <div className="response">
+                                <p className="textResponse">
+                                    Alternativa a: Ver filmes
                                 </p>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div id="quiz-5" className="playAgain">
+                <div id="quiz-6" className="playAgain">
                     <Link to="/QuizSobreNós">Jogar novamente</Link>
                 </div>
             </div>
