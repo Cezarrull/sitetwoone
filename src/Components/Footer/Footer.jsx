@@ -23,7 +23,7 @@ export function Footer() {
                     <div className="itensTopicsFooter">
                         <h2>TWOONE</h2>
                         <div className="itensLinks">
-                            <Link to="/Social" className="linksFooter"  onClick={saveScrollPosition} >Redes Sociais</Link>
+                            <Link to="/Social" className="linksFooter"  onClick={saveScrollPosition} >Sociais</Link>
                             <Link to="/Sobre" className="linksFooter"  onClick={saveScrollPosition} >Sobre</Link>
                             <Link to="/TWOONE" className="linksFooter"  onClick={saveScrollPosition} >Mais</Link>
                         </div>
