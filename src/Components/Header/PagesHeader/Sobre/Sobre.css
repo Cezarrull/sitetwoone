@@ -100,7 +100,20 @@
 
 .footerTitle {
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.titleItensFooter {
     justify-items: center;
+    text-align: center;
+}
+
+.titleItensFooter .iconButtonTwoone {
+    position: absolute;
+    margin-top: 4px;
 }
 
 @media screen and (min-width: 768px) {

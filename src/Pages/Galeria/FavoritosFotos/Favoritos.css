@@ -1,0 +1,199 @@
+.bg {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    display: none;
+}
+.bgMobile {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    display: block;
+}
+
+.favoritosBody {
+    background: transparent;
+    background-attachment: fixed;
+    padding: 20vh 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.favoritosContent {
+    margin: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1050px;
+} 
+
+.buttonBack {
+    position: fixed;
+    bottom: 30px;
+    left: 20px;
+    color: var(--black);
+    width: 100px;
+    height: 40px;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background: var(--button);
+    backdrop-filter: blur(50px);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.buttonBack:hover {
+    text-decoration: none;
+    background: var(--buttonTwo);
+}
+
+.buttonBack:active {
+    background: var(--white);
+}
+
+.contentGaleria a:hover {
+    text-decoration: none;
+}
+
+.boxOpenedFavorito {
+    background-color: var(--white);
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 0 15px var(--shadow);
+    max-width: 380px;
+    transition: 0.2s;
+    margin-bottom: 10vh;
+}
+
+.boxOpenedFavorito:hover {
+    box-shadow: 0 0 20px var(--shadowFour);
+}
+
+.boxOpenedFavorito img {
+    width: 100%;
+    height: 350px;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+
+    transition: all 200ms ease-out;
+    display: block;
+}
+
+.details {
+    padding: 20px;
+    background: var(--white);
+    z-index: 1;
+    display: none;
+}
+
+.details h2 {
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    color: var(--black);
+    font-weight: 600;
+}
+
+.buttonCloseFavoritos {
+    display: none;
+}
+
+.boxCheckFavoritos {
+    position: fixed;
+    z-index: 100000;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 0;
+    background: var(--bgPhoto);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    transition: 0s;
+}
+
+.boxCheckFavoritos .details {
+    padding: 20px 80px;
+    position: absolute;
+    bottom: 0;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    display: block;
+}
+
+.boxCheckFavoritos .details h2 {
+    display: block;
+}
+
+.boxCheckFavoritos .details P {
+    display: none;
+}
+
+.boxCheckFavoritos img {
+    position: absolute;
+    padding: 20px;
+    height: 500px;
+    width: 100%;
+    max-width: 400px;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+
+    transition: all 200ms ease-out;
+    display: block;
+}
+
+.boxCheckFavoritos .buttonCloseFavoritos {
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    color: var(--white);
+    transition: 0.2s;
+}
+
+.boxCheckFavoritos .buttonCloseFavoritos:hover {
+    color: var(--button);
+}
+
+@media screen and (min-width: 768px) {
+    .bg {
+        display: block;
+    }
+    .bgMobile {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .boxOpenedFavorito {
+        max-width: 280px;
+        margin: 20px;
+    }
+
+    .boxOpenedFavorito img {
+        height: 270px;
+    }
+
+    .boxCheckFavoritos {
+        margin: 0;
+        max-width: 100%;
+    }
+
+    .boxCheckFavoritos img {
+        height: 500px;
+        width: 400px;
+    }
+
+    .boxCheckFavoritos .buttonCloseFavoritos {
+        top: 25px;
+        right: 25px;
+    }
+}

@@ -3,6 +3,8 @@ import './Galeria.css';
 
 import Image1 from '../Galeria/Photos/FotosPrimeiras/porto.jpg'
 import Image2 from '../Galeria/Photos/PedidoDia/nosDoisPedido.jpg'
+import Image3 from '../Galeria/Photos/Favoritos/mcQueen.jpg'
+
 import bgImage from '../../Assets/bgImage.jpg'
 import bgMobile from '../../Assets/bgImageMobile.jpg'
 import { Link } from "react-router-dom";
@@ -34,6 +36,17 @@ export function Galeria() {
 
                                 <figcaption className="detailsGallery">
                                     <h2>DIA DO PEDIDO</h2>
+                                    <Folder size={32} className="folder"/>
+                                    <FolderOpen size={32} className="folderOpen"/>
+                                </figcaption>
+                        </figure>
+                    </Link>
+                    <Link to="/Favoritos">
+                        <figure className="boxPhoto">
+                                <img src={Image3} alt="" />
+
+                                <figcaption className="detailsGallery">
+                                    <h2>FAVORITOS</h2>
                                     <Folder size={32} className="folder"/>
                                     <FolderOpen size={32} className="folderOpen"/>
                                 </figcaption>
